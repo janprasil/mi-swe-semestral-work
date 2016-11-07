@@ -40,4 +40,5 @@ The goal of this semestral work is to link open data from Brexit referendum, Uni
 * Triplifier: tarql
 
 ## UML Data Diagram
+![UML diagram](https://github.com/janprasil/mi-swe-semestral-work/blob/master/source/uml.png)
 
