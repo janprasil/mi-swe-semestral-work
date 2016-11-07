@@ -1,25 +1,21 @@
 PREFIX referendum: <http://prasija1/resources/referendum/#>
 PREFIX town: <http://prasija1.cz/resources/town/#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbo: <http://dbpedia.org/ontology/#>
 
 CONSTRUCT {
-  ?rUri a referendum:id ;
-    referendum:area_code ?areacode ;
+  ?rUri a referendum:Referendum ;
     town:name ?name ;
-    referendum:electrorate ?electrorate ;
-    referendum:verifiedBallots ?verified ;
-    referendum:remains ?remains ;
-    referendum:leave ?leave .
+    dbo:voteAgainst ?remains ;
+    dbo:voteFor ?leave .
 }
 
 WHERE {
   BIND(IRI(CONCAT('http://prasija1.cz/resources/referendum/', ?a)) AS ?rUri)
   BIND(xsd:string(?d) AS ?areacode)
   BIND(xsd:string(?e) AS ?name)
-  BIND(xsd:integer(?g) AS ?electrorate)
-  BIND(xsd:integer(?i) AS ?verified)
-  BIND(xsd:integer(?m) AS ?remains)
-  BIND(xsd:integer(?n) AS ?leave)
+  BIND(xsd:integer(?l) AS ?remains)
+  BIND(xsd:integer(?m) AS ?leave)
 }
 
 OFFSET 1

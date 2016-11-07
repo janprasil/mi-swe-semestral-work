@@ -1,18 +1,27 @@
 PREFIX census: <http://prasija1.cz/resources/census/#>
 PREFIX town: <http://prasija1.cz/resources/town/#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX gn: <http://www.geonames.org/ontology#>
 
 CONSTRUCT {
-  ?cUri a census:GeographyCode ;
+  ?cUri a census:Census ;
     town:town ?town ;
-    census:population ?population ;
-    census:aged_0_15 ?a015 ;
-    census:aged_16_49 ?a1649 ;
-    census:aged_50_64 ?a5064 ;
-    census:aged_65_over ?a65over .
+    gn:population ?population .
+  ?zUri a census:Aged0to15 ;
+    gn:population ?a015 .
+  ?sUri a census:Aged16to49 ;
+    gn:population ?a1649 .
+  ?fUri a census:Aged50to64 ;
+    gn:population ?a05064 .
+  ?oUri a census:Aged65over ;
+    gn:population ?a65over .
 }
 WHERE {
   BIND(IRI(CONCAT('http://prasija1.cz/resources/census/', ?a , '/' , ?b)) AS ?cUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/census/', ?a , '/' , ?b, '/aged0to15')) AS ?zUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/census/', ?a , '/' , ?b, '/aged16to49')) AS ?sUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/census/', ?a , '/' , ?b, '/aged50to64')) AS ?fUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/census/', ?a , '/' , ?b, '/aged65over')) AS ?oUri)
   BIND(IRI(CONCAT('http://prasija1.cz/resources/town/', ?b)) AS ?town)
   BIND(xsd:integer(?d) AS ?population)
   BIND(xsd:integer(?ar) AS ?a015)

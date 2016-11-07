@@ -1,23 +1,39 @@
 PREFIX prosperity: <http://prasija1/resources/prosperity/#>
 PREFIX town: <http://prasija1.cz/resources/town/#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbo: <http://dbpedia.org/ontology/#>
+PREFIX cgov: <http://reference.data.gov.uk/def/central-government>
 
 CONSTRUCT {
-  ?pUri a prosperity:id ;
+  ?pUri a prosperity:Prosperity ;
     prosperity:area_code ?areacode ;
     town:name ?name ;
-    prosperity:prosperity_rank ?prank ;
-    prosperity:economic_rank ?erank ;
-    prosperity:business_rank ?brank ;
-    prosperity:education_rank ?edrank ;
-    prosperity:health_rank ?hrank ;
-    prosperity:safety_rank ?srank ;
-    prosperity:social_rank ?sorank;
-    prosperity:natural_rank ?nrank;
-    prosperity:median_pay ?medianpay .
+    dbo:rank ?prank ;
+    cgov:salary ?medianpay .
+  ?eUri a  prosperity:Economic ;
+    dbo:rank ?erank .
+  ?bUri a prosperity:Bussiness ;
+    dbo:rank ?brank .
+  ?eduUri a prosperity:Education ;
+    dbo:rank ?edrank .
+  ?hUri a prosperity:Health ;
+    dbo:rank ?hrank .
+  ?sUri a prosperity:Safety ;
+    dbo:rank ?srank .
+  ?socUri a prosperity:Social ;
+    dbo:rank ?sorank .
+  ?nUri a prosperity:Natural ;
+    dbo:rank ?nrank .
 }
 WHERE {
   BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a)) as ?pUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a, '/economic/')) as ?eUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a, '/bussiness/')) as ?bUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a, '/education/')) as ?eduUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a, '/health/')) as ?hUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a, '/safety/')) as ?sUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a, '/social/')) as ?socUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a, '/natural/')) as ?nUri)
   BIND(xsd:string(SUBSTR(?d, 2, STRLEN(?d) - 1)) AS ?name)
   BIND(xsd:integer(?b) AS ?areacode)
   BIND(xsd:integer(?e) AS ?prank)
