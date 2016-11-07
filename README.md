@@ -1,6 +1,8 @@
+[//]: # (This text is written in mark down markup language. You can read it on https://github.com/janprasil/mi-swe-semestral-work.)
+
 # mi-swe-semestral-work
 
-The goal of this semestral work is to link open data from Brexit referendum and United Kingdom prosperity index data together and try to determine what was the reason for the acceptation of the leaving the European Union.
+The goal of this semestral work is to link open data from Brexit referendum, United Kingdom prosperity index data and Census 2011 results together and try to determine what was the dependency for the acceptation of the leaving the European Union.
 
 ## Used Data
 
