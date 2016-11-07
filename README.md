@@ -17,7 +17,7 @@ The goal of this semestral work is to link open data from Brexit referendum and 
 * Name: THE UK PROSPERITY INDEX
 * Dataset Source: [http://uk.prosperity.com](http://uk.prosperity.com/docs/2016/PressReleaseDataset.xlsx)
 * Format: xls
-* Processing: export to CSV
+* Processing: export to csv
 * Roles: Index of prosperity in different areas
 * Triplifier: export to csv and tarql
 
