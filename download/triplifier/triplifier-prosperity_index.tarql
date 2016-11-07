@@ -1,0 +1,33 @@
+PREFIX prosperity: <http://prasija1/resources/prosperity/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?pUri a prosperity:id ;
+    prosperity:area_code ?areacode ;
+    town:name ?name ;
+    prosperity:prosperity_rank ?prank ;
+    prosperity:economic_rank ?erank ;
+    prosperity:business_rank ?brank ;
+    prosperity:education_rank ?edrank ;
+    prosperity:health_rank ?hrank ;
+    prosperity:safety_rank ?srank ;
+    prosperity:social_rank ?sorank;
+    prosperity:natural_rank ?nrank;
+    prosperity:median_pay ?medianpay .
+}
+WHERE {
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a)) as ?pUri)
+  BIND(xsd:string(SUBSTR(?d, 2, STRLEN(?d) - 1)) AS ?name)
+  BIND(xsd:integer(?b) AS ?areacode)
+  BIND(xsd:integer(?e) AS ?prank)
+  BIND(xsd:integer(?f) AS ?erank)
+  BIND(xsd:integer(?g) AS ?brank)
+  BIND(xsd:integer(?h) AS ?edrank)
+  BIND(xsd:integer(?i) AS ?hrank)
+  BIND(xsd:integer(?j) AS ?srank)
+  BIND(xsd:integer(?k) AS ?sorank)
+  BIND(xsd:integer(?l) AS ?nrank)
+  BIND(xsd:integer(?n) AS ?medianpay)
+}
+OFFSET 1

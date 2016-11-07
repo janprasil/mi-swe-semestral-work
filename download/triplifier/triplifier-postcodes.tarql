@@ -1,0 +1,26 @@
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX sm: <https://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+
+CONSTRUCT {
+  ?tUri a town:postcode ;
+    foaf:name ?town ;
+    town:region ?region ;
+    town:ukRegion ?uk_region .
+  ?cUri a sm:GeoCoordinates ;
+    sm:latitude ?lat ;
+    sm:longitude ?long .
+}
+
+WHERE {
+  FILTER(?town)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/town/', ?postcode)) as ?tUri)
+  BIND (xsd:decimal(?latitude) AS ?lat)
+  BIND (xsd:decimal(?longitude) AS ?long)
+  BIND (xsd:string(?town) AS ?town)
+  BIND (xsd:string(?region) AS ?region)
+  BIND (xsd:string(?ukRegion) AS ?ukRegion)
+  BIND (IRI(CONCAT('http://prasija1.cz/resources/town/', ENCODE_FOR_URI(?postcode), '/coords')) AS ?cUri)
+}

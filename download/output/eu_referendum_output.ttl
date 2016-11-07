@@ -1,0 +1,3059 @@
+@prefix referendum:  <http://prasija1/resources/referendum/#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix town:  <http://prasija1.cz/resources/town/#> .
+
+<http://prasija1.cz/resources/referendum/108>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000031"^^xsd:string ;
+        town:name               "Peterborough"^^xsd:string ;
+        referendum:electrorate  87474 ;
+        referendum:remains      53216 ;
+        referendum:leave        77 .
+
+<http://prasija1.cz/resources/referendum/109>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000032"^^xsd:string ;
+        town:name               "Luton"^^xsd:string ;
+        referendum:electrorate  84633 ;
+        referendum:remains      47773 ;
+        referendum:leave        135 .
+
+<http://prasija1.cz/resources/referendum/112>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000033"^^xsd:string ;
+        town:name               "Southend-on-Sea"^^xsd:string ;
+        referendum:electrorate  93948 ;
+        referendum:remains      54522 ;
+        referendum:leave        69 .
+
+<http://prasija1.cz/resources/referendum/113>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000034"^^xsd:string ;
+        town:name               "Thurrock"^^xsd:string ;
+        referendum:electrorate  79969 ;
+        referendum:remains      57765 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/110>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000055"^^xsd:string ;
+        town:name               "Bedford"^^xsd:string ;
+        referendum:electrorate  86136 ;
+        referendum:remains      44569 ;
+        referendum:leave        69 .
+
+<http://prasija1.cz/resources/referendum/111>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000056"^^xsd:string ;
+        town:name               "Central Bedfordshire"^^xsd:string ;
+        referendum:electrorate  158904 ;
+        referendum:remains      89134 ;
+        referendum:leave        90 .
+
+<http://prasija1.cz/resources/referendum/184>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000008"^^xsd:string ;
+        town:name               "Cambridge"^^xsd:string ;
+        referendum:electrorate  57871 ;
+        referendum:remains      15117 ;
+        referendum:leave        53 .
+
+<http://prasija1.cz/resources/referendum/185>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000009"^^xsd:string ;
+        town:name               "East Cambridgeshire"^^xsd:string ;
+        referendum:electrorate  48129 ;
+        referendum:remains      24487 ;
+        referendum:leave        38 .
+
+<http://prasija1.cz/resources/referendum/186>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000010"^^xsd:string ;
+        town:name               "Fenland"^^xsd:string ;
+        referendum:electrorate  52653 ;
+        referendum:remains      37571 ;
+        referendum:leave        23 .
+
+<http://prasija1.cz/resources/referendum/187>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000011"^^xsd:string ;
+        town:name               "Huntingdonshire"^^xsd:string ;
+        referendum:electrorate  99996 ;
+        referendum:remains      54198 ;
+        referendum:leave        63 .
+
+<http://prasija1.cz/resources/referendum/188>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000012"^^xsd:string ;
+        town:name               "South Cambridgeshire"^^xsd:string ;
+        referendum:electrorate  93268 ;
+        referendum:remains      37061 ;
+        referendum:leave        61 .
+
+<http://prasija1.cz/resources/referendum/222>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000066"^^xsd:string ;
+        town:name               "Basildon"^^xsd:string ;
+        referendum:electrorate  98087 ;
+        referendum:remains      67251 ;
+        referendum:leave        63 .
+
+<http://prasija1.cz/resources/referendum/223>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000067"^^xsd:string ;
+        town:name               "Braintree"^^xsd:string ;
+        referendum:electrorate  86316 ;
+        referendum:remains      52713 ;
+        referendum:leave        67 .
+
+<http://prasija1.cz/resources/referendum/224>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000068"^^xsd:string ;
+        town:name               "Brentwood"^^xsd:string ;
+        referendum:electrorate  46726 ;
+        referendum:remains      27627 ;
+        referendum:leave        21 .
+
+<http://prasija1.cz/resources/referendum/225>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000069"^^xsd:string ;
+        town:name               "Castle Point"^^xsd:string ;
+        referendum:electrorate  51909 ;
+        referendum:remains      37691 ;
+        referendum:leave        64 .
+
+<http://prasija1.cz/resources/referendum/226>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000070"^^xsd:string ;
+        town:name               "Chelmsford"^^xsd:string ;
+        referendum:electrorate  100867 ;
+        referendum:remains      53249 ;
+        referendum:leave        58 .
+
+<http://prasija1.cz/resources/referendum/227>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000071"^^xsd:string ;
+        town:name               "Colchester"^^xsd:string ;
+        referendum:electrorate  95805 ;
+        referendum:remains      51305 ;
+        referendum:leave        63 .
+
+<http://prasija1.cz/resources/referendum/228>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000072"^^xsd:string ;
+        town:name               "Epping Forest"^^xsd:string ;
+        referendum:electrorate  76905 ;
+        referendum:remains      48176 ;
+        referendum:leave        48 .
+
+<http://prasija1.cz/resources/referendum/229>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000073"^^xsd:string ;
+        town:name               "Harlow"^^xsd:string ;
+        referendum:electrorate  43493 ;
+        referendum:remains      29602 ;
+        referendum:leave        20 .
+
+<http://prasija1.cz/resources/referendum/230>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000074"^^xsd:string ;
+        town:name               "Maldon"^^xsd:string ;
+        referendum:electrorate  38851 ;
+        referendum:remains      24302 ;
+        referendum:leave        19 .
+
+<http://prasija1.cz/resources/referendum/231>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000075"^^xsd:string ;
+        town:name               "Rochford"^^xsd:string ;
+        referendum:electrorate  52487 ;
+        referendum:remains      34937 ;
+        referendum:leave        32 .
+
+<http://prasija1.cz/resources/referendum/232>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000076"^^xsd:string ;
+        town:name               "Tendring"^^xsd:string ;
+        referendum:electrorate  82724 ;
+        referendum:remains      57447 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/233>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000077"^^xsd:string ;
+        town:name               "Uttlesford"^^xsd:string ;
+        referendum:electrorate  51973 ;
+        referendum:remains      26324 ;
+        referendum:leave        29 .
+
+<http://prasija1.cz/resources/referendum/251>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000095"^^xsd:string ;
+        town:name               "Broxbourne"^^xsd:string ;
+        referendum:electrorate  50915 ;
+        referendum:remains      33706 ;
+        referendum:leave        35 .
+
+<http://prasija1.cz/resources/referendum/252>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000096"^^xsd:string ;
+        town:name               "Dacorum"^^xsd:string ;
+        referendum:electrorate  86313 ;
+        referendum:remains      43702 ;
+        referendum:leave        63 .
+
+<http://prasija1.cz/resources/referendum/254>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000098"^^xsd:string ;
+        town:name               "Hertsmere"^^xsd:string ;
+        referendum:electrorate  56161 ;
+        referendum:remains      28532 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/255>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000099"^^xsd:string ;
+        town:name               "North Hertfordshire"^^xsd:string ;
+        referendum:electrorate  77748 ;
+        referendum:remains      35438 ;
+        referendum:leave        65 .
+
+<http://prasija1.cz/resources/referendum/258>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000102"^^xsd:string ;
+        town:name               "Three Rivers"^^xsd:string ;
+        referendum:electrorate  52900 ;
+        referendum:remains      27097 ;
+        referendum:leave        48 .
+
+<http://prasija1.cz/resources/referendum/259>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000103"^^xsd:string ;
+        town:name               "Watford"^^xsd:string ;
+        referendum:electrorate  46635 ;
+        referendum:remains      23419 ;
+        referendum:leave        49 .
+
+<http://prasija1.cz/resources/referendum/299>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000143"^^xsd:string ;
+        town:name               "Breckland"^^xsd:string ;
+        referendum:electrorate  73593 ;
+        referendum:remains      47235 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/300>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000144"^^xsd:string ;
+        town:name               "Broadland"^^xsd:string ;
+        referendum:electrorate  77785 ;
+        referendum:remains      42268 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/301>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000145"^^xsd:string ;
+        town:name               "Great Yarmouth"^^xsd:string ;
+        referendum:electrorate  50157 ;
+        referendum:remains      35844 ;
+        referendum:leave        30 .
+
+<http://prasija1.cz/resources/referendum/302>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000146"^^xsd:string ;
+        town:name               "King's Lynn and West Norfolk"^^xsd:string ;
+        referendum:electrorate  85134 ;
+        referendum:remains      56493 ;
+        referendum:leave        48 .
+
+<http://prasija1.cz/resources/referendum/303>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000147"^^xsd:string ;
+        town:name               "North Norfolk"^^xsd:string ;
+        referendum:electrorate  63841 ;
+        referendum:remains      37576 ;
+        referendum:leave        39 .
+
+<http://prasija1.cz/resources/referendum/304>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000148"^^xsd:string ;
+        town:name               "Norwich"^^xsd:string ;
+        referendum:electrorate  66420 ;
+        referendum:remains      29040 ;
+        referendum:leave        56 .
+
+<http://prasija1.cz/resources/referendum/305>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000149"^^xsd:string ;
+        town:name               "South Norfolk"^^xsd:string ;
+        referendum:electrorate  80418 ;
+        referendum:remains      41541 ;
+        referendum:leave        60 .
+
+<http://prasija1.cz/resources/referendum/345>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000200"^^xsd:string ;
+        town:name               "Babergh"^^xsd:string ;
+        referendum:electrorate  55274 ;
+        referendum:remains      29933 ;
+        referendum:leave        30 .
+
+<http://prasija1.cz/resources/referendum/346>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000201"^^xsd:string ;
+        town:name               "Forest Heath"^^xsd:string ;
+        referendum:electrorate  27976 ;
+        referendum:remains      18160 ;
+        referendum:leave        26 .
+
+<http://prasija1.cz/resources/referendum/347>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000202"^^xsd:string ;
+        town:name               "Ipswich"^^xsd:string ;
+        referendum:electrorate  66405 ;
+        referendum:remains      38655 ;
+        referendum:leave        47 .
+
+<http://prasija1.cz/resources/referendum/348>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000203"^^xsd:string ;
+        town:name               "Mid Suffolk"^^xsd:string ;
+        referendum:electrorate  61231 ;
+        referendum:remains      33794 ;
+        referendum:leave        37 .
+
+<http://prasija1.cz/resources/referendum/349>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000204"^^xsd:string ;
+        town:name               "St Edmundsbury"^^xsd:string ;
+        referendum:electrorate  62258 ;
+        referendum:remains      35224 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/350>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000205"^^xsd:string ;
+        town:name               "Suffolk Coastal"^^xsd:string ;
+        referendum:electrorate  79234 ;
+        referendum:remains      41966 ;
+        referendum:leave        42 .
+
+<http://prasija1.cz/resources/referendum/351>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000206"^^xsd:string ;
+        town:name               "Waveney"^^xsd:string ;
+        referendum:electrorate  65690 ;
+        referendum:remains      41290 ;
+        referendum:leave        41 .
+
+<http://prasija1.cz/resources/referendum/256>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000240"^^xsd:string ;
+        town:name               "St Albans"^^xsd:string ;
+        referendum:electrorate  86519 ;
+        referendum:remains      32237 ;
+        referendum:leave        79 .
+
+<http://prasija1.cz/resources/referendum/260>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000241"^^xsd:string ;
+        town:name               "Welwyn Hatfield"^^xsd:string ;
+        referendum:electrorate  58649 ;
+        referendum:remains      31060 ;
+        referendum:leave        31 .
+
+<http://prasija1.cz/resources/referendum/253>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000242"^^xsd:string ;
+        town:name               "East Hertfordshire"^^xsd:string ;
+        referendum:electrorate  85446 ;
+        referendum:remains      42994 ;
+        referendum:leave        67 .
+
+<http://prasija1.cz/resources/referendum/257>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000243"^^xsd:string ;
+        town:name               "Stevenage"^^xsd:string ;
+        referendum:electrorate  45811 ;
+        referendum:remains      27126 ;
+        referendum:leave        26 .
+
+<http://prasija1.cz/resources/referendum/88>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000015"^^xsd:string ;
+        town:name               "Derby"^^xsd:string ;
+        referendum:electrorate  120807 ;
+        referendum:remains      69043 ;
+        referendum:leave        117 .
+
+<http://prasija1.cz/resources/referendum/89>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000016"^^xsd:string ;
+        town:name               "Leicester"^^xsd:string ;
+        referendum:electrorate  139319 ;
+        referendum:remains      67992 ;
+        referendum:leave        335 .
+
+<http://prasija1.cz/resources/referendum/90>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000017"^^xsd:string ;
+        town:name               "Rutland"^^xsd:string ;
+        referendum:electrorate  22989 ;
+        referendum:remains      11613 ;
+        referendum:leave        18 .
+
+<http://prasija1.cz/resources/referendum/91>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000018"^^xsd:string ;
+        town:name               "Nottingham"^^xsd:string ;
+        referendum:electrorate  120792 ;
+        referendum:remains      61343 ;
+        referendum:leave        130 .
+
+<http://prasija1.cz/resources/referendum/195>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000032"^^xsd:string ;
+        town:name               "Amber Valley"^^xsd:string ;
+        referendum:electrorate  73870 ;
+        referendum:remains      44501 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/196>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000033"^^xsd:string ;
+        town:name               "Bolsover"^^xsd:string ;
+        referendum:electrorate  41999 ;
+        referendum:remains      29730 ;
+        referendum:leave        27 .
+
+<http://prasija1.cz/resources/referendum/197>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000034"^^xsd:string ;
+        town:name               "Chesterfield"^^xsd:string ;
+        referendum:electrorate  57472 ;
+        referendum:remains      34478 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/198>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000035"^^xsd:string ;
+        town:name               "Derbyshire Dales"^^xsd:string ;
+        referendum:electrorate  46756 ;
+        referendum:remains      24095 ;
+        referendum:leave        28 .
+
+<http://prasija1.cz/resources/referendum/199>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000036"^^xsd:string ;
+        town:name               "Erewash"^^xsd:string ;
+        referendum:electrorate  66566 ;
+        referendum:remains      40739 ;
+        referendum:leave        36 .
+
+<http://prasija1.cz/resources/referendum/200>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000037"^^xsd:string ;
+        town:name               "High Peak"^^xsd:string ;
+        referendum:electrorate  54864 ;
+        referendum:remains      27717 ;
+        referendum:leave        31 .
+
+<http://prasija1.cz/resources/referendum/201>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000038"^^xsd:string ;
+        town:name               "North East Derbyshire"^^xsd:string ;
+        referendum:electrorate  59341 ;
+        referendum:remains      37235 ;
+        referendum:leave        31 .
+
+<http://prasija1.cz/resources/referendum/202>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000039"^^xsd:string ;
+        town:name               "South Derbyshire"^^xsd:string ;
+        referendum:electrorate  56718 ;
+        referendum:remains      34216 ;
+        referendum:leave        23 .
+
+<http://prasija1.cz/resources/referendum/285>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000129"^^xsd:string ;
+        town:name               "Blaby"^^xsd:string ;
+        referendum:electrorate  56517 ;
+        referendum:remains      33583 ;
+        referendum:leave        41 .
+
+<http://prasija1.cz/resources/referendum/286>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000130"^^xsd:string ;
+        town:name               "Charnwood"^^xsd:string ;
+        referendum:electrorate  94265 ;
+        referendum:remains      50672 ;
+        referendum:leave        85 .
+
+<http://prasija1.cz/resources/referendum/287>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000131"^^xsd:string ;
+        town:name               "Harborough"^^xsd:string ;
+        referendum:electrorate  54922 ;
+        referendum:remains      27850 ;
+        referendum:leave        32 .
+
+<http://prasija1.cz/resources/referendum/288>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000132"^^xsd:string ;
+        town:name               "Hinckley and Bosworth"^^xsd:string ;
+        referendum:electrorate  65517 ;
+        referendum:remains      39501 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/289>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000133"^^xsd:string ;
+        town:name               "Melton"^^xsd:string ;
+        referendum:electrorate  30322 ;
+        referendum:remains      17610 ;
+        referendum:leave        22 .
+
+<http://prasija1.cz/resources/referendum/290>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000134"^^xsd:string ;
+        town:name               "North West Leicestershire"^^xsd:string ;
+        referendum:electrorate  57655 ;
+        referendum:remains      34969 ;
+        referendum:leave        27 .
+
+<http://prasija1.cz/resources/referendum/291>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000135"^^xsd:string ;
+        town:name               "Oadby and Wigston"^^xsd:string ;
+        referendum:electrorate  31488 ;
+        referendum:remains      17173 ;
+        referendum:leave        24 .
+
+<http://prasija1.cz/resources/referendum/292>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000136"^^xsd:string ;
+        town:name               "Boston"^^xsd:string ;
+        referendum:electrorate  30417 ;
+        referendum:remains      22974 ;
+        referendum:leave        12 .
+
+<http://prasija1.cz/resources/referendum/293>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000137"^^xsd:string ;
+        town:name               "East Lindsey"^^xsd:string ;
+        referendum:electrorate  80180 ;
+        referendum:remains      56613 ;
+        referendum:leave        50 .
+
+<http://prasija1.cz/resources/referendum/294>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000138"^^xsd:string ;
+        town:name               "Lincoln"^^xsd:string ;
+        referendum:electrorate  43928 ;
+        referendum:remains      24992 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/295>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000139"^^xsd:string ;
+        town:name               "North Kesteven"^^xsd:string ;
+        referendum:electrorate  67791 ;
+        referendum:remains      42183 ;
+        referendum:leave        38 .
+
+<http://prasija1.cz/resources/referendum/296>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000140"^^xsd:string ;
+        town:name               "South Holland"^^xsd:string ;
+        referendum:electrorate  49518 ;
+        referendum:remains      36423 ;
+        referendum:leave        21 .
+
+<http://prasija1.cz/resources/referendum/297>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000141"^^xsd:string ;
+        town:name               "South Kesteven"^^xsd:string ;
+        referendum:electrorate  82527 ;
+        referendum:remains      49424 ;
+        referendum:leave        52 .
+
+<http://prasija1.cz/resources/referendum/298>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000142"^^xsd:string ;
+        town:name               "West Lindsey"^^xsd:string ;
+        referendum:electrorate  54785 ;
+        referendum:remains      33847 ;
+        referendum:leave        28 .
+
+<http://prasija1.cz/resources/referendum/306>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000150"^^xsd:string ;
+        town:name               "Corby"^^xsd:string ;
+        referendum:electrorate  32103 ;
+        referendum:remains      20611 ;
+        referendum:leave        16 .
+
+<http://prasija1.cz/resources/referendum/307>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000151"^^xsd:string ;
+        town:name               "Daventry"^^xsd:string ;
+        referendum:electrorate  49421 ;
+        referendum:remains      28938 ;
+        referendum:leave        39 .
+
+<http://prasija1.cz/resources/referendum/308>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000152"^^xsd:string ;
+        town:name               "East Northamptonshire"^^xsd:string ;
+        referendum:electrorate  52619 ;
+        referendum:remains      30894 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/309>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000153"^^xsd:string ;
+        town:name               "Kettering"^^xsd:string ;
+        referendum:electrorate  53946 ;
+        referendum:remains      32877 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/310>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000154"^^xsd:string ;
+        town:name               "Northampton"^^xsd:string ;
+        referendum:electrorate  105352 ;
+        referendum:remains      61454 ;
+        referendum:leave        95 .
+
+<http://prasija1.cz/resources/referendum/311>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000155"^^xsd:string ;
+        town:name               "South Northamptonshire"^^xsd:string ;
+        referendum:electrorate  56666 ;
+        referendum:remains      30771 ;
+        referendum:leave        40 .
+
+<http://prasija1.cz/resources/referendum/312>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000156"^^xsd:string ;
+        town:name               "Wellingborough"^^xsd:string ;
+        referendum:electrorate  41184 ;
+        referendum:remains      25679 ;
+        referendum:leave        37 .
+
+<http://prasija1.cz/resources/referendum/320>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000170"^^xsd:string ;
+        town:name               "Ashfield"^^xsd:string ;
+        referendum:electrorate  66948 ;
+        referendum:remains      46720 ;
+        referendum:leave        47 .
+
+<http://prasija1.cz/resources/referendum/321>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000171"^^xsd:string ;
+        town:name               "Bassetlaw"^^xsd:string ;
+        referendum:electrorate  64006 ;
+        referendum:remains      43392 ;
+        referendum:leave        36 .
+
+<http://prasija1.cz/resources/referendum/322>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000172"^^xsd:string ;
+        town:name               "Broxtowe"^^xsd:string ;
+        referendum:electrorate  65468 ;
+        referendum:remains      35754 ;
+        referendum:leave        42 .
+
+<http://prasija1.cz/resources/referendum/323>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000173"^^xsd:string ;
+        town:name               "Gedling"^^xsd:string ;
+        referendum:electrorate  67639 ;
+        referendum:remains      37542 ;
+        referendum:leave        58 .
+
+<http://prasija1.cz/resources/referendum/324>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000174"^^xsd:string ;
+        town:name               "Mansfield"^^xsd:string ;
+        referendum:electrorate  56371 ;
+        referendum:remains      39927 ;
+        referendum:leave        26 .
+
+<http://prasija1.cz/resources/referendum/325>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000175"^^xsd:string ;
+        town:name               "Newark and Sherwood"^^xsd:string ;
+        referendum:electrorate  67133 ;
+        referendum:remains      40516 ;
+        referendum:leave        41 .
+
+<http://prasija1.cz/resources/referendum/326>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000176"^^xsd:string ;
+        town:name               "Rushcliffe"^^xsd:string ;
+        referendum:electrorate  70472 ;
+        referendum:remains      29888 ;
+        referendum:leave        60 .
+
+<http://prasija1.cz/resources/referendum/1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000001"^^xsd:string ;
+        town:name               "City of London"^^xsd:string ;
+        referendum:electrorate  4405 ;
+        referendum:remains      1087 ;
+        referendum:leave        6 .
+
+<http://prasija1.cz/resources/referendum/2>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000002"^^xsd:string ;
+        town:name               "Barking and Dagenham"^^xsd:string ;
+        referendum:electrorate  73943 ;
+        referendum:remains      46130 ;
+        referendum:leave        61 .
+
+<http://prasija1.cz/resources/referendum/3>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000003"^^xsd:string ;
+        town:name               "Barnet"^^xsd:string ;
+        referendum:electrorate  161209 ;
+        referendum:remains      60823 ;
+        referendum:leave        185 .
+
+<http://prasija1.cz/resources/referendum/4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000004"^^xsd:string ;
+        town:name               "Bexley"^^xsd:string ;
+        referendum:electrorate  128571 ;
+        referendum:remains      80886 ;
+        referendum:leave        81 .
+
+<http://prasija1.cz/resources/referendum/5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000005"^^xsd:string ;
+        town:name               "Brent"^^xsd:string ;
+        referendum:electrorate  121676 ;
+        referendum:remains      48881 ;
+        referendum:leave        267 .
+
+<http://prasija1.cz/resources/referendum/6>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000006"^^xsd:string ;
+        town:name               "Bromley"^^xsd:string ;
+        referendum:electrorate  182570 ;
+        referendum:remains      90034 ;
+        referendum:leave        138 .
+
+<http://prasija1.cz/resources/referendum/7>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000007"^^xsd:string ;
+        town:name               "Camden"^^xsd:string ;
+        referendum:electrorate  95288 ;
+        referendum:remains      23838 ;
+        referendum:leave        148 .
+
+<http://prasija1.cz/resources/referendum/8>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000008"^^xsd:string ;
+        town:name               "Croydon"^^xsd:string ;
+        referendum:electrorate  171295 ;
+        referendum:remains      78221 ;
+        referendum:leave        155 .
+
+<http://prasija1.cz/resources/referendum/9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000009"^^xsd:string ;
+        town:name               "Ealing"^^xsd:string ;
+        referendum:electrorate  149267 ;
+        referendum:remains      59017 ;
+        referendum:leave        227 .
+
+<http://prasija1.cz/resources/referendum/10>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000010"^^xsd:string ;
+        town:name               "Enfield"^^xsd:string ;
+        referendum:electrorate  137054 ;
+        referendum:remains      60481 ;
+        referendum:leave        150 .
+
+<http://prasija1.cz/resources/referendum/11>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000011"^^xsd:string ;
+        town:name               "Greenwich"^^xsd:string ;
+        referendum:electrorate  117470 ;
+        referendum:remains      52117 ;
+        referendum:leave        105 .
+
+<http://prasija1.cz/resources/referendum/12>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000012"^^xsd:string ;
+        town:name               "Hackney"^^xsd:string ;
+        referendum:electrorate  106422 ;
+        referendum:remains      22868 ;
+        referendum:leave        156 .
+
+<http://prasija1.cz/resources/referendum/13>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000013"^^xsd:string ;
+        town:name               "Hammersmith and Fulham"^^xsd:string ;
+        referendum:electrorate  80351 ;
+        referendum:remains      24054 ;
+        referendum:leave        105 .
+
+<http://prasija1.cz/resources/referendum/14>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000014"^^xsd:string ;
+        town:name               "Haringey"^^xsd:string ;
+        referendum:electrorate  106043 ;
+        referendum:remains      25855 ;
+        referendum:leave        186 .
+
+<http://prasija1.cz/resources/referendum/15>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000015"^^xsd:string ;
+        town:name               "Harrow"^^xsd:string ;
+        referendum:electrorate  117363 ;
+        referendum:remains      53183 ;
+        referendum:leave        127 .
+
+<http://prasija1.cz/resources/referendum/16>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000016"^^xsd:string ;
+        town:name               "Havering"^^xsd:string ;
+        referendum:electrorate  139179 ;
+        referendum:remains      96885 ;
+        referendum:leave        89 .
+
+<http://prasija1.cz/resources/referendum/17>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000017"^^xsd:string ;
+        town:name               "Hillingdon"^^xsd:string ;
+        referendum:electrorate  133171 ;
+        referendum:remains      74982 ;
+        referendum:leave        148 .
+
+<http://prasija1.cz/resources/referendum/18>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000018"^^xsd:string ;
+        town:name               "Hounslow"^^xsd:string ;
+        referendum:electrorate  115211 ;
+        referendum:remains      56321 ;
+        referendum:leave        132 .
+
+<http://prasija1.cz/resources/referendum/19>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000019"^^xsd:string ;
+        town:name               "Islington"^^xsd:string ;
+        referendum:electrorate  101739 ;
+        referendum:remains      25180 ;
+        referendum:leave        123 .
+
+<http://prasija1.cz/resources/referendum/20>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000020"^^xsd:string ;
+        town:name               "Kensington and Chelsea"^^xsd:string ;
+        referendum:electrorate  54803 ;
+        referendum:remains      17138 ;
+        referendum:leave        62 .
+
+<http://prasija1.cz/resources/referendum/21>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000021"^^xsd:string ;
+        town:name               "Kingston upon Thames"^^xsd:string ;
+        referendum:electrorate  85334 ;
+        referendum:remains      32737 ;
+        referendum:leave        60 .
+
+<http://prasija1.cz/resources/referendum/22>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000022"^^xsd:string ;
+        town:name               "Lambeth"^^xsd:string ;
+        referendum:electrorate  142162 ;
+        referendum:remains      30340 ;
+        referendum:leave        238 .
+
+<http://prasija1.cz/resources/referendum/23>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000023"^^xsd:string ;
+        town:name               "Lewisham"^^xsd:string ;
+        referendum:electrorate  124634 ;
+        referendum:remains      37518 ;
+        referendum:leave        164 .
+
+<http://prasija1.cz/resources/referendum/24>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000024"^^xsd:string ;
+        town:name               "Merton"^^xsd:string ;
+        referendum:electrorate  100215 ;
+        referendum:remains      37097 ;
+        referendum:leave        107 .
+
+<http://prasija1.cz/resources/referendum/25>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000025"^^xsd:string ;
+        town:name               "Newham"^^xsd:string ;
+        referendum:electrorate  104869 ;
+        referendum:remains      49371 ;
+        referendum:leave        165 .
+
+<http://prasija1.cz/resources/referendum/26>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000026"^^xsd:string ;
+        town:name               "Redbridge"^^xsd:string ;
+        referendum:electrorate  128439 ;
+        referendum:remains      59020 ;
+        referendum:leave        164 .
+
+<http://prasija1.cz/resources/referendum/27>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000027"^^xsd:string ;
+        town:name               "Richmond upon Thames"^^xsd:string ;
+        referendum:electrorate  108892 ;
+        referendum:remains      33410 ;
+        referendum:leave        70 .
+
+<http://prasija1.cz/resources/referendum/28>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000028"^^xsd:string ;
+        town:name               "Southwark"^^xsd:string ;
+        referendum:electrorate  129688 ;
+        referendum:remains      35209 ;
+        referendum:leave        175 .
+
+<http://prasija1.cz/resources/referendum/29>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000029"^^xsd:string ;
+        town:name               "Sutton"^^xsd:string ;
+        referendum:electrorate  106633 ;
+        referendum:remains      57241 ;
+        referendum:leave        73 .
+
+<http://prasija1.cz/resources/referendum/30>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000030"^^xsd:string ;
+        town:name               "Tower Hamlets"^^xsd:string ;
+        referendum:electrorate  108421 ;
+        referendum:remains      35224 ;
+        referendum:leave        185 .
+
+<http://prasija1.cz/resources/referendum/31>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000031"^^xsd:string ;
+        town:name               "Waltham Forest"^^xsd:string ;
+        referendum:electrorate  108695 ;
+        referendum:remains      44395 ;
+        referendum:leave        138 .
+
+<http://prasija1.cz/resources/referendum/32>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000032"^^xsd:string ;
+        town:name               "Wandsworth"^^xsd:string ;
+        referendum:electrorate  158018 ;
+        referendum:remains      39421 ;
+        referendum:leave        134 .
+
+<http://prasija1.cz/resources/referendum/33>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E09000033"^^xsd:string ;
+        town:name               "Westminster"^^xsd:string ;
+        referendum:electrorate  78325 ;
+        referendum:remains      24268 ;
+        referendum:leave        129 .
+
+<http://prasija1.cz/resources/referendum/70>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000001"^^xsd:string ;
+        town:name               "Hartlepool"^^xsd:string ;
+        referendum:electrorate  46137 ;
+        referendum:remains      32071 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/71>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000002"^^xsd:string ;
+        town:name               "Middlesbrough"^^xsd:string ;
+        referendum:electrorate  61395 ;
+        referendum:remains      40177 ;
+        referendum:leave        35 .
+
+<http://prasija1.cz/resources/referendum/72>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000003"^^xsd:string ;
+        town:name               "Redcar and Cleveland"^^xsd:string ;
+        referendum:electrorate  72741 ;
+        referendum:remains      48128 ;
+        referendum:leave        27 .
+
+<http://prasija1.cz/resources/referendum/73>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000004"^^xsd:string ;
+        town:name               "Stockton-on-Tees"^^xsd:string ;
+        referendum:electrorate  100462 ;
+        referendum:remains      61982 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/74>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000005"^^xsd:string ;
+        town:name               "Darlington"^^xsd:string ;
+        referendum:electrorate  55194 ;
+        referendum:remains      30994 ;
+        referendum:leave        29 .
+
+<http://prasija1.cz/resources/referendum/75>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000047"^^xsd:string ;
+        town:name               "County Durham"^^xsd:string ;
+        referendum:electrorate  267577 ;
+        referendum:remains      153877 ;
+        referendum:leave        148 .
+
+<http://prasija1.cz/resources/referendum/76>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000057"^^xsd:string ;
+        town:name               "Northumberland"^^xsd:string ;
+        referendum:electrorate  178830 ;
+        referendum:remains      96699 ;
+        referendum:leave        94 .
+
+<http://prasija1.cz/resources/referendum/54>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000021"^^xsd:string ;
+        town:name               "Newcastle upon Tyne"^^xsd:string ;
+        referendum:electrorate  129072 ;
+        referendum:remains      63598 ;
+        referendum:leave        69 .
+
+<http://prasija1.cz/resources/referendum/55>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000022"^^xsd:string ;
+        town:name               "North Tyneside"^^xsd:string ;
+        referendum:electrorate  113527 ;
+        referendum:remains      60589 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/56>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000023"^^xsd:string ;
+        town:name               "South Tyneside"^^xsd:string ;
+        referendum:electrorate  79126 ;
+        referendum:remains      49065 ;
+        referendum:leave        38 .
+
+<http://prasija1.cz/resources/referendum/57>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000024"^^xsd:string ;
+        town:name               "Sunderland"^^xsd:string ;
+        referendum:electrorate  134404 ;
+        referendum:remains      82394 ;
+        referendum:leave        76 .
+
+<http://prasija1.cz/resources/referendum/53>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000037"^^xsd:string ;
+        town:name               "Gateshead"^^xsd:string ;
+        referendum:electrorate  103009 ;
+        referendum:remains      58529 ;
+        referendum:leave        49 .
+
+<http://prasija1.cz/resources/referendum/78>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000006"^^xsd:string ;
+        town:name               "Halton"^^xsd:string ;
+        referendum:electrorate  65047 ;
+        referendum:remains      37327 ;
+        referendum:leave        42 .
+
+<http://prasija1.cz/resources/referendum/79>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000007"^^xsd:string ;
+        town:name               "Warrington"^^xsd:string ;
+        referendum:electrorate  115206 ;
+        referendum:remains      62487 ;
+        referendum:leave        61 .
+
+<http://prasija1.cz/resources/referendum/81>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000008"^^xsd:string ;
+        town:name               "Blackburn with Darwen"^^xsd:string ;
+        referendum:electrorate  65416 ;
+        referendum:remains      36799 ;
+        referendum:leave        87 .
+
+<http://prasija1.cz/resources/referendum/82>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000009"^^xsd:string ;
+        town:name               "Blackpool"^^xsd:string ;
+        referendum:electrorate  66959 ;
+        referendum:remains      45146 ;
+        referendum:leave        32 .
+
+<http://prasija1.cz/resources/referendum/77>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000049"^^xsd:string ;
+        town:name               "Cheshire East"^^xsd:string ;
+        referendum:electrorate  221229 ;
+        referendum:remains      113163 ;
+        referendum:leave        104 .
+
+<http://prasija1.cz/resources/referendum/80>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000050"^^xsd:string ;
+        town:name               "Cheshire West and Chester"^^xsd:string ;
+        referendum:electrorate  193640 ;
+        referendum:remains      98082 ;
+        referendum:leave        96 .
+
+<http://prasija1.cz/resources/referendum/189>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000026"^^xsd:string ;
+        town:name               "Allerdale"^^xsd:string ;
+        referendum:electrorate  54268 ;
+        referendum:remains      31809 ;
+        referendum:leave        30 .
+
+<http://prasija1.cz/resources/referendum/190>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000027"^^xsd:string ;
+        town:name               "Barrow-in-Furness"^^xsd:string ;
+        referendum:electrorate  36104 ;
+        referendum:remains      21867 ;
+        referendum:leave        27 .
+
+<http://prasija1.cz/resources/referendum/191>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000028"^^xsd:string ;
+        town:name               "Carlisle"^^xsd:string ;
+        referendum:electrorate  59723 ;
+        referendum:remains      35895 ;
+        referendum:leave        38 .
+
+<http://prasija1.cz/resources/referendum/192>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000029"^^xsd:string ;
+        town:name               "Copeland"^^xsd:string ;
+        referendum:electrorate  37974 ;
+        referendum:remains      23528 ;
+        referendum:leave        28 .
+
+<http://prasija1.cz/resources/referendum/193>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000030"^^xsd:string ;
+        town:name               "Eden"^^xsd:string ;
+        referendum:electrorate  31746 ;
+        referendum:remains      16911 ;
+        referendum:leave        28 .
+
+<http://prasija1.cz/resources/referendum/194>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000031"^^xsd:string ;
+        town:name               "South Lakeland"^^xsd:string ;
+        referendum:electrorate  65375 ;
+        referendum:remains      30800 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/273>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000117"^^xsd:string ;
+        town:name               "Burnley"^^xsd:string ;
+        referendum:electrorate  43354 ;
+        referendum:remains      28854 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/274>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000118"^^xsd:string ;
+        town:name               "Chorley"^^xsd:string ;
+        referendum:electrorate  63564 ;
+        referendum:remains      36098 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/275>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000119"^^xsd:string ;
+        town:name               "Fylde"^^xsd:string ;
+        referendum:electrorate  46227 ;
+        referendum:remains      26317 ;
+        referendum:leave        21 .
+
+<http://prasija1.cz/resources/referendum/276>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000120"^^xsd:string ;
+        town:name               "Hyndburn"^^xsd:string ;
+        referendum:electrorate  40173 ;
+        referendum:remains      26568 ;
+        referendum:leave        31 .
+
+<http://prasija1.cz/resources/referendum/277>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000121"^^xsd:string ;
+        town:name               "Lancaster"^^xsd:string ;
+        referendum:electrorate  73102 ;
+        referendum:remains      37309 ;
+        referendum:leave        57 .
+
+<http://prasija1.cz/resources/referendum/278>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000122"^^xsd:string ;
+        town:name               "Pendle"^^xsd:string ;
+        referendum:electrorate  45389 ;
+        referendum:remains      28631 ;
+        referendum:leave        53 .
+
+<http://prasija1.cz/resources/referendum/279>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000123"^^xsd:string ;
+        town:name               "Preston"^^xsd:string ;
+        referendum:electrorate  64794 ;
+        referendum:remains      34518 ;
+        referendum:leave        49 .
+
+<http://prasija1.cz/resources/referendum/280>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000124"^^xsd:string ;
+        town:name               "Ribble Valley"^^xsd:string ;
+        referendum:electrorate  36473 ;
+        referendum:remains      20550 ;
+        referendum:leave        24 .
+
+<http://prasija1.cz/resources/referendum/281>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000125"^^xsd:string ;
+        town:name               "Rossendale"^^xsd:string ;
+        referendum:electrorate  38205 ;
+        referendum:remains      23169 ;
+        referendum:leave        24 .
+
+<http://prasija1.cz/resources/referendum/282>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000126"^^xsd:string ;
+        town:name               "South Ribble"^^xsd:string ;
+        referendum:electrorate  63756 ;
+        referendum:remains      37318 ;
+        referendum:leave        31 .
+
+<http://prasija1.cz/resources/referendum/283>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000127"^^xsd:string ;
+        town:name               "West Lancashire"^^xsd:string ;
+        referendum:electrorate  63921 ;
+        referendum:remains      35323 ;
+        referendum:leave        49 .
+
+<http://prasija1.cz/resources/referendum/284>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000128"^^xsd:string ;
+        town:name               "Wyre"^^xsd:string ;
+        referendum:electrorate  63031 ;
+        referendum:remains      40163 ;
+        referendum:leave        49 .
+
+<http://prasija1.cz/resources/referendum/34>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000001"^^xsd:string ;
+        town:name               "Bolton"^^xsd:string ;
+        referendum:electrorate  138206 ;
+        referendum:remains      80491 ;
+        referendum:leave        100 .
+
+<http://prasija1.cz/resources/referendum/35>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000002"^^xsd:string ;
+        town:name               "Bury"^^xsd:string ;
+        referendum:electrorate  101153 ;
+        referendum:remains      54674 ;
+        referendum:leave        116 .
+
+<http://prasija1.cz/resources/referendum/36>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000003"^^xsd:string ;
+        town:name               "Manchester"^^xsd:string ;
+        referendum:electrorate  202073 ;
+        referendum:remains      79991 ;
+        referendum:leave        253 .
+
+<http://prasija1.cz/resources/referendum/37>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000004"^^xsd:string ;
+        town:name               "Oldham"^^xsd:string ;
+        referendum:electrorate  107493 ;
+        referendum:remains      65369 ;
+        referendum:leave        90 .
+
+<http://prasija1.cz/resources/referendum/38>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000005"^^xsd:string ;
+        town:name               "Rochdale"^^xsd:string ;
+        referendum:electrorate  103319 ;
+        referendum:remains      62014 ;
+        referendum:leave        88 .
+
+<http://prasija1.cz/resources/referendum/39>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000006"^^xsd:string ;
+        town:name               "Salford"^^xsd:string ;
+        referendum:electrorate  109926 ;
+        referendum:remains      62385 ;
+        referendum:leave        111 .
+
+<http://prasija1.cz/resources/referendum/40>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000007"^^xsd:string ;
+        town:name               "Stockport"^^xsd:string ;
+        referendum:electrorate  163586 ;
+        referendum:remains      77930 ;
+        referendum:leave        95 .
+
+<http://prasija1.cz/resources/referendum/41>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000008"^^xsd:string ;
+        town:name               "Tameside"^^xsd:string ;
+        referendum:electrorate  111018 ;
+        referendum:remains      67829 ;
+        referendum:leave        69 .
+
+<http://prasija1.cz/resources/referendum/42>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000009"^^xsd:string ;
+        town:name               "Trafford"^^xsd:string ;
+        referendum:electrorate  125400 ;
+        referendum:remains      53018 ;
+        referendum:leave        89 .
+
+<http://prasija1.cz/resources/referendum/43>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000010"^^xsd:string ;
+        town:name               "Wigan"^^xsd:string ;
+        referendum:electrorate  163381 ;
+        referendum:remains      104331 ;
+        referendum:leave        108 .
+
+<http://prasija1.cz/resources/referendum/44>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000011"^^xsd:string ;
+        town:name               "Knowsley"^^xsd:string ;
+        referendum:electrorate  70939 ;
+        referendum:remains      36558 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/45>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000012"^^xsd:string ;
+        town:name               "Liverpool"^^xsd:string ;
+        referendum:electrorate  203733 ;
+        referendum:remains      85101 ;
+        referendum:leave        174 .
+
+<http://prasija1.cz/resources/referendum/46>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000013"^^xsd:string ;
+        town:name               "St. Helens"^^xsd:string ;
+        referendum:electrorate  93730 ;
+        referendum:remains      54357 ;
+        referendum:leave        42 .
+
+<http://prasija1.cz/resources/referendum/47>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000014"^^xsd:string ;
+        town:name               "Sefton"^^xsd:string ;
+        referendum:electrorate  147970 ;
+        referendum:remains      71176 ;
+        referendum:leave        92 .
+
+<http://prasija1.cz/resources/referendum/48>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000015"^^xsd:string ;
+        town:name               "Wirral"^^xsd:string ;
+        referendum:electrorate  172137 ;
+        referendum:remains      83069 ;
+        referendum:leave        137 .
+
+<http://prasija1.cz/resources/referendum/381>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "N92000002"^^xsd:string ;
+        town:name               "Northern Ireland"^^xsd:string ;
+        referendum:electrorate  790647 ;
+        referendum:remains      349442 ;
+        referendum:leave        374 .
+
+<http://prasija1.cz/resources/referendum/153>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000005"^^xsd:string ;
+        town:name               "Clackmannanshire"^^xsd:string ;
+        referendum:electrorate  25439 ;
+        referendum:remains      10736 ;
+        referendum:leave        12 .
+
+<http://prasija1.cz/resources/referendum/155>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000006"^^xsd:string ;
+        town:name               "Dumfries and Galloway"^^xsd:string ;
+        referendum:electrorate  82718 ;
+        referendum:remains      38803 ;
+        referendum:leave        48 .
+
+<http://prasija1.cz/resources/referendum/157>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000008"^^xsd:string ;
+        town:name               "East Ayrshire"^^xsd:string ;
+        referendum:electrorate  57859 ;
+        referendum:remains      23942 ;
+        referendum:leave        26 .
+
+<http://prasija1.cz/resources/referendum/159>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000010"^^xsd:string ;
+        town:name               "East Lothian"^^xsd:string ;
+        referendum:electrorate  55822 ;
+        referendum:remains      19738 ;
+        referendum:leave        36 .
+
+<http://prasija1.cz/resources/referendum/160>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000011"^^xsd:string ;
+        town:name               "East Renfrewshire"^^xsd:string ;
+        referendum:electrorate  52970 ;
+        referendum:remains      13596 ;
+        referendum:leave        28 .
+
+<http://prasija1.cz/resources/referendum/179>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000013"^^xsd:string ;
+        town:name               "Eilean Siar"^^xsd:string ;
+        referendum:electrorate  14919 ;
+        referendum:remains      6671 ;
+        referendum:leave        16 .
+
+<http://prasija1.cz/resources/referendum/162>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000014"^^xsd:string ;
+        town:name               "Falkirk"^^xsd:string ;
+        referendum:electrorate  79304 ;
+        referendum:remains      34271 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/163>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000015"^^xsd:string ;
+        town:name               "Fife"^^xsd:string ;
+        referendum:electrorate  182307 ;
+        referendum:remains      75466 ;
+        referendum:leave        87 .
+
+<http://prasija1.cz/resources/referendum/165>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000017"^^xsd:string ;
+        town:name               "Highland"^^xsd:string ;
+        referendum:electrorate  125728 ;
+        referendum:remains      55349 ;
+        referendum:leave        71 .
+
+<http://prasija1.cz/resources/referendum/166>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000018"^^xsd:string ;
+        town:name               "Inverclyde"^^xsd:string ;
+        referendum:electrorate  38722 ;
+        referendum:remains      14010 ;
+        referendum:leave        24 .
+
+<http://prasija1.cz/resources/referendum/167>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000019"^^xsd:string ;
+        town:name               "Midlothian"^^xsd:string ;
+        referendum:electrorate  45505 ;
+        referendum:remains      17251 ;
+        referendum:leave        29 .
+
+<http://prasija1.cz/resources/referendum/168>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000020"^^xsd:string ;
+        town:name               "Moray"^^xsd:string ;
+        referendum:electrorate  48148 ;
+        referendum:remains      23992 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/169>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000021"^^xsd:string ;
+        town:name               "North Ayrshire"^^xsd:string ;
+        referendum:electrorate  67548 ;
+        referendum:remains      29110 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/171>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000023"^^xsd:string ;
+        town:name               "Orkney Islands"^^xsd:string ;
+        referendum:electrorate  11402 ;
+        referendum:remains      4193 ;
+        referendum:leave        20 .
+
+<http://prasija1.cz/resources/referendum/172>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000024"^^xsd:string ;
+        town:name               "Perth and Kinross"^^xsd:string ;
+        referendum:electrorate  81294 ;
+        referendum:remains      31614 ;
+        referendum:leave        39 .
+
+<http://prasija1.cz/resources/referendum/152>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000026"^^xsd:string ;
+        town:name               "Scottish Borders"^^xsd:string ;
+        referendum:electrorate  64953 ;
+        referendum:remains      26962 ;
+        referendum:leave        39 .
+
+<http://prasija1.cz/resources/referendum/174>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000027"^^xsd:string ;
+        town:name               "Shetland Islands"^^xsd:string ;
+        referendum:electrorate  12231 ;
+        referendum:remains      5315 ;
+        referendum:leave        9 .
+
+<http://prasija1.cz/resources/referendum/175>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000028"^^xsd:string ;
+        town:name               "South Ayrshire"^^xsd:string ;
+        referendum:electrorate  61542 ;
+        referendum:remains      25241 ;
+        referendum:leave        36 .
+
+<http://prasija1.cz/resources/referendum/176>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000029"^^xsd:string ;
+        town:name               "South Lanarkshire"^^xsd:string ;
+        referendum:electrorate  162691 ;
+        referendum:remains      60024 ;
+        referendum:leave        91 .
+
+<http://prasija1.cz/resources/referendum/177>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000030"^^xsd:string ;
+        town:name               "Stirling"^^xsd:string ;
+        referendum:electrorate  48931 ;
+        referendum:remains      15787 ;
+        referendum:leave        32 .
+
+<http://prasija1.cz/resources/referendum/148>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000033"^^xsd:string ;
+        town:name               "Aberdeen City"^^xsd:string ;
+        referendum:electrorate  104809 ;
+        referendum:remains      40729 ;
+        referendum:leave        95 .
+
+<http://prasija1.cz/resources/referendum/149>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000034"^^xsd:string ;
+        town:name               "Aberdeenshire"^^xsd:string ;
+        referendum:electrorate  139014 ;
+        referendum:remains      62516 ;
+        referendum:leave        53 .
+
+<http://prasija1.cz/resources/referendum/151>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000035"^^xsd:string ;
+        town:name               "Argyll and Bute"^^xsd:string ;
+        referendum:electrorate  48734 ;
+        referendum:remains      19202 ;
+        referendum:leave        38 .
+
+<http://prasija1.cz/resources/referendum/161>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000036"^^xsd:string ;
+        town:name               "City of Edinburgh"^^xsd:string ;
+        referendum:electrorate  252490 ;
+        referendum:remains      64498 ;
+        referendum:leave        187 .
+
+<http://prasija1.cz/resources/referendum/173>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000038"^^xsd:string ;
+        town:name               "Renfrewshire"^^xsd:string ;
+        referendum:electrorate  88203 ;
+        referendum:remains      31010 ;
+        referendum:leave        68 .
+
+<http://prasija1.cz/resources/referendum/154>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000039"^^xsd:string ;
+        town:name               "West Dunbartonshire"^^xsd:string ;
+        referendum:electrorate  43250 ;
+        referendum:remains      16426 ;
+        referendum:leave        25 .
+
+<http://prasija1.cz/resources/referendum/178>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000040"^^xsd:string ;
+        town:name               "West Lothian"^^xsd:string ;
+        referendum:electrorate  88556 ;
+        referendum:remains      36948 ;
+        referendum:leave        48 .
+
+<http://prasija1.cz/resources/referendum/150>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000041"^^xsd:string ;
+        town:name               "Angus"^^xsd:string ;
+        referendum:electrorate  59295 ;
+        referendum:remains      26511 ;
+        referendum:leave        24 .
+
+<http://prasija1.cz/resources/referendum/156>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000042"^^xsd:string ;
+        town:name               "Dundee City"^^xsd:string ;
+        referendum:electrorate  66418 ;
+        referendum:remains      26697 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/170>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000044"^^xsd:string ;
+        town:name               "North Lanarkshire"^^xsd:string ;
+        referendum:electrorate  155045 ;
+        referendum:remains      59400 ;
+        referendum:leave        96 .
+
+<http://prasija1.cz/resources/referendum/158>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000045"^^xsd:string ;
+        town:name               "East Dunbartonshire"^^xsd:string ;
+        referendum:electrorate  62418 ;
+        referendum:remains      17840 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/164>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "S12000046"^^xsd:string ;
+        town:name               "Glasgow City"^^xsd:string ;
+        referendum:electrorate  253000 ;
+        referendum:remains      84474 ;
+        referendum:leave        191 .
+
+<http://prasija1.cz/resources/referendum/114>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000035"^^xsd:string ;
+        town:name               "Medway"^^xsd:string ;
+        referendum:electrorate  138975 ;
+        referendum:remains      88997 ;
+        referendum:leave        87 .
+
+<http://prasija1.cz/resources/referendum/115>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000036"^^xsd:string ;
+        town:name               "Bracknell Forest"^^xsd:string ;
+        referendum:electrorate  64928 ;
+        referendum:remains      35002 ;
+        referendum:leave        32 .
+
+<http://prasija1.cz/resources/referendum/116>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000037"^^xsd:string ;
+        town:name               "West Berkshire"^^xsd:string ;
+        referendum:electrorate  93347 ;
+        referendum:remains      44977 ;
+        referendum:leave        68 .
+
+<http://prasija1.cz/resources/referendum/117>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000038"^^xsd:string ;
+        town:name               "Reading"^^xsd:string ;
+        referendum:electrorate  74832 ;
+        referendum:remains      31382 ;
+        referendum:leave        59 .
+
+<http://prasija1.cz/resources/referendum/118>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000039"^^xsd:string ;
+        town:name               "Slough"^^xsd:string ;
+        referendum:electrorate  54605 ;
+        referendum:remains      29631 ;
+        referendum:leave        56 .
+
+<http://prasija1.cz/resources/referendum/119>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000040"^^xsd:string ;
+        town:name               "Windsor and Maidenhead"^^xsd:string ;
+        referendum:electrorate  81866 ;
+        referendum:remains      37706 ;
+        referendum:leave        63 .
+
+<http://prasija1.cz/resources/referendum/120>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000041"^^xsd:string ;
+        town:name               "Wokingham"^^xsd:string ;
+        referendum:electrorate  97559 ;
+        referendum:remains      42229 ;
+        referendum:leave        50 .
+
+<http://prasija1.cz/resources/referendum/121>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000042"^^xsd:string ;
+        town:name               "Milton Keynes"^^xsd:string ;
+        referendum:electrorate  130535 ;
+        referendum:remains      67063 ;
+        referendum:leave        78 .
+
+<http://prasija1.cz/resources/referendum/122>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000043"^^xsd:string ;
+        town:name               "Brighton and Hove"^^xsd:string ;
+        referendum:electrorate  146846 ;
+        referendum:remains      46027 ;
+        referendum:leave        154 .
+
+<http://prasija1.cz/resources/referendum/123>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000044"^^xsd:string ;
+        town:name               "Portsmouth"^^xsd:string ;
+        referendum:electrorate  98799 ;
+        referendum:remains      57336 ;
+        referendum:leave        66 .
+
+<http://prasija1.cz/resources/referendum/124>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000045"^^xsd:string ;
+        town:name               "Southampton"^^xsd:string ;
+        referendum:electrorate  107775 ;
+        referendum:remains      57927 ;
+        referendum:leave        110 .
+
+<http://prasija1.cz/resources/referendum/125>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000046"^^xsd:string ;
+        town:name               "Isle of Wight"^^xsd:string ;
+        referendum:electrorate  79431 ;
+        referendum:remains      49173 ;
+        referendum:leave        50 .
+
+<http://prasija1.cz/resources/referendum/180>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000004"^^xsd:string ;
+        town:name               "Aylesbury Vale"^^xsd:string ;
+        referendum:electrorate  106908 ;
+        referendum:remains      53956 ;
+        referendum:leave        62 .
+
+<http://prasija1.cz/resources/referendum/181>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000005"^^xsd:string ;
+        town:name               "Chiltern"^^xsd:string ;
+        referendum:electrorate  58655 ;
+        referendum:remains      26363 ;
+        referendum:leave        47 .
+
+<http://prasija1.cz/resources/referendum/182>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000006"^^xsd:string ;
+        town:name               "South Bucks"^^xsd:string ;
+        referendum:electrorate  40755 ;
+        referendum:remains      20647 ;
+        referendum:leave        31 .
+
+<http://prasija1.cz/resources/referendum/183>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000007"^^xsd:string ;
+        town:name               "Wycombe"^^xsd:string ;
+        referendum:electrorate  94869 ;
+        referendum:remains      45529 ;
+        referendum:leave        79 .
+
+<http://prasija1.cz/resources/referendum/217>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000061"^^xsd:string ;
+        town:name               "Eastbourne"^^xsd:string ;
+        referendum:electrorate  53600 ;
+        referendum:remains      30700 ;
+        referendum:leave        53 .
+
+<http://prasija1.cz/resources/referendum/218>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000062"^^xsd:string ;
+        town:name               "Hastings"^^xsd:string ;
+        referendum:electrorate  44390 ;
+        referendum:remains      24339 ;
+        referendum:leave        37 .
+
+<http://prasija1.cz/resources/referendum/219>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000063"^^xsd:string ;
+        town:name               "Lewes"^^xsd:string ;
+        referendum:electrorate  59528 ;
+        referendum:remains      28508 ;
+        referendum:leave        49 .
+
+<http://prasija1.cz/resources/referendum/220>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000064"^^xsd:string ;
+        town:name               "Rother"^^xsd:string ;
+        referendum:electrorate  57717 ;
+        referendum:remains      33753 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/221>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000065"^^xsd:string ;
+        town:name               "Wealden"^^xsd:string ;
+        referendum:electrorate  96966 ;
+        referendum:remains      52808 ;
+        referendum:leave        52 .
+
+<http://prasija1.cz/resources/referendum/240>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000084"^^xsd:string ;
+        town:name               "Basingstoke and Deane"^^xsd:string ;
+        referendum:electrorate  100395 ;
+        referendum:remains      52071 ;
+        referendum:leave        67 .
+
+<http://prasija1.cz/resources/referendum/241>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000085"^^xsd:string ;
+        town:name               "East Hampshire"^^xsd:string ;
+        referendum:electrorate  73971 ;
+        referendum:remains      36576 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/242>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000086"^^xsd:string ;
+        town:name               "Eastleigh"^^xsd:string ;
+        referendum:electrorate  76148 ;
+        referendum:remains      39902 ;
+        referendum:leave        74 .
+
+<http://prasija1.cz/resources/referendum/243>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000087"^^xsd:string ;
+        town:name               "Fareham"^^xsd:string ;
+        referendum:electrorate  71772 ;
+        referendum:remains      39525 ;
+        referendum:leave        37 .
+
+<http://prasija1.cz/resources/referendum/244>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000088"^^xsd:string ;
+        town:name               "Gosport"^^xsd:string ;
+        referendum:electrorate  46150 ;
+        referendum:remains      29456 ;
+        referendum:leave        23 .
+
+<http://prasija1.cz/resources/referendum/245>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000089"^^xsd:string ;
+        town:name               "Hart"^^xsd:string ;
+        referendum:electrorate  57836 ;
+        referendum:remains      27513 ;
+        referendum:leave        32 .
+
+<http://prasija1.cz/resources/referendum/246>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000090"^^xsd:string ;
+        town:name               "Havant"^^xsd:string ;
+        referendum:electrorate  70672 ;
+        referendum:remains      44047 ;
+        referendum:leave        41 .
+
+<http://prasija1.cz/resources/referendum/247>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000091"^^xsd:string ;
+        town:name               "New Forest"^^xsd:string ;
+        referendum:electrorate  111786 ;
+        referendum:remains      64541 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/248>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000092"^^xsd:string ;
+        town:name               "Rushmoor"^^xsd:string ;
+        referendum:electrorate  48803 ;
+        referendum:remains      28396 ;
+        referendum:leave        20 .
+
+<http://prasija1.cz/resources/referendum/249>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000093"^^xsd:string ;
+        town:name               "Test Valley"^^xsd:string ;
+        referendum:electrorate  75316 ;
+        referendum:remains      39091 ;
+        referendum:leave        55 .
+
+<http://prasija1.cz/resources/referendum/250>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000094"^^xsd:string ;
+        town:name               "Winchester"^^xsd:string ;
+        referendum:electrorate  72801 ;
+        referendum:remains      29886 ;
+        referendum:leave        37 .
+
+<http://prasija1.cz/resources/referendum/261>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000105"^^xsd:string ;
+        town:name               "Ashford"^^xsd:string ;
+        referendum:electrorate  69828 ;
+        referendum:remains      41472 ;
+        referendum:leave        41 .
+
+<http://prasija1.cz/resources/referendum/262>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000106"^^xsd:string ;
+        town:name               "Canterbury"^^xsd:string ;
+        referendum:electrorate  82105 ;
+        referendum:remains      41879 ;
+        referendum:leave        57 .
+
+<http://prasija1.cz/resources/referendum/263>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000107"^^xsd:string ;
+        town:name               "Dartford"^^xsd:string ;
+        referendum:electrorate  55884 ;
+        referendum:remains      35870 ;
+        referendum:leave        28 .
+
+<http://prasija1.cz/resources/referendum/264>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000108"^^xsd:string ;
+        town:name               "Dover"^^xsd:string ;
+        referendum:electrorate  65057 ;
+        referendum:remains      40410 ;
+        referendum:leave        41 .
+
+<http://prasija1.cz/resources/referendum/265>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000109"^^xsd:string ;
+        town:name               "Gravesham"^^xsd:string ;
+        referendum:electrorate  54554 ;
+        referendum:remains      35643 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/266>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000110"^^xsd:string ;
+        town:name               "Maidstone"^^xsd:string ;
+        referendum:electrorate  89177 ;
+        referendum:remains      52365 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/267>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000111"^^xsd:string ;
+        town:name               "Sevenoaks"^^xsd:string ;
+        referendum:electrorate  70399 ;
+        referendum:remains      38258 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/268>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000112"^^xsd:string ;
+        town:name               "Shepway"^^xsd:string ;
+        referendum:electrorate  60659 ;
+        referendum:remains      37729 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/269>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000113"^^xsd:string ;
+        town:name               "Swale"^^xsd:string ;
+        referendum:electrorate  75913 ;
+        referendum:remains      47388 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/270>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000114"^^xsd:string ;
+        town:name               "Thanet"^^xsd:string ;
+        referendum:electrorate  72149 ;
+        referendum:remains      46037 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/271>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000115"^^xsd:string ;
+        town:name               "Tonbridge and Malling"^^xsd:string ;
+        referendum:electrorate  74070 ;
+        referendum:remains      41229 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/272>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000116"^^xsd:string ;
+        town:name               "Tunbridge Wells"^^xsd:string ;
+        referendum:electrorate  65051 ;
+        referendum:remains      29320 ;
+        referendum:leave        43 .
+
+<http://prasija1.cz/resources/referendum/327>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000177"^^xsd:string ;
+        town:name               "Cherwell"^^xsd:string ;
+        referendum:electrorate  81909 ;
+        referendum:remains      41168 ;
+        referendum:leave        72 .
+
+<http://prasija1.cz/resources/referendum/328>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000178"^^xsd:string ;
+        town:name               "Oxford"^^xsd:string ;
+        referendum:electrorate  70421 ;
+        referendum:remains      20913 ;
+        referendum:leave        74 .
+
+<http://prasija1.cz/resources/referendum/329>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000179"^^xsd:string ;
+        town:name               "South Oxfordshire"^^xsd:string ;
+        referendum:electrorate  84167 ;
+        referendum:remains      37865 ;
+        referendum:leave        57 .
+
+<http://prasija1.cz/resources/referendum/330>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000180"^^xsd:string ;
+        town:name               "Vale of White Horse"^^xsd:string ;
+        referendum:electrorate  76706 ;
+        referendum:remains      33192 ;
+        referendum:leave        52 .
+
+<http://prasija1.cz/resources/referendum/331>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000181"^^xsd:string ;
+        town:name               "West Oxfordshire"^^xsd:string ;
+        referendum:electrorate  65721 ;
+        referendum:remains      30435 ;
+        referendum:leave        48 .
+
+<http://prasija1.cz/resources/referendum/352>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000207"^^xsd:string ;
+        town:name               "Elmbridge"^^xsd:string ;
+        referendum:electrorate  77069 ;
+        referendum:remains      31162 ;
+        referendum:leave        55 .
+
+<http://prasija1.cz/resources/referendum/353>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000208"^^xsd:string ;
+        town:name               "Epsom and Ewell"^^xsd:string ;
+        referendum:electrorate  45348 ;
+        referendum:remains      21707 ;
+        referendum:leave        40 .
+
+<http://prasija1.cz/resources/referendum/354>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000209"^^xsd:string ;
+        town:name               "Guildford"^^xsd:string ;
+        referendum:electrorate  78672 ;
+        referendum:remains      34458 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/355>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000210"^^xsd:string ;
+        town:name               "Mole Valley"^^xsd:string ;
+        referendum:electrorate  54832 ;
+        referendum:remains      25708 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/356>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000211"^^xsd:string ;
+        town:name               "Reigate and Banstead"^^xsd:string ;
+        referendum:electrorate  81200 ;
+        referendum:remains      40980 ;
+        referendum:leave        39 .
+
+<http://prasija1.cz/resources/referendum/357>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000212"^^xsd:string ;
+        town:name               "Runnymede"^^xsd:string ;
+        referendum:electrorate  44328 ;
+        referendum:remains      24035 ;
+        referendum:leave        32 .
+
+<http://prasija1.cz/resources/referendum/358>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000213"^^xsd:string ;
+        town:name               "Spelthorne"^^xsd:string ;
+        referendum:electrorate  56635 ;
+        referendum:remains      34135 ;
+        referendum:leave        29 .
+
+<http://prasija1.cz/resources/referendum/359>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000214"^^xsd:string ;
+        town:name               "Surrey Heath"^^xsd:string ;
+        referendum:electrorate  52330 ;
+        referendum:remains      26667 ;
+        referendum:leave        25 .
+
+<http://prasija1.cz/resources/referendum/360>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000215"^^xsd:string ;
+        town:name               "Tandridge"^^xsd:string ;
+        referendum:electrorate  51468 ;
+        referendum:remains      27169 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/361>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000216"^^xsd:string ;
+        town:name               "Waverley"^^xsd:string ;
+        referendum:electrorate  75999 ;
+        referendum:remains      31601 ;
+        referendum:leave        57 .
+
+<http://prasija1.cz/resources/referendum/362>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000217"^^xsd:string ;
+        town:name               "Woking"^^xsd:string ;
+        referendum:electrorate  55261 ;
+        referendum:remains      24214 ;
+        referendum:leave        40 .
+
+<http://prasija1.cz/resources/referendum/368>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000223"^^xsd:string ;
+        town:name               "Adur"^^xsd:string ;
+        referendum:electrorate  37253 ;
+        referendum:remains      20315 ;
+        referendum:leave        22 .
+
+<http://prasija1.cz/resources/referendum/369>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000224"^^xsd:string ;
+        town:name               "Arun"^^xsd:string ;
+        referendum:electrorate  91203 ;
+        referendum:remains      56936 ;
+        referendum:leave        70 .
+
+<http://prasija1.cz/resources/referendum/370>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000225"^^xsd:string ;
+        town:name               "Chichester"^^xsd:string ;
+        referendum:electrorate  71411 ;
+        referendum:remains      36326 ;
+        referendum:leave        70 .
+
+<http://prasija1.cz/resources/referendum/371>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000226"^^xsd:string ;
+        town:name               "Crawley"^^xsd:string ;
+        referendum:electrorate  53884 ;
+        referendum:remains      31447 ;
+        referendum:leave        49 .
+
+<http://prasija1.cz/resources/referendum/372>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000227"^^xsd:string ;
+        town:name               "Horsham"^^xsd:string ;
+        referendum:electrorate  85131 ;
+        referendum:remains      41303 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/373>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000228"^^xsd:string ;
+        town:name               "Mid Sussex"^^xsd:string ;
+        referendum:electrorate  87588 ;
+        referendum:remains      41057 ;
+        referendum:leave        60 .
+
+<http://prasija1.cz/resources/referendum/374>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000229"^^xsd:string ;
+        town:name               "Worthing"^^xsd:string ;
+        referendum:electrorate  61420 ;
+        referendum:remains      32515 ;
+        referendum:leave        50 .
+
+<http://prasija1.cz/resources/referendum/96>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000022"^^xsd:string ;
+        town:name               "Bath and North East Somerset"^^xsd:string ;
+        referendum:electrorate  105300 ;
+        referendum:remains      44352 ;
+        referendum:leave        70 .
+
+<http://prasija1.cz/resources/referendum/97>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000023"^^xsd:string ;
+        town:name               "Bristol, City of"^^xsd:string ;
+        referendum:electrorate  228704 ;
+        referendum:remains      87418 ;
+        referendum:leave        201 .
+
+<http://prasija1.cz/resources/referendum/98>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000024"^^xsd:string ;
+        town:name               "North Somerset"^^xsd:string ;
+        referendum:electrorate  124637 ;
+        referendum:remains      64976 ;
+        referendum:leave        74 .
+
+<http://prasija1.cz/resources/referendum/99>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000025"^^xsd:string ;
+        town:name               "South Gloucestershire"^^xsd:string ;
+        referendum:electrorate  158444 ;
+        referendum:remains      83405 ;
+        referendum:leave        94 .
+
+<http://prasija1.cz/resources/referendum/102>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000026"^^xsd:string ;
+        town:name               "Plymouth"^^xsd:string ;
+        referendum:electrorate  133537 ;
+        referendum:remains      79997 ;
+        referendum:leave        68 .
+
+<http://prasija1.cz/resources/referendum/103>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000027"^^xsd:string ;
+        town:name               "Torbay"^^xsd:string ;
+        referendum:electrorate  75873 ;
+        referendum:remains      47889 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/104>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000028"^^xsd:string ;
+        town:name               "Bournemouth"^^xsd:string ;
+        referendum:electrorate  92002 ;
+        referendum:remains      50453 ;
+        referendum:leave        71 .
+
+<http://prasija1.cz/resources/referendum/105>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000029"^^xsd:string ;
+        town:name               "Poole"^^xsd:string ;
+        referendum:electrorate  85500 ;
+        referendum:remains      49707 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/106>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000030"^^xsd:string ;
+        town:name               "Swindon"^^xsd:string ;
+        referendum:electrorate  113064 ;
+        referendum:remains      61745 ;
+        referendum:leave        95 .
+
+<http://prasija1.cz/resources/referendum/100>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000052"^^xsd:string ;
+        town:name               "Cornwall"^^xsd:string ;
+        referendum:electrorate  323528 ;
+        referendum:remains      182665 ;
+        referendum:leave        237 .
+
+<http://prasija1.cz/resources/referendum/101>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000053"^^xsd:string ;
+        town:name               "Isles of Scilly"^^xsd:string ;
+        referendum:electrorate  1424 ;
+        referendum:remains      621 ;
+        referendum:leave        0 .
+
+<http://prasija1.cz/resources/referendum/107>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000054"^^xsd:string ;
+        town:name               "Wiltshire"^^xsd:string ;
+        referendum:electrorate  289110 ;
+        referendum:remains      151637 ;
+        referendum:leave        207 .
+
+<http://prasija1.cz/resources/referendum/203>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000040"^^xsd:string ;
+        town:name               "East Devon"^^xsd:string ;
+        referendum:electrorate  88831 ;
+        referendum:remains      48040 ;
+        referendum:leave        48 .
+
+<http://prasija1.cz/resources/referendum/204>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000041"^^xsd:string ;
+        town:name               "Exeter"^^xsd:string ;
+        referendum:electrorate  63888 ;
+        referendum:remains      28533 ;
+        referendum:leave        64 .
+
+<http://prasija1.cz/resources/referendum/205>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000042"^^xsd:string ;
+        town:name               "Mid Devon"^^xsd:string ;
+        referendum:electrorate  48049 ;
+        referendum:remains      25606 ;
+        referendum:leave        43 .
+
+<http://prasija1.cz/resources/referendum/206>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000043"^^xsd:string ;
+        town:name               "North Devon"^^xsd:string ;
+        referendum:electrorate  58054 ;
+        referendum:remains      33100 ;
+        referendum:leave        25 .
+
+<http://prasija1.cz/resources/referendum/207>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000044"^^xsd:string ;
+        town:name               "South Hams"^^xsd:string ;
+        referendum:electrorate  55488 ;
+        referendum:remains      26142 ;
+        referendum:leave        35 .
+
+<http://prasija1.cz/resources/referendum/208>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000045"^^xsd:string ;
+        town:name               "Teignbridge"^^xsd:string ;
+        referendum:electrorate  82383 ;
+        referendum:remains      44363 ;
+        referendum:leave        57 .
+
+<http://prasija1.cz/resources/referendum/209>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000046"^^xsd:string ;
+        town:name               "Torridge"^^xsd:string ;
+        referendum:electrorate  41462 ;
+        referendum:remains      25200 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/210>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000047"^^xsd:string ;
+        town:name               "West Devon"^^xsd:string ;
+        referendum:electrorate  35613 ;
+        referendum:remains      18937 ;
+        referendum:leave        17 .
+
+<http://prasija1.cz/resources/referendum/211>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000048"^^xsd:string ;
+        town:name               "Christchurch"^^xsd:string ;
+        referendum:electrorate  31071 ;
+        referendum:remains      18268 ;
+        referendum:leave        16 .
+
+<http://prasija1.cz/resources/referendum/212>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000049"^^xsd:string ;
+        town:name               "East Dorset"^^xsd:string ;
+        referendum:electrorate  58530 ;
+        referendum:remains      33702 ;
+        referendum:leave        42 .
+
+<http://prasija1.cz/resources/referendum/213>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000050"^^xsd:string ;
+        town:name               "North Dorset"^^xsd:string ;
+        referendum:electrorate  42228 ;
+        referendum:remains      23802 ;
+        referendum:leave        27 .
+
+<http://prasija1.cz/resources/referendum/214>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000051"^^xsd:string ;
+        town:name               "Purbeck"^^xsd:string ;
+        referendum:electrorate  28736 ;
+        referendum:remains      16966 ;
+        referendum:leave        16 .
+
+<http://prasija1.cz/resources/referendum/215>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000052"^^xsd:string ;
+        town:name               "West Dorset"^^xsd:string ;
+        referendum:electrorate  65237 ;
+        referendum:remains      33267 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/216>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000053"^^xsd:string ;
+        town:name               "Weymouth and Portland"^^xsd:string ;
+        referendum:electrorate  38273 ;
+        referendum:remains      23352 ;
+        referendum:leave        16 .
+
+<http://prasija1.cz/resources/referendum/234>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000078"^^xsd:string ;
+        town:name               "Cheltenham"^^xsd:string ;
+        referendum:electrorate  66060 ;
+        referendum:remains      28932 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/235>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000079"^^xsd:string ;
+        town:name               "Cotswold"^^xsd:string ;
+        referendum:electrorate  54847 ;
+        referendum:remains      26806 ;
+        referendum:leave        26 .
+
+<http://prasija1.cz/resources/referendum/236>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000080"^^xsd:string ;
+        town:name               "Forest of Dean"^^xsd:string ;
+        referendum:electrorate  51679 ;
+        referendum:remains      30251 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/237>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000081"^^xsd:string ;
+        town:name               "Gloucester"^^xsd:string ;
+        referendum:electrorate  64605 ;
+        referendum:remains      37776 ;
+        referendum:leave        29 .
+
+<http://prasija1.cz/resources/referendum/238>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000082"^^xsd:string ;
+        town:name               "Stroud"^^xsd:string ;
+        referendum:electrorate  74129 ;
+        referendum:remains      33618 ;
+        referendum:leave        64 .
+
+<http://prasija1.cz/resources/referendum/239>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000083"^^xsd:string ;
+        town:name               "Tewkesbury"^^xsd:string ;
+        referendum:electrorate  53687 ;
+        referendum:remains      28568 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/332>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000187"^^xsd:string ;
+        town:name               "Mendip"^^xsd:string ;
+        referendum:electrorate  65529 ;
+        referendum:remains      32028 ;
+        referendum:leave        54 .
+
+<http://prasija1.cz/resources/referendum/333>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000188"^^xsd:string ;
+        town:name               "Sedgemoor"^^xsd:string ;
+        referendum:electrorate  68451 ;
+        referendum:remains      41869 ;
+        referendum:leave        36 .
+
+<http://prasija1.cz/resources/referendum/334>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000189"^^xsd:string ;
+        town:name               "South Somerset"^^xsd:string ;
+        referendum:electrorate  99535 ;
+        referendum:remains      56940 ;
+        referendum:leave        68 .
+
+<http://prasija1.cz/resources/referendum/335>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000190"^^xsd:string ;
+        town:name               "Taunton Deane"^^xsd:string ;
+        referendum:electrorate  65789 ;
+        referendum:remains      34789 ;
+        referendum:leave        53 .
+
+<http://prasija1.cz/resources/referendum/336>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000191"^^xsd:string ;
+        town:name               "West Somerset"^^xsd:string ;
+        referendum:electrorate  21755 ;
+        referendum:remains      13168 ;
+        referendum:leave        19 .
+
+<http://prasija1.cz/resources/referendum/382>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "GI"^^xsd:string ;
+        town:name               "Gibraltar"^^xsd:string ;
+        referendum:electrorate  20172 ;
+        referendum:remains      823 ;
+        referendum:leave        27 .
+
+<http://prasija1.cz/resources/referendum/126>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000001"^^xsd:string ;
+        town:name               "Isle of Anglesey"^^xsd:string ;
+        referendum:electrorate  37980 ;
+        referendum:remains      19333 ;
+        referendum:leave        27 .
+
+<http://prasija1.cz/resources/referendum/127>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000002"^^xsd:string ;
+        town:name               "Gwynedd"^^xsd:string ;
+        referendum:electrorate  61245 ;
+        referendum:remains      25665 ;
+        referendum:leave        63 .
+
+<http://prasija1.cz/resources/referendum/128>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000003"^^xsd:string ;
+        town:name               "Conwy"^^xsd:string ;
+        referendum:electrorate  65558 ;
+        referendum:remains      35357 ;
+        referendum:leave        50 .
+
+<http://prasija1.cz/resources/referendum/129>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000004"^^xsd:string ;
+        town:name               "Denbighshire"^^xsd:string ;
+        referendum:electrorate  52108 ;
+        referendum:remains      28117 ;
+        referendum:leave        36 .
+
+<http://prasija1.cz/resources/referendum/130>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000005"^^xsd:string ;
+        town:name               "Flintshire"^^xsd:string ;
+        referendum:electrorate  86857 ;
+        referendum:remains      48930 ;
+        referendum:leave        57 .
+
+<http://prasija1.cz/resources/referendum/131>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000006"^^xsd:string ;
+        town:name               "Wrexham"^^xsd:string ;
+        referendum:electrorate  70409 ;
+        referendum:remains      41544 ;
+        referendum:leave        41 .
+
+<http://prasija1.cz/resources/referendum/133>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000008"^^xsd:string ;
+        town:name               "Ceredigion"^^xsd:string ;
+        referendum:electrorate  39775 ;
+        referendum:remains      18031 ;
+        referendum:leave        30 .
+
+<http://prasija1.cz/resources/referendum/134>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000009"^^xsd:string ;
+        town:name               "Pembrokeshire"^^xsd:string ;
+        referendum:electrorate  68556 ;
+        referendum:remains      39155 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/135>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000010"^^xsd:string ;
+        town:name               "Carmarthenshire"^^xsd:string ;
+        referendum:electrorate  103129 ;
+        referendum:remains      55381 ;
+        referendum:leave        91 .
+
+<http://prasija1.cz/resources/referendum/136>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000011"^^xsd:string ;
+        town:name               "Swansea"^^xsd:string ;
+        referendum:electrorate  120371 ;
+        referendum:remains      61936 ;
+        referendum:leave        119 .
+
+<http://prasija1.cz/resources/referendum/137>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000012"^^xsd:string ;
+        town:name               "Neath Port Talbot"^^xsd:string ;
+        referendum:electrorate  75695 ;
+        referendum:remains      43001 ;
+        referendum:leave        42 .
+
+<http://prasija1.cz/resources/referendum/138>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000013"^^xsd:string ;
+        town:name               "Bridgend"^^xsd:string ;
+        referendum:electrorate  74379 ;
+        referendum:remains      40622 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/139>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000014"^^xsd:string ;
+        town:name               "Vale of Glamorgan"^^xsd:string ;
+        referendum:electrorate  72348 ;
+        referendum:remains      35628 ;
+        referendum:leave        39 .
+
+<http://prasija1.cz/resources/referendum/147>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000015"^^xsd:string ;
+        town:name               "Cardiff"^^xsd:string ;
+        referendum:electrorate  169762 ;
+        referendum:remains      67816 ;
+        referendum:leave        141 .
+
+<http://prasija1.cz/resources/referendum/140>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000016"^^xsd:string ;
+        town:name               "Rhondda Cynon Taf"^^xsd:string ;
+        referendum:electrorate  116645 ;
+        referendum:remains      62590 ;
+        referendum:leave        82 .
+
+<http://prasija1.cz/resources/referendum/142>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000018"^^xsd:string ;
+        town:name               "Caerphilly"^^xsd:string ;
+        referendum:electrorate  92531 ;
+        referendum:remains      53295 ;
+        referendum:leave        52 .
+
+<http://prasija1.cz/resources/referendum/143>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000019"^^xsd:string ;
+        town:name               "Blaenau Gwent"^^xsd:string ;
+        referendum:electrorate  34812 ;
+        referendum:remains      21587 ;
+        referendum:leave        10 .
+
+<http://prasija1.cz/resources/referendum/144>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000020"^^xsd:string ;
+        town:name               "Torfaen"^^xsd:string ;
+        referendum:electrorate  48177 ;
+        referendum:remains      28781 ;
+        referendum:leave        28 .
+
+<http://prasija1.cz/resources/referendum/145>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000021"^^xsd:string ;
+        town:name               "Monmouthshire"^^xsd:string ;
+        referendum:electrorate  55670 ;
+        referendum:remains      27569 ;
+        referendum:leave        40 .
+
+<http://prasija1.cz/resources/referendum/146>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000022"^^xsd:string ;
+        town:name               "Newport"^^xsd:string ;
+        referendum:electrorate  73708 ;
+        referendum:remains      41236 ;
+        referendum:leave        59 .
+
+<http://prasija1.cz/resources/referendum/132>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000023"^^xsd:string ;
+        town:name               "Powys"^^xsd:string ;
+        referendum:electrorate  79519 ;
+        referendum:remains      42707 ;
+        referendum:leave        46 .
+
+<http://prasija1.cz/resources/referendum/141>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "W06000024"^^xsd:string ;
+        town:name               "Merthyr Tydfil"^^xsd:string ;
+        referendum:electrorate  28881 ;
+        referendum:remains      16291 ;
+        referendum:leave        16 .
+
+<http://prasija1.cz/resources/referendum/92>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000019"^^xsd:string ;
+        town:name               "Herefordshire, County of"^^xsd:string ;
+        referendum:electrorate  108336 ;
+        referendum:remains      64122 ;
+        referendum:leave        66 .
+
+<http://prasija1.cz/resources/referendum/93>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000020"^^xsd:string ;
+        town:name               "Telford and Wrekin"^^xsd:string ;
+        referendum:electrorate  89707 ;
+        referendum:remains      56649 ;
+        referendum:leave        101 .
+
+<http://prasija1.cz/resources/referendum/95>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000021"^^xsd:string ;
+        town:name               "Stoke-on-Trent"^^xsd:string ;
+        referendum:electrorate  117691 ;
+        referendum:remains      81563 ;
+        referendum:leave        84 .
+
+<http://prasija1.cz/resources/referendum/94>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000051"^^xsd:string ;
+        town:name               "Shropshire"^^xsd:string ;
+        referendum:electrorate  183328 ;
+        referendum:remains      104166 ;
+        referendum:leave        170 .
+
+<http://prasija1.cz/resources/referendum/337>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000192"^^xsd:string ;
+        town:name               "Cannock Chase"^^xsd:string ;
+        referendum:electrorate  53610 ;
+        referendum:remains      36894 ;
+        referendum:leave        29 .
+
+<http://prasija1.cz/resources/referendum/338>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000193"^^xsd:string ;
+        town:name               "East Staffordshire"^^xsd:string ;
+        referendum:electrorate  62164 ;
+        referendum:remains      39266 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/339>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000194"^^xsd:string ;
+        town:name               "Lichfield"^^xsd:string ;
+        referendum:electrorate  63324 ;
+        referendum:remains      37214 ;
+        referendum:leave        40 .
+
+<http://prasija1.cz/resources/referendum/340>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000195"^^xsd:string ;
+        town:name               "Newcastle-under-Lyme"^^xsd:string ;
+        referendum:electrorate  68966 ;
+        referendum:remains      43457 ;
+        referendum:leave        32 .
+
+<http://prasija1.cz/resources/referendum/341>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000196"^^xsd:string ;
+        town:name               "South Staffordshire"^^xsd:string ;
+        referendum:electrorate  66741 ;
+        referendum:remains      43248 ;
+        referendum:leave        47 .
+
+<http://prasija1.cz/resources/referendum/342>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000197"^^xsd:string ;
+        town:name               "Stafford"^^xsd:string ;
+        referendum:electrorate  77524 ;
+        referendum:remains      43386 ;
+        referendum:leave        43 .
+
+<http://prasija1.cz/resources/referendum/343>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000198"^^xsd:string ;
+        town:name               "Staffordshire Moorlands"^^xsd:string ;
+        referendum:electrorate  59794 ;
+        referendum:remains      38684 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/344>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000199"^^xsd:string ;
+        town:name               "Tamworth"^^xsd:string ;
+        referendum:electrorate  42152 ;
+        referendum:remains      28424 ;
+        referendum:leave        22 .
+
+<http://prasija1.cz/resources/referendum/363>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000218"^^xsd:string ;
+        town:name               "North Warwickshire"^^xsd:string ;
+        referendum:electrorate  37975 ;
+        referendum:remains      25385 ;
+        referendum:leave        21 .
+
+<http://prasija1.cz/resources/referendum/364>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000219"^^xsd:string ;
+        town:name               "Nuneaton and Bedworth"^^xsd:string ;
+        referendum:electrorate  69878 ;
+        referendum:remains      46095 ;
+        referendum:leave        45 .
+
+<http://prasija1.cz/resources/referendum/365>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000220"^^xsd:string ;
+        town:name               "Rugby"^^xsd:string ;
+        referendum:electrorate  58599 ;
+        referendum:remains      33199 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/366>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000221"^^xsd:string ;
+        town:name               "Stratford-on-Avon"^^xsd:string ;
+        referendum:electrorate  79223 ;
+        referendum:remains      40817 ;
+        referendum:leave        59 .
+
+<http://prasija1.cz/resources/referendum/367>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000222"^^xsd:string ;
+        town:name               "Warwick"^^xsd:string ;
+        referendum:electrorate  81695 ;
+        referendum:remains      33642 ;
+        referendum:leave        62 .
+
+<http://prasija1.cz/resources/referendum/375>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000234"^^xsd:string ;
+        town:name               "Bromsgrove"^^xsd:string ;
+        referendum:electrorate  58855 ;
+        referendum:remains      32563 ;
+        referendum:leave        40 .
+
+<http://prasija1.cz/resources/referendum/376>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000235"^^xsd:string ;
+        town:name               "Malvern Hills"^^xsd:string ;
+        referendum:electrorate  48538 ;
+        referendum:remains      25294 ;
+        referendum:leave        41 .
+
+<http://prasija1.cz/resources/referendum/377>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000236"^^xsd:string ;
+        town:name               "Redditch"^^xsd:string ;
+        referendum:electrorate  45914 ;
+        referendum:remains      28579 ;
+        referendum:leave        30 .
+
+<http://prasija1.cz/resources/referendum/378>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000237"^^xsd:string ;
+        town:name               "Worcester"^^xsd:string ;
+        referendum:electrorate  54293 ;
+        referendum:remains      29114 ;
+        referendum:leave        51 .
+
+<http://prasija1.cz/resources/referendum/379>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000238"^^xsd:string ;
+        town:name               "Wychavon"^^xsd:string ;
+        referendum:electrorate  76428 ;
+        referendum:remains      44201 ;
+        referendum:leave        36 .
+
+<http://prasija1.cz/resources/referendum/380>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000239"^^xsd:string ;
+        town:name               "Wyre Forest"^^xsd:string ;
+        referendum:electrorate  57668 ;
+        referendum:remains      36392 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/58>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000025"^^xsd:string ;
+        town:name               "Birmingham"^^xsd:string ;
+        referendum:electrorate  451422 ;
+        referendum:remains      227251 ;
+        referendum:leave        614 .
+
+<http://prasija1.cz/resources/referendum/59>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000026"^^xsd:string ;
+        town:name               "Coventry"^^xsd:string ;
+        referendum:electrorate  153241 ;
+        referendum:remains      85097 ;
+        referendum:leave        170 .
+
+<http://prasija1.cz/resources/referendum/60>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000027"^^xsd:string ;
+        town:name               "Dudley"^^xsd:string ;
+        referendum:electrorate  175351 ;
+        referendum:remains      118446 ;
+        referendum:leave        107 .
+
+<http://prasija1.cz/resources/referendum/61>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000028"^^xsd:string ;
+        town:name               "Sandwell"^^xsd:string ;
+        referendum:electrorate  147428 ;
+        referendum:remains      98250 ;
+        referendum:leave        164 .
+
+<http://prasija1.cz/resources/referendum/62>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000029"^^xsd:string ;
+        town:name               "Solihull"^^xsd:string ;
+        referendum:electrorate  122026 ;
+        referendum:remains      68484 ;
+        referendum:leave        70 .
+
+<http://prasija1.cz/resources/referendum/63>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000030"^^xsd:string ;
+        town:name               "Walsall"^^xsd:string ;
+        referendum:electrorate  135690 ;
+        referendum:remains      92007 ;
+        referendum:leave        106 .
+
+<http://prasija1.cz/resources/referendum/64>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000031"^^xsd:string ;
+        town:name               "Wolverhampton"^^xsd:string ;
+        referendum:electrorate  118038 ;
+        referendum:remains      73798 ;
+        referendum:leave        101 .
+
+<http://prasija1.cz/resources/referendum/83>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000010"^^xsd:string ;
+        town:name               "Kingston upon Hull, City of"^^xsd:string ;
+        referendum:electrorate  113439 ;
+        referendum:remains      76646 ;
+        referendum:leave        81 .
+
+<http://prasija1.cz/resources/referendum/84>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000011"^^xsd:string ;
+        town:name               "East Riding of Yorkshire"^^xsd:string ;
+        referendum:electrorate  199056 ;
+        referendum:remains      120136 ;
+        referendum:leave        121 .
+
+<http://prasija1.cz/resources/referendum/85>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000012"^^xsd:string ;
+        town:name               "North East Lincolnshire"^^xsd:string ;
+        referendum:electrorate  79016 ;
+        referendum:remains      55185 ;
+        referendum:leave        29 .
+
+<http://prasija1.cz/resources/referendum/86>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000013"^^xsd:string ;
+        town:name               "North Lincolnshire"^^xsd:string ;
+        referendum:electrorate  88912 ;
+        referendum:remains      58915 ;
+        referendum:leave        44 .
+
+<http://prasija1.cz/resources/referendum/87>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E06000014"^^xsd:string ;
+        town:name               "York"^^xsd:string ;
+        referendum:electrorate  109695 ;
+        referendum:remains      45983 ;
+        referendum:leave        81 .
+
+<http://prasija1.cz/resources/referendum/313>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000163"^^xsd:string ;
+        town:name               "Craven"^^xsd:string ;
+        referendum:electrorate  35907 ;
+        referendum:remains      18961 ;
+        referendum:leave        16 .
+
+<http://prasija1.cz/resources/referendum/314>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000164"^^xsd:string ;
+        town:name               "Hambleton"^^xsd:string ;
+        referendum:electrorate  55016 ;
+        referendum:remains      29502 ;
+        referendum:leave        34 .
+
+<http://prasija1.cz/resources/referendum/315>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000165"^^xsd:string ;
+        town:name               "Harrogate"^^xsd:string ;
+        referendum:electrorate  94669 ;
+        referendum:remains      46374 ;
+        referendum:leave        68 .
+
+<http://prasija1.cz/resources/referendum/316>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000166"^^xsd:string ;
+        town:name               "Richmondshire"^^xsd:string ;
+        referendum:electrorate  27652 ;
+        referendum:remains      15691 ;
+        referendum:leave        16 .
+
+<http://prasija1.cz/resources/referendum/317>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000167"^^xsd:string ;
+        town:name               "Ryedale"^^xsd:string ;
+        referendum:electrorate  32069 ;
+        referendum:remains      17710 ;
+        referendum:leave        19 .
+
+<http://prasija1.cz/resources/referendum/318>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000168"^^xsd:string ;
+        town:name               "Scarborough"^^xsd:string ;
+        referendum:electrorate  60540 ;
+        referendum:remains      37512 ;
+        referendum:leave        28 .
+
+<http://prasija1.cz/resources/referendum/319>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E07000169"^^xsd:string ;
+        town:name               "Selby"^^xsd:string ;
+        referendum:electrorate  51641 ;
+        referendum:remains      30532 ;
+        referendum:leave        33 .
+
+<http://prasija1.cz/resources/referendum/49>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000016"^^xsd:string ;
+        town:name               "Barnsley"^^xsd:string ;
+        referendum:electrorate  122982 ;
+        referendum:remains      83958 ;
+        referendum:leave        63 .
+
+<http://prasija1.cz/resources/referendum/50>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000017"^^xsd:string ;
+        town:name               "Doncaster"^^xsd:string ;
+        referendum:electrorate  151254 ;
+        referendum:remains      104260 ;
+        referendum:leave        64 .
+
+<http://prasija1.cz/resources/referendum/51>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000018"^^xsd:string ;
+        town:name               "Rotherham"^^xsd:string ;
+        referendum:electrorate  137478 ;
+        referendum:remains      93272 ;
+        referendum:leave        83 .
+
+<http://prasija1.cz/resources/referendum/52>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000019"^^xsd:string ;
+        town:name               "Sheffield"^^xsd:string ;
+        referendum:electrorate  266954 ;
+        referendum:remains      136018 ;
+        referendum:leave        198 .
+
+<http://prasija1.cz/resources/referendum/65>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000032"^^xsd:string ;
+        town:name               "Bradford"^^xsd:string ;
+        referendum:electrorate  228729 ;
+        referendum:remains      123913 ;
+        referendum:leave        239 .
+
+<http://prasija1.cz/resources/referendum/66>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000033"^^xsd:string ;
+        town:name               "Calderdale"^^xsd:string ;
+        referendum:electrorate  106005 ;
+        referendum:remains      58975 ;
+        referendum:leave        79 .
+
+<http://prasija1.cz/resources/referendum/67>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000034"^^xsd:string ;
+        town:name               "Kirklees"^^xsd:string ;
+        referendum:electrorate  217460 ;
+        referendum:remains      118755 ;
+        referendum:leave        188 .
+
+<http://prasija1.cz/resources/referendum/68>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000035"^^xsd:string ;
+        town:name               "Leeds"^^xsd:string ;
+        referendum:electrorate  387730 ;
+        referendum:remains      192474 ;
+        referendum:leave        340 .
+
+<http://prasija1.cz/resources/referendum/69>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:id ;
+        referendum:area_code    "E08000036"^^xsd:string ;
+        town:name               "Wakefield"^^xsd:string ;
+        referendum:electrorate  175261 ;
+        referendum:remains      116165 ;
+        referendum:leave        113 .

@@ -1,0 +1,23 @@
+PREFIX census: <http://prasija1.cz/resources/census/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?cUri a census:GeographyCode ;
+    town:town ?town ;
+    census:population ?population ;
+    census:aged_0_15 ?a015 ;
+    census:aged_16_49 ?a1649 ;
+    census:aged_50_64 ?a5064 ;
+    census:aged_65_over ?a65over .
+}
+WHERE {
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/census/', ?a , '/' , ?b)) AS ?cUri)
+  BIND(IRI(CONCAT('http://prasija1.cz/resources/town/', ?b)) AS ?town)
+  BIND(xsd:integer(?d) AS ?population)
+  BIND(xsd:integer(?ar) AS ?a015)
+  BIND(xsd:integer(?cf) AS ?a1649)
+  BIND(xsd:integer(?dt) AS ?a5064)
+  BIND(xsd:integer(?fh) AS ?a65over)
+}
+OFFSET 1
