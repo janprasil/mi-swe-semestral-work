@@ -1,0 +1,11 @@
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+
+select * where {
+   ?ref a referendum:Referendum .
+   OPTIONAL{
+     ?ref dbo:voteFor ?voteFor .
+     ?ref dbo:voteAgainst ?voteAgainst .
+     FILTER(?voteFor < ?voteAgainst) .
+   }
+}

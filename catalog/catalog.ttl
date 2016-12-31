@@ -1,0 +1,169 @@
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix :   <http://prasija1.cz/#> .
+
+:catalog
+  a   dcat:Catalog ;
+    dcat:dataset    :postcodes  , :prosperity , :census, :referendum ;
+    dcat:themeTaxonomy  :themes ;
+    dct:description   "This catalog tries to find dependencies on the British referendum Brexit." ;
+    dct:issued      "2016-10-31"^^xsd:date ;
+    dct:language    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dct:license     :license ;
+    dct:modified    "2016-12-31"^^xsd:date  ;
+    dct:publisher   :prasija1 ;
+    foaf:homepage <https://edux.fit.cvut.cz/courses/MI-SWE.16/student/prasija1/start> ;
+    dct:title      "British referendum results dependencies" ;
+  .
+
+:prasija1
+  a   foaf:Agent ;
+    dct:type  foaf:Person ;
+    foaf:name "prasija1" ;
+    foaf:givenName "Jan" ;
+    foaf:familyName "Prášil"
+  .
+
+:license
+  a   dct:LicenseDocument ;
+    rdfs:label "creative commons 3.0 https://creativecommons.org/licenses/by/3.0/" ;
+    dct:type "text" ;
+  .
+
+:license-cc0
+  a dct:LicenseDocument ;
+    rdfs:label "CC0 1.0 Universal" ;
+    dct:type "text" ;
+  .
+
+:license-ogl
+  a dct:LicenseDocument ;
+    rdfs:label "Open Government Licence v3.0 http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" ;
+    dct:type "text" ;
+  .
+
+:themes
+  a skos:ConceptScheme ;
+    skos:prefLabel "A set of domains to classify documents" ;
+    dct:title "theme" ;
+  .
+
+:accountability
+  a skos:Concept ;
+    skos:inScheme :themes ;
+    skos:prefLabel "Accountability" ;
+  .
+
+:gibbs
+  a foaf:Agent ;
+    dct:type  foaf:Agent ;
+    foaf:name "Gibbs" ;
+    foaf:givenName "Dan" ;
+    foaf:familyName "Gibbs";
+  .
+
+:LIF
+  a foaf:Agent ;
+    dct:type foaf:Organization ;
+    foaf:name "Legatum Institute Foundation" ;
+  .
+
+:EC
+  a foaf:Agent ;
+    dct:type foaf:Organization ;
+    foaf:name "The Electoral Commission" ;
+  .
+:nomis
+  a foaf:Agent ;
+    dct:type foaf:Organization ;
+    foaf:name "Office for National Statistics"
+  .
+
+:postcodes
+  a   dcat:Dataset ;
+    dct:title "UK Postcodes" ;
+    dct:description "Postcodes of UK Towns" ;
+    dcat:keyword "towns", "postcodes", "zipcodes" ;
+    dcat:contactPoint "prasija1@fit.cvut.cz" ;
+    dcat:distribution :postcodes-src ;
+    dcat:theme :accountability ;
+    dct:publisher :gibbs ;
+  .
+
+:postcodes-src
+  a dcat:Distribution ;
+    dct:title "Gibbs/uk-postcodes" ;
+    dct:description "uk-postcodes/postcodes.csv" ;
+    dcat:accessURL <https://github.com/Gibbs/UK-Postcodes/blob/master/postcodes.csv> ;
+    dct:format "csv" ;
+    dcat:mediaType "text/csv" ;
+    dct:license :license-cc0 ;
+  .
+
+:prosperity
+  a dcat:Dataset ;
+  dct:title "Prosperity" ;
+  dct:description "List of UK towns prosperity indexes" ;
+  dcat:keyword "prosperity", "towns";
+  dcat:contactPoint "prasija1@fit.cvut.cz" ;
+  dcat:distribution :prosperity-src ;
+  dcat:theme :accountability ;
+  dct:publisher :LIF ;
+  .
+
+:prosperity-src
+  a dcat:Distribution ;
+  dct:title "The UK prosperity index" ;
+  dct:description "List of UK towns prosperity indexes";
+  dcat:accessURL <http://uk.prosperity.com/docs/2016/PressReleaseDataset.xlsx> ;
+  dct:format "xls" ;
+  dcat:mediaType "text/xls" ;
+  dct:license :license ;
+  .
+
+:referendum
+  a dcat:Dataset ;
+  dct:title "Referendum results" ;
+  dct:description "Results of 2016 Brexit referendum" ;
+  dcat:keyword "referendum", "results", "brexit";
+  dcat:contactPoint "prasija1@fit.cvut.cz" ;
+  dcat:distribution :referendum-src ;
+  dcat:theme :accountability ;
+  dct:publisher :EC ;
+  .
+
+:referendum-src
+  a dcat:Distribution ;
+  dct:title "EU referendum results" ;
+  dct:description "Referendum results data in full (CSV)";
+  dcat:accessURL <http://www.electoralcommission.org.uk/__data/assets/file/0014/212135/EU-referendum-result-data.csv> ;
+  dct:format "csv" ;
+  dcat:mediaType "text/csv" ;
+  dct:license :license ;
+  .
+
+:census
+  a dcat:Dataset ;
+  dct:title "Census results" ;
+  dct:description "Results of 2011 UK census" ;
+  dcat:keyword "census", "2011", "results";
+  dcat:contactPoint "prasija1@fit.cvut.cz" ;
+  dcat:distribution :census-src ;
+  dcat:theme :accountability ;
+  dct:publisher :nomis ;
+  .
+
+:census-src
+  a dcat:Distribution ;
+  dct:title "General health by religion by sex by age" ;
+  dct:description "This dataset provides 2011 Census estimates that classify usual residents in England and Wales by general health, by religion, by sex and by age.";
+  dcat:accessURL <http://www.nomisweb.co.uk/census/2011/lc3203ew> ;
+  dct:format "csv" ;
+  dcat:mediaType "text/csv" ;
+  dct:license :license-ogl ;
+  .
