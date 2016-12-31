@@ -1,0 +1,23 @@
+====== Vyhodnocení britského referenda o vystoupení z EU ======
+===== Semestrální práce =====
+  * Jan Prášil
+  * MI-SWE
+====== Cíle práce ======
+  * Nalezení datasetů pro města, výsledky v jednotlivých okrscích a další statistické údaje o městech
+  * Zkoumání výsledků na základě porovnání s ostatními datasety
+====== Datasety ======
+  * EU výsledky referenda z  http://www.electoralcommission.org.uk
+  * UK hodnocení prosperity z http://uk.prosperity.com
+  * UK města a směrovací čísla z  https://github.com/Gibbs
+  * UK sčítání lidu 2011 z http://www.nomisweb.co.uk
+====== Použité nástroje ======
+  * Tarql
+  * Microsoft Excel
+  * Silk
+  * Java
+====== Aplikace ======
+{{:student:prasija1:snimek_obrazovky.png|}}
+====== Závěr ======
+Děkuji za pozornost!
+Dotazy?
+
