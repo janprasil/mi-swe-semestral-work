@@ -1,4 +1,4 @@
-PREFIX prosperity: <http://prasija1/resources/prosperity/#>
+PREFIX prosperity: <http://prasija1.cz/resources/prosperity/#>
 PREFIX town: <http://prasija1.cz/resources/town/#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dbo: <http://dbpedia.org/ontology/#>
@@ -11,19 +11,26 @@ CONSTRUCT {
     dbo:rank ?prank ;
     cgov:salary ?medianpay .
   ?eUri a  prosperity:Economic ;
-    dbo:rank ?erank .
+    dbo:rank ?erank ;
+    prosperity:Prosperity ?pUri .
   ?bUri a prosperity:Bussiness ;
-    dbo:rank ?brank .
+    dbo:rank ?brank ;
+    prosperity:Prosperity ?pUri .
   ?eduUri a prosperity:Education ;
-    dbo:rank ?edrank .
+    dbo:rank ?edrank ;
+    prosperity:Prosperity ?pUri .
   ?hUri a prosperity:Health ;
-    dbo:rank ?hrank .
+    dbo:rank ?hrank ;
+    prosperity:Prosperity ?pUri .
   ?sUri a prosperity:Safety ;
-    dbo:rank ?srank .
+    dbo:rank ?srank ;
+    prosperity:Prosperity ?pUri .
   ?socUri a prosperity:Social ;
-    dbo:rank ?sorank .
+    dbo:rank ?sorank ;
+    prosperity:Prosperity ?pUri .
   ?nUri a prosperity:Natural ;
-    dbo:rank ?nrank .
+    dbo:rank ?nrank ;
+    prosperity:Prosperity ?pUri .
 }
 WHERE {
   BIND(IRI(CONCAT('http://prasija1.cz/resources/prosperity/', ?a)) as ?pUri)

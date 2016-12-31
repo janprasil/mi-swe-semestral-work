@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30.12.2016, 23:29:52
+    Author     : janprasil
+*/
+
+#custom-handle 
+{
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+body {
+    padding:0;
+    margin:0;
+    font-family: monospace;
+}
+
+.header {
+    width: 96%;
+    float:left;
+    background: #82d8ff;
+    padding:2%;
+}
+
+.content {
+    width:100%;
+    float:left;
+    margin-top:10px;
+    display:flex;
+    align-items:stretch;
+}
+
+.left {
+    width: calc(23% - 1px);
+    float:left;
+    border-right: 1px solid black;
+    padding-right: 2%;
+}
+
+.left ul {
+    list-style-type: none;
+}
+
+.left ul li {
+    padding: 2%;
+    background: #d2f0ff;
+    margin-top: 2px;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.left ul li a:hover {
+    text-decoration: underline;
+}
+
+.left ul li:hover {
+    background: #82d8ff;
+}
+
+.right {
+    width: 73%;
+    float:left;
+    padding-left: 2%;
+}
+
+.footer {
+    width: 96%;
+    float:left;
+    height: 250px;
+    background: #fbfff4;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+@media( max-width: 900px ) {
+    .content {
+        display: block;
+    }
+    .left {
+        width: 96%;
+        padding: 2%;
+    }
+    .right {
+        width: 96%;
+        padding: 2%;
+    }
+}

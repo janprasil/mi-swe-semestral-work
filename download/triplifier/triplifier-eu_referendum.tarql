@@ -1,4 +1,4 @@
-PREFIX referendum: <http://prasija1/resources/referendum/#>
+PREFIX referendum: <http://prasija1.cz/resources/referendum/#>
 PREFIX town: <http://prasija1.cz/resources/town/#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dbo: <http://dbpedia.org/ontology/#>

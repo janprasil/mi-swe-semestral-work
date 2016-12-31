@@ -1,0 +1,34 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX prosperity:  <http://prasija1.cz/resources/prosperity/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdfsyntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+   ?town a town:Town ;
+      foaf:area ?area ;
+      foaf:city ?city ;
+      rdf:voteRatio ?voteRatio ;
+      rdf:rank ?e_rank .
+} WHERE {
+   ?prosperity a prosperity:Prosperity ;
+      town:name ?prosp_town .
+   ?economic a prosperity:Economic ;
+      prosperity:Prosperity ?e_pros ;
+      dbo:rank ?e_rank .
+   filter(?prosperity = ?e_pros) .
+   ?town a town:Town ;
+      foaf:area ?area ;
+      foaf:city ?city .
+   filter(?area = ?prosp_town) .
+   ?referendum a referendum:Referendum ;
+     town:name ?reftown ;
+     dbo:voteAgainst ?voteAgainst ;
+     dbo:voteFor ?voteFor .
+   filter(?reftown = ?area) .
+   BIND( xsd:float(?voteAgainst) / xsd:float(?voteFor) AS ?voteRatio) .
+}
+

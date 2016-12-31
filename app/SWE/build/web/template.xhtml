@@ -1,0 +1,39 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+    
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/SWE/style.css">
+        <title>MI-SWE - Semestrální práce</title>
+    </h:head>
+    
+    <h:body>
+        <div class="header">
+            <h1>MI-SWE - semestrální práce</h1>
+        </div>
+        <div class="content">
+            <div class="left" style="width: calc(20% - 1px); float:left; border-right: 1px solid black">
+                <ul>
+                    <li><a href="/SWE/">Homepage</a></li>
+                    <li><a href="/SWE/map.jsp">Referendum map</a></li>
+                    <li><a href="/SWE/difference.jsp">Results difference</a></li>
+                    <li><a href="/SWE/results.jsp">Referendum results</a></li>
+                </ul>
+            </div>
+            <div class="right" style="width: 78%; float:left; padding-left: 2%">
+                <ui:insert name="content">Main Content</ui:insert>
+            </div>
+        </div>
+    </h:body>
+</html>

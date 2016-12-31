@@ -1,0 +1,29 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1.cz/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+PREFIX census: <http://prasija1.cz/resources/census/#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdfsyntax-ns#>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+   ?c a census:Census ;
+       rdf:percentage65over ?p65over ;
+       rdf:percentage0to15 ?p015 ;
+       rdf:percentage50to64 ?p5064 ;
+       rdf:percentage16to49 ?p1649 .
+} WHERE {
+   ?c a census:Census ;
+     gn:population ?pop ;
+     census:age0to15 ?a015 ;
+     census:age16to49 ?a1649 ;
+     census:age50to64 ?a5064 ;
+     census:age65over ?a65over .
+   BIND( 100*(xsd:float(?a015) / xsd:float(?pop)) AS ?p015 ) .
+   BIND( 100*(xsd:float(?a1649) / xsd:float(?pop)) AS ?p1649 ) .
+   BIND( 100*(xsd:float(?a5064) / xsd:float(?pop)) AS ?p5064 ) .
+   BIND( 100*(xsd:float(?a65over) / xsd:float(?pop)) AS ?p65over ) .
+}
+

@@ -1,0 +1,13 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+
+DESCRIBE ?ref ?voteFor ?voteAgainst {
+   ?ref a referendum:Referendum ;
+        dbo:voteFor ?voteFor ;
+        dbo:voteAgainst ?voteAgainst .
+   filter(?voteFor > ?voteAgainst*3) .
+}
+LIMIT 100

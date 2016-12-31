@@ -12,7 +12,8 @@ CONSTRUCT {
     foaf:country ?tUkRegion .
   ?cUri a sm:GeoCoordinates ;
     sm:latitude ?cLat ;
-    sm:longitude ?cLong .
+    sm:longitude ?cLong ;
+    town:Town ?tUri .
 }
 
 WHERE {

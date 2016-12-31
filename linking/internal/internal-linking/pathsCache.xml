@@ -1,0 +1,26 @@
+<Pair>
+  <Source>
+    <EntityDescription>
+      <Type>http://prasija1/resources/prosperity/#Prosperity</Type>
+      <Restriction>?a a &lt;http://prasija1/resources/prosperity/#&gt; .</Restriction>
+      <Paths>
+        <Path>/&lt;http://dbpedia.org/ontology/#rank&gt;</Path>
+        <Path>/&lt;http://prasija1.cz/resources/town/#name&gt;</Path>
+        <Path>/&lt;http://reference.data.gov.uk/def/central-governmentsalary&gt;</Path>
+        <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+      </Paths>
+    </EntityDescription>
+  </Source>
+  <Target>
+    <EntityDescription>
+      <Type>http://prasija1/resources/referendum/#Referendum</Type>
+      <Restriction>?a a &lt;http://prasija1/resources/referendum/#&gt; .</Restriction>
+      <Paths>
+        <Path>/&lt;http://dbpedia.org/ontology/#voteAgainst&gt;</Path>
+        <Path>/&lt;http://dbpedia.org/ontology/#voteFor&gt;</Path>
+        <Path>/&lt;http://prasija1.cz/resources/town/#name&gt;</Path>
+        <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+      </Paths>
+    </EntityDescription>
+  </Target>
+</Pair>

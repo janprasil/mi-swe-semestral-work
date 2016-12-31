@@ -1,0 +1,12 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+
+select ?town where {
+  ?x a referendum:Referendum ;
+       dbo:voteAgainst ?against ;
+       dbo:voteFor ?for ;
+       town:name ?town .
+  FILTER( (?for - ?against) > (?for + ?against) / 2 )
+}

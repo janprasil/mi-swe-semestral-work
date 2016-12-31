@@ -1,0 +1,49 @@
+<Silk>
+    <Prefixes>
+      <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/><Prefix id="dbo" namespace="http://dbpedia.org/ontology/"/><Prefix id="prosperity" namespace="http://prasija1/resources/prosperity/#"/><Prefix id="cgov" namespace="http://reference.data.gov.uk/def/central-government/"/><Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/><Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/><Prefix id="referendum" namespace="http://prasija1/resources/referendum/#"/><Prefix id="xsd" namespace="http://www.w3.org/2001/XMLSchema#"/><Prefix id="town" namespace="http://prasija1.cz/resources/town/#"/>
+    </Prefixes>
+        <DataSources>
+          <Dataset id="prosperity_index" type="file">
+            <Param name="file" value="prosperity_index_output.ttl"/><Param name="format" value="Turtle"/><Param name="graph" value=""/>
+          </Dataset><Dataset id="referendum" type="file">
+            <Param name="file" value="eu_referendum_output.ttl"/><Param name="format" value="Turtle"/><Param name="graph" value=""/>
+          </Dataset>
+        </DataSources>
+        <Interlinks>
+          <Interlink id="test">
+        <SourceDataset dataSource="prosperity_index" var="a" typeUri="http://prasija1/resources/prosperity/#Prosperity">
+        <RestrictTo>
+
+        </RestrictTo>
+      </SourceDataset>
+        <TargetDataset dataSource="referendum" var="b" typeUri="http://prasija1/resources/referendum/#Referendum">
+        <RestrictTo>
+
+        </RestrictTo>
+      </TargetDataset>
+        <LinkageRule linkType="owl:sameAs">
+        <Compare id="levenshteinDistance1" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <TransformInput id="lowerCase1" function="lowerCase">
+            <Input id="sourcePath1" path="/town:name"/>
+
+          </TransformInput><TransformInput id="lowerCase2" function="lowerCase">
+            <Input id="targetPath1" path="/town:name"/>
+
+          </TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare>
+        <Filter/>
+      </LinkageRule>
+        <Outputs>
+          <Output id="output"></Output>
+        </Outputs>
+      </Interlink>
+        </Interlinks>
+        <Transforms>
+
+        </Transforms>
+        <Outputs>
+          <Dataset id="output" type="file">
+            <Param name="file" value="output"/><Param name="format" value="ntriple"/><Param name="graph" value=""/>
+          </Dataset>
+        </Outputs>
+      </Silk>

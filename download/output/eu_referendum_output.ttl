@@ -1,7 +1,7 @@
 @prefix dbo:  <http://dbpedia.org/ontology/#> .
-@prefix referendum:  <http://prasija1/resources/referendum/#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix town:  <http://prasija1.cz/resources/town/#> .
+@prefix referendum:  <http://prasija1.cz/resources/referendum/#> .
 
 <http://prasija1.cz/resources/referendum/108>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;

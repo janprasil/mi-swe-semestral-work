@@ -1,0 +1,21 @@
+<Interlink id="external-linking">
+        <SourceDataset dataSource="dbpedia" var="a" typeUri="http://dbpedia.org/ontology/PopulatedPlace">
+        <RestrictTo>
+          ?a a &lt;http://dbpedia.org/ontology/PopulatedPlace&gt; .
+        </RestrictTo>
+      </SourceDataset>
+        <TargetDataset dataSource="referendum" var="b" typeUri="http://prasija1/resources/referendum/#Referendum">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </TargetDataset>
+        <LinkageRule linkType="&lt;http://www.w3.org/2002/07/owl#sameAs&gt;">
+        <Compare id="levenshtein1" required="false" weight="1" metric="levenshtein" threshold="0.0" indexing="true">
+            <Input id="sourcePath1" path="/&lt;http://xmlns.com/foaf/0.1/name&gt;"/><Input id="targetPath1" path="/&lt;http://prasija1.cz/resources/town/#name&gt;"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare>
+        <Filter limit="3"/>
+      </LinkageRule>
+        <Outputs>
+          <Output id="external-output"></Output>
+        </Outputs>
+      </Interlink>

@@ -1,0 +1,25 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+
+select distinct(?postcode) ?name ?latitude ?longitude ?voteFor ?voteAgainst where {
+   ?geo a sm:GeoCoordinates ;
+        town:Town ?town ;
+        sm:latitude ?latitude ;
+        sm:longitude ?longitude .
+   ?t a town:Town ;
+        foaf:city ?name ;
+        foaf:area ?area ;
+        foaf:postcode ?postcode .
+   ?ref a referendum:Referendum ;
+        town:name ?refTown ;
+        dbo:voteFor ?voteFor ;
+        dbo:voteAgainst ?voteAgainst .
+   filter(?t = ?town).
+   filter(?area = ?refTown) .
+}
+ORDER BY DESC (?voteAgainst + ?voteFor)
+LIMIT 10000
+

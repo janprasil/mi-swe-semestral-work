@@ -1,0 +1,147 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX prosperity: <http://prasija1/resources/prosperity/#>
+PREFIX cgov: <http://reference.data.gov.uk/def/central-government/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX referendum: <http://prasija1/resources/referendum/#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+
+SELECT * WHERE {
+  ?s ?p ?o
+}
+LIMIT 20
+!--
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+
+select ?town where {
+  ?x a referendum:Referendum ;
+       dbo:voteAgainst ?against ;
+       dbo:voteFor ?for ;
+       town:name ?town .
+  FILTER( (?for - ?against) > (?for + ?against) / 2 )
+}
+!--
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+
+select distinct(?postcode) ?name ?latitude ?longitude ?voteFor ?voteAgainst where {
+   ?geo a sm:GeoCoordinates ;
+        town:Town ?town ;
+        sm:latitude ?latitude ;
+        sm:longitude ?longitude .
+   ?t a town:Town ;
+        foaf:city ?name ;
+        foaf:area ?area ;
+        foaf:postcode ?postcode .
+   ?ref a referendum:Referendum ;
+        town:name ?refTown ;
+        dbo:voteFor ?voteFor ;
+        dbo:voteAgainst ?voteAgainst .
+   filter(?t = ?town).
+   filter(?area = ?refTown) .
+}
+ORDER BY DESC (?voteAgainst + ?voteFor)
+LIMIT 10000
+
+!---
+Is there any district where three times more people have voted for leave ?
+
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+
+ASK {
+   ?ref a referendum:Referendum ;
+        dbo:voteFor ?voteFor ;
+        dbo:voteAgainst ?voteAgainst .
+   filter(?voteFor > ?voteAgainst*4) .
+}
+
+!---
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+
+DESCRIBE ?ref ?voteFor ?voteAgainst {
+   ?ref a referendum:Referendum ;
+        dbo:voteFor ?voteFor ;
+        dbo:voteAgainst ?voteAgainst .
+   filter(?voteFor > ?voteAgainst*3) .
+}
+LIMIT 100
+
+!---
+
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1/resources/referendum/#>
+PREFIX prosperity:  <http://prasija1.cz/resources/prosperity/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdfsyntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+   ?town a town:Town ;
+      foaf:area ?area ;
+      foaf:city ?city ;
+      rdf:voteRatio ?voteRatio ;
+      rdf:rank ?e_rank .
+} WHERE {
+   ?prosperity a prosperity:Prosperity ;
+      town:name ?prosp_town .
+   ?economic a prosperity:Economic ;
+      prosperity:Prosperity ?e_pros ;
+      dbo:rank ?e_rank .
+   filter(?prosperity = ?e_pros) .
+   ?town a town:Town ;
+      foaf:area ?area ;
+      foaf:city ?city .
+   filter(?area = ?prosp_town) .
+   ?referendum a referendum:Referendum ;
+     town:name ?reftown ;
+     dbo:voteAgainst ?voteAgainst ;
+     dbo:voteFor ?voteFor .
+   filter(?reftown = ?area) .
+   BIND( xsd:float(?voteAgainst) / xsd:float(?voteFor) AS ?voteRatio) .
+}
+
+!----
+PREFIX foaf: <http://xmlns.com/foaf/0.1/#>
+PREFIX town: <http://prasija1.cz/resources/town/#>
+PREFIX referendum:  <http://prasija1.cz/resources/referendum/#>
+PREFIX dbo:  <http://dbpedia.org/ontology/#>
+PREFIX sm:  <https://schema.org/>
+PREFIX census: <http://prasija1.cz/resources/census/#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdfsyntax-ns#>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+   ?c a census:Census ;
+       rdf:percentage65over ?p65over ;
+       rdf:percentage0to15 ?p015 ;
+       rdf:percentage50to64 ?p5064 ;
+       rdf:percentage16to49 ?p1649 .
+} WHERE {
+   ?c a census:Census ;
+     gn:population ?pop ;
+     census:age0to15 ?a015 ;
+     census:age16to49 ?a1649 ;
+     census:age50to64 ?a5064 ;
+     census:age65over ?a65over .
+   BIND( 100*(xsd:float(?a015) / xsd:float(?pop)) AS ?p015 ) .
+   BIND( 100*(xsd:float(?a1649) / xsd:float(?pop)) AS ?p1649 ) .
+   BIND( 100*(xsd:float(?a5064) / xsd:float(?pop)) AS ?p5064 ) .
+   BIND( 100*(xsd:float(?a65over) / xsd:float(?pop)) AS ?p65over ) .
+}
+

@@ -1,0 +1,66 @@
+<Silk>
+<Prefixes>
+<Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix id="dbo" namespace="http://dbpedia.org/ontology/"/>
+<Prefix id="prosperity" namespace="http://prasija1/resources/prosperity/#"/>
+<Prefix id="cgov" namespace="http://reference.data.gov.uk/def/central-government/"/>
+<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+<Prefix id="referendum" namespace="http://prasija1/resources/referendum/#"/>
+<Prefix id="xsd" namespace="http://www.w3.org/2001/XMLSchema#"/>
+<Prefix id="town" namespace="http://prasija1.cz/resources/town/#"/>
+</Prefixes>
+<DataSources>
+<Dataset id="dbpedia" type="sparqlEndpoint">
+<Param name="pageSize" value="1000"/>
+<Param name="pauseTime" value="0"/>
+<Param name="retryCount" value="1000"/>
+<Param name="endpointURI" value="http://dbpedia.org/sparql"/>
+<Param name="retryPause" value="400"/>
+<Param name="graph" value=""/>
+<Param name="queryParameters" value=""/>
+<Param name="login" value=""/>
+<Param name="useOrderBy" value="true"/>
+<Param name="entityList" value=""/>
+<Param name="parallel" value="true"/>
+<Param name="password" value=""/>
+</Dataset>
+<Dataset id="referendum" type="file">
+<Param name="file" value="eu_referendum_output.ttl"/>
+<Param name="format" value="Turtle"/>
+<Param name="graph" value=""/>
+</Dataset>
+</DataSources>
+<Interlinks>
+<Interlink id="external-linking">
+<SourceDataset dataSource="dbpedia" var="a" typeUri="http://dbpedia.org/ontology/PopulatedPlace">
+<RestrictTo>
+?a a <http://dbpedia.org/ontology/PopulatedPlace> .
+</RestrictTo>
+</SourceDataset>
+<TargetDataset dataSource="referendum" var="b" typeUri="http://prasija1/resources/referendum/#Referendum">
+<RestrictTo></RestrictTo>
+</TargetDataset>
+<LinkageRule linkType="owl:sameAs">
+<Compare id="levenshtein1" required="false" weight="1" metric="levenshtein" threshold="0.0" indexing="true">
+<Input id="sourcePath1" path="/<http://xmlns.com/foaf/0.1/name>"/>
+<Input id="targetPath1" path="/town:name"/>
+<Param name="minChar" value="0"/>
+<Param name="maxChar" value="z"/>
+</Compare>
+<Filter limit="3"/>
+</LinkageRule>
+<Outputs>
+<Output id="external-output"/>
+</Outputs>
+</Interlink>
+</Interlinks>
+<Transforms></Transforms>
+<Outputs>
+<Dataset id="external-output" type="file">
+<Param name="file" value="external-output"/>
+<Param name="format" value="ntriple"/>
+<Param name="graph" value=""/>
+</Dataset>
+</Outputs>
+</Silk>
