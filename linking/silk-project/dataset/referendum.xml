@@ -1,0 +1,5 @@
+<Dataset id="referendum" type="file">
+  <Param name="file" value="eu_referendum_output.ttl"/>
+  <Param name="format" value="Turtle"/>
+  <Param name="graph" value=""/>
+</Dataset>

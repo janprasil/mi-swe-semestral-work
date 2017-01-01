@@ -1,0 +1,5 @@
+<Dataset id="census" type="file">
+  <Param name="file" value="census_output.ttl"/>
+  <Param name="format" value="turtle"/>
+  <Param name="graph" value=""/>
+</Dataset>

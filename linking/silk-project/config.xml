@@ -1,0 +1,13 @@
+<ProjectConfig>
+  <Prefixes>
+    <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix id="dbo" namespace="http://dbpedia.org/ontology/"/>
+    <Prefix id="prosperity" namespace="http://prasija1.cz/resources/prosperity/#"/>
+    <Prefix id="cgov" namespace="http://reference.data.gov.uk/def/central-government/"/>
+    <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+    <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix id="referendum" namespace="http://prasija1.cz/resources/referendum/#"/>
+    <Prefix id="xsd" namespace="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix id="town" namespace="http://prasija1.cz/resources/town/#"/>
+  </Prefixes>
+</ProjectConfig>

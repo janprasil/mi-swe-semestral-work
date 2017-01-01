@@ -1,0 +1,27 @@
+<Interlink id="external-linking">
+        <SourceDataset dataSource="dbpedia" var="a" typeUri="http://dbpedia.org/ontology/PopulatedPlace">
+        <RestrictTo>
+          ?a &lt;http://dbpedia.org/ontology/country&gt; &lt;http://dbpedia.org/resource/United_Kingdom&gt; .?a a &lt;http://dbpedia.org/ontology/PopulatedPlace&gt; .
+        </RestrictTo>
+      </SourceDataset>
+        <TargetDataset dataSource="referendum" var="b" typeUri="http://prasija1.cz/resources/referendum/#Referendum">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </TargetDataset>
+        <LinkageRule linkType="&lt;http://www.w3.org/2002/07/owl#sameAs&gt;">
+        <Compare id="equality1" required="false" weight="1" metric="equality" threshold="0.0" indexing="true">
+            <TransformInput id="lowerCase1" function="lowerCase">
+            <Input id="sourcePath1" path="/&lt;http://xmlns.com/foaf/0.1/name&gt;"/>
+            
+          </TransformInput><TransformInput id="lowerCase2" function="lowerCase">
+            <Input id="targetPath1" path="/&lt;http://prasija1.cz/resources/town/#name&gt;"/>
+            
+          </TransformInput>
+          </Compare>
+        <Filter limit="3"/>
+      </LinkageRule>
+        <Outputs>
+          <Output id="external-output"></Output>
+        </Outputs>
+      </Interlink>

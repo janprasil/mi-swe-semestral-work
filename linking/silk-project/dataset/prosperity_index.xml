@@ -1,0 +1,5 @@
+<Dataset id="prosperity_index" type="file">
+  <Param name="file" value="prosperity_index_output.ttl"/>
+  <Param name="format" value="Turtle"/>
+  <Param name="graph" value=""/>
+</Dataset>

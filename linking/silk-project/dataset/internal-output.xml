@@ -1,0 +1,5 @@
+<Dataset id="internal-output" type="file">
+  <Param name="file" value="internalOutput.ttl"/>
+  <Param name="format" value="ntriple"/>
+  <Param name="graph" value=""/>
+</Dataset>

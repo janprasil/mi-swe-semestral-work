@@ -1,0 +1,44 @@
+<rdf:RDF xmlns:align="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment#">
+  <Alignment>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dbpedia.org/resource/Aberdeen"/>
+        <entity2 rdf:resource="http://prasija1.cz/resources/referendum/148"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dbpedia.org/resource/Adur,_Anekal"/>
+        <entity2 rdf:resource="http://prasija1.cz/resources/referendum/368"/>
+        <relation>!=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dbpedia.org/resource/Adur,_Shimoga"/>
+        <entity2 rdf:resource="http://prasija1.cz/resources/referendum/368"/>
+        <relation>!=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dbpedia.org/resource/Adur,_Azerbaijan"/>
+        <entity2 rdf:resource="http://prasija1.cz/resources/referendum/368"/>
+        <relation>!=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dbpedia.org/resource/Adur,_Iran"/>
+        <entity2 rdf:resource="http://prasija1.cz/resources/referendum/368"/>
+        <relation>!=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

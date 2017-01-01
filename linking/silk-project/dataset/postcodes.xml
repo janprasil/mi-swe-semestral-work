@@ -1,0 +1,5 @@
+<Dataset id="postcodes" type="file">
+  <Param name="file" value="postcodes_output.ttl"/>
+  <Param name="format" value="turtle"/>
+  <Param name="graph" value=""/>
+</Dataset>

@@ -1,0 +1,27 @@
+<Interlink id="internal-linking">
+        <SourceDataset dataSource="prosperity_index" var="a" typeUri="http://prasija1.cz/resources/prosperity/#Prosperity">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
+        <TargetDataset dataSource="referendum" var="b" typeUri="http://prasija1.cz/resources/referendum/#Referendum">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </TargetDataset>
+        <LinkageRule linkType="&lt;http://www.w3.org/2002/07/owl#sameAs&gt;">
+        <Compare id="levenshteinDistance1" required="false" weight="1" metric="levenshteinDistance" threshold="0.2" indexing="true">
+            <TransformInput id="lowerCase1" function="lowerCase">
+            <Input id="sourcePath1" path="/&lt;http://prasija1.cz/resources/town/#name&gt;"/>
+            
+          </TransformInput><TransformInput id="lowerCase2" function="lowerCase">
+            <Input id="targetPath1" path="/&lt;http://prasija1.cz/resources/town/#name&gt;"/>
+            
+          </TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare>
+        <Filter/>
+      </LinkageRule>
+        <Outputs>
+          <Output id="internal-output"></Output>
+        </Outputs>
+      </Interlink>

@@ -1,0 +1,2296 @@
+@prefix dbo:  <http://dbpedia.org/ontology/#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix town:  <http://prasija1.cz/resources/town/#> .
+@prefix referendum:  <http://prasija1.cz/resources/referendum/#> .
+
+<http://prasija1.cz/resources/referendum/108>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Peterborough"^^xsd:string ;
+        dbo:voteAgainst  34176 ;
+        dbo:voteFor      53216 .
+
+<http://prasija1.cz/resources/referendum/109>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Luton"^^xsd:string ;
+        dbo:voteAgainst  36708 ;
+        dbo:voteFor      47773 .
+
+<http://prasija1.cz/resources/referendum/112>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Southend-on-Sea"^^xsd:string ;
+        dbo:voteAgainst  39348 ;
+        dbo:voteFor      54522 .
+
+<http://prasija1.cz/resources/referendum/113>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Thurrock"^^xsd:string ;
+        dbo:voteAgainst  22151 ;
+        dbo:voteFor      57765 .
+
+<http://prasija1.cz/resources/referendum/110>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bedford"^^xsd:string ;
+        dbo:voteAgainst  41497 ;
+        dbo:voteFor      44569 .
+
+<http://prasija1.cz/resources/referendum/111>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Central Bedfordshire"^^xsd:string ;
+        dbo:voteAgainst  69670 ;
+        dbo:voteFor      89134 .
+
+<http://prasija1.cz/resources/referendum/184>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cambridge"^^xsd:string ;
+        dbo:voteAgainst  42682 ;
+        dbo:voteFor      15117 .
+
+<http://prasija1.cz/resources/referendum/185>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Cambridgeshire"^^xsd:string ;
+        dbo:voteAgainst  23599 ;
+        dbo:voteFor      24487 .
+
+<http://prasija1.cz/resources/referendum/186>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Fenland"^^xsd:string ;
+        dbo:voteAgainst  15055 ;
+        dbo:voteFor      37571 .
+
+<http://prasija1.cz/resources/referendum/187>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Huntingdonshire"^^xsd:string ;
+        dbo:voteAgainst  45729 ;
+        dbo:voteFor      54198 .
+
+<http://prasija1.cz/resources/referendum/188>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Cambridgeshire"^^xsd:string ;
+        dbo:voteAgainst  56128 ;
+        dbo:voteFor      37061 .
+
+<http://prasija1.cz/resources/referendum/222>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Basildon"^^xsd:string ;
+        dbo:voteAgainst  30748 ;
+        dbo:voteFor      67251 .
+
+<http://prasija1.cz/resources/referendum/223>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Braintree"^^xsd:string ;
+        dbo:voteAgainst  33523 ;
+        dbo:voteFor      52713 .
+
+<http://prasija1.cz/resources/referendum/224>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Brentwood"^^xsd:string ;
+        dbo:voteAgainst  19077 ;
+        dbo:voteFor      27627 .
+
+<http://prasija1.cz/resources/referendum/225>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Castle Point"^^xsd:string ;
+        dbo:voteAgainst  14154 ;
+        dbo:voteFor      37691 .
+
+<http://prasija1.cz/resources/referendum/226>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Chelmsford"^^xsd:string ;
+        dbo:voteAgainst  47545 ;
+        dbo:voteFor      53249 .
+
+<http://prasija1.cz/resources/referendum/227>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Colchester"^^xsd:string ;
+        dbo:voteAgainst  44414 ;
+        dbo:voteFor      51305 .
+
+<http://prasija1.cz/resources/referendum/228>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Epping Forest"^^xsd:string ;
+        dbo:voteAgainst  28676 ;
+        dbo:voteFor      48176 .
+
+<http://prasija1.cz/resources/referendum/229>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Harlow"^^xsd:string ;
+        dbo:voteAgainst  13867 ;
+        dbo:voteFor      29602 .
+
+<http://prasija1.cz/resources/referendum/230>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Maldon"^^xsd:string ;
+        dbo:voteAgainst  14529 ;
+        dbo:voteFor      24302 .
+
+<http://prasija1.cz/resources/referendum/231>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rochford"^^xsd:string ;
+        dbo:voteAgainst  17510 ;
+        dbo:voteFor      34937 .
+
+<http://prasija1.cz/resources/referendum/232>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Tendring"^^xsd:string ;
+        dbo:voteAgainst  25210 ;
+        dbo:voteFor      57447 .
+
+<http://prasija1.cz/resources/referendum/233>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Uttlesford"^^xsd:string ;
+        dbo:voteAgainst  25619 ;
+        dbo:voteFor      26324 .
+
+<http://prasija1.cz/resources/referendum/251>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Broxbourne"^^xsd:string ;
+        dbo:voteAgainst  17166 ;
+        dbo:voteFor      33706 .
+
+<http://prasija1.cz/resources/referendum/252>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Dacorum"^^xsd:string ;
+        dbo:voteAgainst  42542 ;
+        dbo:voteFor      43702 .
+
+<http://prasija1.cz/resources/referendum/254>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hertsmere"^^xsd:string ;
+        dbo:voteAgainst  27593 ;
+        dbo:voteFor      28532 .
+
+<http://prasija1.cz/resources/referendum/255>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Hertfordshire"^^xsd:string ;
+        dbo:voteAgainst  42234 ;
+        dbo:voteFor      35438 .
+
+<http://prasija1.cz/resources/referendum/258>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Three Rivers"^^xsd:string ;
+        dbo:voteAgainst  25751 ;
+        dbo:voteFor      27097 .
+
+<http://prasija1.cz/resources/referendum/259>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Watford"^^xsd:string ;
+        dbo:voteAgainst  23167 ;
+        dbo:voteFor      23419 .
+
+<http://prasija1.cz/resources/referendum/299>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Breckland"^^xsd:string ;
+        dbo:voteAgainst  26313 ;
+        dbo:voteFor      47235 .
+
+<http://prasija1.cz/resources/referendum/300>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Broadland"^^xsd:string ;
+        dbo:voteAgainst  35469 ;
+        dbo:voteFor      42268 .
+
+<http://prasija1.cz/resources/referendum/301>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Great Yarmouth"^^xsd:string ;
+        dbo:voteAgainst  14284 ;
+        dbo:voteFor      35844 .
+
+<http://prasija1.cz/resources/referendum/302>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "King's Lynn and West Norfolk"^^xsd:string ;
+        dbo:voteAgainst  28587 ;
+        dbo:voteFor      56493 .
+
+<http://prasija1.cz/resources/referendum/303>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Norfolk"^^xsd:string ;
+        dbo:voteAgainst  26214 ;
+        dbo:voteFor      37576 .
+
+<http://prasija1.cz/resources/referendum/304>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Norwich"^^xsd:string ;
+        dbo:voteAgainst  37326 ;
+        dbo:voteFor      29040 .
+
+<http://prasija1.cz/resources/referendum/305>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Norfolk"^^xsd:string ;
+        dbo:voteAgainst  38817 ;
+        dbo:voteFor      41541 .
+
+<http://prasija1.cz/resources/referendum/345>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Babergh"^^xsd:string ;
+        dbo:voteAgainst  25309 ;
+        dbo:voteFor      29933 .
+
+<http://prasija1.cz/resources/referendum/346>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Forest Heath"^^xsd:string ;
+        dbo:voteAgainst  9791 ;
+        dbo:voteFor      18160 .
+
+<http://prasija1.cz/resources/referendum/347>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Ipswich"^^xsd:string ;
+        dbo:voteAgainst  27698 ;
+        dbo:voteFor      38655 .
+
+<http://prasija1.cz/resources/referendum/348>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Mid Suffolk"^^xsd:string ;
+        dbo:voteAgainst  27391 ;
+        dbo:voteFor      33794 .
+
+<http://prasija1.cz/resources/referendum/349>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "St Edmundsbury"^^xsd:string ;
+        dbo:voteAgainst  26986 ;
+        dbo:voteFor      35224 .
+
+<http://prasija1.cz/resources/referendum/350>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Suffolk Coastal"^^xsd:string ;
+        dbo:voteAgainst  37218 ;
+        dbo:voteFor      41966 .
+
+<http://prasija1.cz/resources/referendum/351>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Waveney"^^xsd:string ;
+        dbo:voteAgainst  24356 ;
+        dbo:voteFor      41290 .
+
+<http://prasija1.cz/resources/referendum/256>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "St Albans"^^xsd:string ;
+        dbo:voteAgainst  54208 ;
+        dbo:voteFor      32237 .
+
+<http://prasija1.cz/resources/referendum/260>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Welwyn Hatfield"^^xsd:string ;
+        dbo:voteAgainst  27550 ;
+        dbo:voteFor      31060 .
+
+<http://prasija1.cz/resources/referendum/253>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Hertfordshire"^^xsd:string ;
+        dbo:voteAgainst  42372 ;
+        dbo:voteFor      42994 .
+
+<http://prasija1.cz/resources/referendum/257>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Stevenage"^^xsd:string ;
+        dbo:voteAgainst  18659 ;
+        dbo:voteFor      27126 .
+
+<http://prasija1.cz/resources/referendum/88>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Derby"^^xsd:string ;
+        dbo:voteAgainst  51612 ;
+        dbo:voteFor      69043 .
+
+<http://prasija1.cz/resources/referendum/89>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Leicester"^^xsd:string ;
+        dbo:voteAgainst  70980 ;
+        dbo:voteFor      67992 .
+
+<http://prasija1.cz/resources/referendum/90>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rutland"^^xsd:string ;
+        dbo:voteAgainst  11353 ;
+        dbo:voteFor      11613 .
+
+<http://prasija1.cz/resources/referendum/91>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Nottingham"^^xsd:string ;
+        dbo:voteAgainst  59318 ;
+        dbo:voteFor      61343 .
+
+<http://prasija1.cz/resources/referendum/195>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Amber Valley"^^xsd:string ;
+        dbo:voteAgainst  29319 ;
+        dbo:voteFor      44501 .
+
+<http://prasija1.cz/resources/referendum/196>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bolsover"^^xsd:string ;
+        dbo:voteAgainst  12242 ;
+        dbo:voteFor      29730 .
+
+<http://prasija1.cz/resources/referendum/197>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Chesterfield"^^xsd:string ;
+        dbo:voteAgainst  22946 ;
+        dbo:voteFor      34478 .
+
+<http://prasija1.cz/resources/referendum/198>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Derbyshire Dales"^^xsd:string ;
+        dbo:voteAgainst  22633 ;
+        dbo:voteFor      24095 .
+
+<http://prasija1.cz/resources/referendum/199>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Erewash"^^xsd:string ;
+        dbo:voteAgainst  25791 ;
+        dbo:voteFor      40739 .
+
+<http://prasija1.cz/resources/referendum/200>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "High Peak"^^xsd:string ;
+        dbo:voteAgainst  27116 ;
+        dbo:voteFor      27717 .
+
+<http://prasija1.cz/resources/referendum/201>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North East Derbyshire"^^xsd:string ;
+        dbo:voteAgainst  22075 ;
+        dbo:voteFor      37235 .
+
+<http://prasija1.cz/resources/referendum/202>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Derbyshire"^^xsd:string ;
+        dbo:voteAgainst  22479 ;
+        dbo:voteFor      34216 .
+
+<http://prasija1.cz/resources/referendum/285>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Blaby"^^xsd:string ;
+        dbo:voteAgainst  22888 ;
+        dbo:voteFor      33583 .
+
+<http://prasija1.cz/resources/referendum/286>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Charnwood"^^xsd:string ;
+        dbo:voteAgainst  43500 ;
+        dbo:voteFor      50672 .
+
+<http://prasija1.cz/resources/referendum/287>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Harborough"^^xsd:string ;
+        dbo:voteAgainst  27028 ;
+        dbo:voteFor      27850 .
+
+<http://prasija1.cz/resources/referendum/288>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hinckley and Bosworth"^^xsd:string ;
+        dbo:voteAgainst  25969 ;
+        dbo:voteFor      39501 .
+
+<http://prasija1.cz/resources/referendum/289>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Melton"^^xsd:string ;
+        dbo:voteAgainst  12695 ;
+        dbo:voteFor      17610 .
+
+<http://prasija1.cz/resources/referendum/290>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North West Leicestershire"^^xsd:string ;
+        dbo:voteAgainst  22642 ;
+        dbo:voteFor      34969 .
+
+<http://prasija1.cz/resources/referendum/291>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Oadby and Wigston"^^xsd:string ;
+        dbo:voteAgainst  14292 ;
+        dbo:voteFor      17173 .
+
+<http://prasija1.cz/resources/referendum/292>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Boston"^^xsd:string ;
+        dbo:voteAgainst  7430 ;
+        dbo:voteFor      22974 .
+
+<http://prasija1.cz/resources/referendum/293>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Lindsey"^^xsd:string ;
+        dbo:voteAgainst  23515 ;
+        dbo:voteFor      56613 .
+
+<http://prasija1.cz/resources/referendum/294>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Lincoln"^^xsd:string ;
+        dbo:voteAgainst  18902 ;
+        dbo:voteFor      24992 .
+
+<http://prasija1.cz/resources/referendum/295>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Kesteven"^^xsd:string ;
+        dbo:voteAgainst  25570 ;
+        dbo:voteFor      42183 .
+
+<http://prasija1.cz/resources/referendum/296>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Holland"^^xsd:string ;
+        dbo:voteAgainst  13074 ;
+        dbo:voteFor      36423 .
+
+<http://prasija1.cz/resources/referendum/297>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Kesteven"^^xsd:string ;
+        dbo:voteAgainst  33047 ;
+        dbo:voteFor      49424 .
+
+<http://prasija1.cz/resources/referendum/298>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Lindsey"^^xsd:string ;
+        dbo:voteAgainst  20906 ;
+        dbo:voteFor      33847 .
+
+<http://prasija1.cz/resources/referendum/306>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Corby"^^xsd:string ;
+        dbo:voteAgainst  11470 ;
+        dbo:voteFor      20611 .
+
+<http://prasija1.cz/resources/referendum/307>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Daventry"^^xsd:string ;
+        dbo:voteAgainst  20443 ;
+        dbo:voteFor      28938 .
+
+<http://prasija1.cz/resources/referendum/308>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Northamptonshire"^^xsd:string ;
+        dbo:voteAgainst  21680 ;
+        dbo:voteFor      30894 .
+
+<http://prasija1.cz/resources/referendum/309>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Kettering"^^xsd:string ;
+        dbo:voteAgainst  21030 ;
+        dbo:voteFor      32877 .
+
+<http://prasija1.cz/resources/referendum/310>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Northampton"^^xsd:string ;
+        dbo:voteAgainst  43805 ;
+        dbo:voteFor      61454 .
+
+<http://prasija1.cz/resources/referendum/311>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Northamptonshire"^^xsd:string ;
+        dbo:voteAgainst  25853 ;
+        dbo:voteFor      30771 .
+
+<http://prasija1.cz/resources/referendum/312>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wellingborough"^^xsd:string ;
+        dbo:voteAgainst  15462 ;
+        dbo:voteFor      25679 .
+
+<http://prasija1.cz/resources/referendum/320>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Ashfield"^^xsd:string ;
+        dbo:voteAgainst  20179 ;
+        dbo:voteFor      46720 .
+
+<http://prasija1.cz/resources/referendum/321>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bassetlaw"^^xsd:string ;
+        dbo:voteAgainst  20575 ;
+        dbo:voteFor      43392 .
+
+<http://prasija1.cz/resources/referendum/322>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Broxtowe"^^xsd:string ;
+        dbo:voteAgainst  29672 ;
+        dbo:voteFor      35754 .
+
+<http://prasija1.cz/resources/referendum/323>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Gedling"^^xsd:string ;
+        dbo:voteAgainst  30035 ;
+        dbo:voteFor      37542 .
+
+<http://prasija1.cz/resources/referendum/324>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Mansfield"^^xsd:string ;
+        dbo:voteAgainst  16417 ;
+        dbo:voteFor      39927 .
+
+<http://prasija1.cz/resources/referendum/325>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Newark and Sherwood"^^xsd:string ;
+        dbo:voteAgainst  26571 ;
+        dbo:voteFor      40516 .
+
+<http://prasija1.cz/resources/referendum/326>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rushcliffe"^^xsd:string ;
+        dbo:voteAgainst  40522 ;
+        dbo:voteFor      29888 .
+
+<http://prasija1.cz/resources/referendum/1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "City of London"^^xsd:string ;
+        dbo:voteAgainst  3312 ;
+        dbo:voteFor      1087 .
+
+<http://prasija1.cz/resources/referendum/2>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Barking and Dagenham"^^xsd:string ;
+        dbo:voteAgainst  27750 ;
+        dbo:voteFor      46130 .
+
+<http://prasija1.cz/resources/referendum/3>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Barnet"^^xsd:string ;
+        dbo:voteAgainst  100210 ;
+        dbo:voteFor      60823 .
+
+<http://prasija1.cz/resources/referendum/4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bexley"^^xsd:string ;
+        dbo:voteAgainst  47603 ;
+        dbo:voteFor      80886 .
+
+<http://prasija1.cz/resources/referendum/5>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Brent"^^xsd:string ;
+        dbo:voteAgainst  72523 ;
+        dbo:voteFor      48881 .
+
+<http://prasija1.cz/resources/referendum/6>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bromley"^^xsd:string ;
+        dbo:voteAgainst  92398 ;
+        dbo:voteFor      90034 .
+
+<http://prasija1.cz/resources/referendum/7>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Camden"^^xsd:string ;
+        dbo:voteAgainst  71295 ;
+        dbo:voteFor      23838 .
+
+<http://prasija1.cz/resources/referendum/8>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Croydon"^^xsd:string ;
+        dbo:voteAgainst  92913 ;
+        dbo:voteFor      78221 .
+
+<http://prasija1.cz/resources/referendum/9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Ealing"^^xsd:string ;
+        dbo:voteAgainst  90024 ;
+        dbo:voteFor      59017 .
+
+<http://prasija1.cz/resources/referendum/10>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Enfield"^^xsd:string ;
+        dbo:voteAgainst  76425 ;
+        dbo:voteFor      60481 .
+
+<http://prasija1.cz/resources/referendum/11>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Greenwich"^^xsd:string ;
+        dbo:voteAgainst  65248 ;
+        dbo:voteFor      52117 .
+
+<http://prasija1.cz/resources/referendum/12>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hackney"^^xsd:string ;
+        dbo:voteAgainst  83398 ;
+        dbo:voteFor      22868 .
+
+<http://prasija1.cz/resources/referendum/13>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hammersmith and Fulham"^^xsd:string ;
+        dbo:voteAgainst  56188 ;
+        dbo:voteFor      24054 .
+
+<http://prasija1.cz/resources/referendum/14>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Haringey"^^xsd:string ;
+        dbo:voteAgainst  79991 ;
+        dbo:voteFor      25855 .
+
+<http://prasija1.cz/resources/referendum/15>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Harrow"^^xsd:string ;
+        dbo:voteAgainst  64042 ;
+        dbo:voteFor      53183 .
+
+<http://prasija1.cz/resources/referendum/16>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Havering"^^xsd:string ;
+        dbo:voteAgainst  42201 ;
+        dbo:voteFor      96885 .
+
+<http://prasija1.cz/resources/referendum/17>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hillingdon"^^xsd:string ;
+        dbo:voteAgainst  58040 ;
+        dbo:voteFor      74982 .
+
+<http://prasija1.cz/resources/referendum/18>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hounslow"^^xsd:string ;
+        dbo:voteAgainst  58755 ;
+        dbo:voteFor      56321 .
+
+<http://prasija1.cz/resources/referendum/19>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Islington"^^xsd:string ;
+        dbo:voteAgainst  76420 ;
+        dbo:voteFor      25180 .
+
+<http://prasija1.cz/resources/referendum/20>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Kensington and Chelsea"^^xsd:string ;
+        dbo:voteAgainst  37601 ;
+        dbo:voteFor      17138 .
+
+<http://prasija1.cz/resources/referendum/21>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Kingston upon Thames"^^xsd:string ;
+        dbo:voteAgainst  52533 ;
+        dbo:voteFor      32737 .
+
+<http://prasija1.cz/resources/referendum/22>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Lambeth"^^xsd:string ;
+        dbo:voteAgainst  111584 ;
+        dbo:voteFor      30340 .
+
+<http://prasija1.cz/resources/referendum/23>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Lewisham"^^xsd:string ;
+        dbo:voteAgainst  86955 ;
+        dbo:voteFor      37518 .
+
+<http://prasija1.cz/resources/referendum/24>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Merton"^^xsd:string ;
+        dbo:voteAgainst  63003 ;
+        dbo:voteFor      37097 .
+
+<http://prasija1.cz/resources/referendum/25>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Newham"^^xsd:string ;
+        dbo:voteAgainst  55328 ;
+        dbo:voteFor      49371 .
+
+<http://prasija1.cz/resources/referendum/26>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Redbridge"^^xsd:string ;
+        dbo:voteAgainst  69213 ;
+        dbo:voteFor      59020 .
+
+<http://prasija1.cz/resources/referendum/27>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Richmond upon Thames"^^xsd:string ;
+        dbo:voteAgainst  75396 ;
+        dbo:voteFor      33410 .
+
+<http://prasija1.cz/resources/referendum/28>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Southwark"^^xsd:string ;
+        dbo:voteAgainst  94293 ;
+        dbo:voteFor      35209 .
+
+<http://prasija1.cz/resources/referendum/29>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Sutton"^^xsd:string ;
+        dbo:voteAgainst  49319 ;
+        dbo:voteFor      57241 .
+
+<http://prasija1.cz/resources/referendum/30>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Tower Hamlets"^^xsd:string ;
+        dbo:voteAgainst  73011 ;
+        dbo:voteFor      35224 .
+
+<http://prasija1.cz/resources/referendum/31>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Waltham Forest"^^xsd:string ;
+        dbo:voteAgainst  64156 ;
+        dbo:voteFor      44395 .
+
+<http://prasija1.cz/resources/referendum/32>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wandsworth"^^xsd:string ;
+        dbo:voteAgainst  118463 ;
+        dbo:voteFor      39421 .
+
+<http://prasija1.cz/resources/referendum/33>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Westminster"^^xsd:string ;
+        dbo:voteAgainst  53928 ;
+        dbo:voteFor      24268 .
+
+<http://prasija1.cz/resources/referendum/70>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hartlepool"^^xsd:string ;
+        dbo:voteAgainst  14029 ;
+        dbo:voteFor      32071 .
+
+<http://prasija1.cz/resources/referendum/71>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Middlesbrough"^^xsd:string ;
+        dbo:voteAgainst  21181 ;
+        dbo:voteFor      40177 .
+
+<http://prasija1.cz/resources/referendum/72>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Redcar and Cleveland"^^xsd:string ;
+        dbo:voteAgainst  24586 ;
+        dbo:voteFor      48128 .
+
+<http://prasija1.cz/resources/referendum/73>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Stockton-on-Tees"^^xsd:string ;
+        dbo:voteAgainst  38433 ;
+        dbo:voteFor      61982 .
+
+<http://prasija1.cz/resources/referendum/74>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Darlington"^^xsd:string ;
+        dbo:voteAgainst  24172 ;
+        dbo:voteFor      30994 .
+
+<http://prasija1.cz/resources/referendum/75>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "County Durham"^^xsd:string ;
+        dbo:voteAgainst  113521 ;
+        dbo:voteFor      153877 .
+
+<http://prasija1.cz/resources/referendum/76>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Northumberland"^^xsd:string ;
+        dbo:voteAgainst  82022 ;
+        dbo:voteFor      96699 .
+
+<http://prasija1.cz/resources/referendum/54>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Newcastle upon Tyne"^^xsd:string ;
+        dbo:voteAgainst  65405 ;
+        dbo:voteFor      63598 .
+
+<http://prasija1.cz/resources/referendum/55>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Tyneside"^^xsd:string ;
+        dbo:voteAgainst  52873 ;
+        dbo:voteFor      60589 .
+
+<http://prasija1.cz/resources/referendum/56>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Tyneside"^^xsd:string ;
+        dbo:voteAgainst  30014 ;
+        dbo:voteFor      49065 .
+
+<http://prasija1.cz/resources/referendum/57>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Sunderland"^^xsd:string ;
+        dbo:voteAgainst  51930 ;
+        dbo:voteFor      82394 .
+
+<http://prasija1.cz/resources/referendum/53>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Gateshead"^^xsd:string ;
+        dbo:voteAgainst  44429 ;
+        dbo:voteFor      58529 .
+
+<http://prasija1.cz/resources/referendum/78>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Halton"^^xsd:string ;
+        dbo:voteAgainst  27678 ;
+        dbo:voteFor      37327 .
+
+<http://prasija1.cz/resources/referendum/79>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Warrington"^^xsd:string ;
+        dbo:voteAgainst  52657 ;
+        dbo:voteFor      62487 .
+
+<http://prasija1.cz/resources/referendum/81>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Blackburn with Darwen"^^xsd:string ;
+        dbo:voteAgainst  28522 ;
+        dbo:voteFor      36799 .
+
+<http://prasija1.cz/resources/referendum/82>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Blackpool"^^xsd:string ;
+        dbo:voteAgainst  21781 ;
+        dbo:voteFor      45146 .
+
+<http://prasija1.cz/resources/referendum/77>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cheshire East"^^xsd:string ;
+        dbo:voteAgainst  107962 ;
+        dbo:voteFor      113163 .
+
+<http://prasija1.cz/resources/referendum/80>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cheshire West and Chester"^^xsd:string ;
+        dbo:voteAgainst  95455 ;
+        dbo:voteFor      98082 .
+
+<http://prasija1.cz/resources/referendum/189>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Allerdale"^^xsd:string ;
+        dbo:voteAgainst  22429 ;
+        dbo:voteFor      31809 .
+
+<http://prasija1.cz/resources/referendum/190>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Barrow-in-Furness"^^xsd:string ;
+        dbo:voteAgainst  14207 ;
+        dbo:voteFor      21867 .
+
+<http://prasija1.cz/resources/referendum/191>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Carlisle"^^xsd:string ;
+        dbo:voteAgainst  23788 ;
+        dbo:voteFor      35895 .
+
+<http://prasija1.cz/resources/referendum/192>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Copeland"^^xsd:string ;
+        dbo:voteAgainst  14419 ;
+        dbo:voteFor      23528 .
+
+<http://prasija1.cz/resources/referendum/193>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Eden"^^xsd:string ;
+        dbo:voteAgainst  14807 ;
+        dbo:voteFor      16911 .
+
+<http://prasija1.cz/resources/referendum/194>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Lakeland"^^xsd:string ;
+        dbo:voteAgainst  34531 ;
+        dbo:voteFor      30800 .
+
+<http://prasija1.cz/resources/referendum/273>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Burnley"^^xsd:string ;
+        dbo:voteAgainst  14462 ;
+        dbo:voteFor      28854 .
+
+<http://prasija1.cz/resources/referendum/274>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Chorley"^^xsd:string ;
+        dbo:voteAgainst  27417 ;
+        dbo:voteFor      36098 .
+
+<http://prasija1.cz/resources/referendum/275>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Fylde"^^xsd:string ;
+        dbo:voteAgainst  19889 ;
+        dbo:voteFor      26317 .
+
+<http://prasija1.cz/resources/referendum/276>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hyndburn"^^xsd:string ;
+        dbo:voteAgainst  13569 ;
+        dbo:voteFor      26568 .
+
+<http://prasija1.cz/resources/referendum/277>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Lancaster"^^xsd:string ;
+        dbo:voteAgainst  35732 ;
+        dbo:voteFor      37309 .
+
+<http://prasija1.cz/resources/referendum/278>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Pendle"^^xsd:string ;
+        dbo:voteAgainst  16704 ;
+        dbo:voteFor      28631 .
+
+<http://prasija1.cz/resources/referendum/279>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Preston"^^xsd:string ;
+        dbo:voteAgainst  30227 ;
+        dbo:voteFor      34518 .
+
+<http://prasija1.cz/resources/referendum/280>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Ribble Valley"^^xsd:string ;
+        dbo:voteAgainst  15892 ;
+        dbo:voteFor      20550 .
+
+<http://prasija1.cz/resources/referendum/281>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rossendale"^^xsd:string ;
+        dbo:voteAgainst  15012 ;
+        dbo:voteFor      23169 .
+
+<http://prasija1.cz/resources/referendum/282>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Ribble"^^xsd:string ;
+        dbo:voteAgainst  26406 ;
+        dbo:voteFor      37318 .
+
+<http://prasija1.cz/resources/referendum/283>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Lancashire"^^xsd:string ;
+        dbo:voteAgainst  28546 ;
+        dbo:voteFor      35323 .
+
+<http://prasija1.cz/resources/referendum/284>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wyre"^^xsd:string ;
+        dbo:voteAgainst  22816 ;
+        dbo:voteFor      40163 .
+
+<http://prasija1.cz/resources/referendum/34>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bolton"^^xsd:string ;
+        dbo:voteAgainst  57589 ;
+        dbo:voteFor      80491 .
+
+<http://prasija1.cz/resources/referendum/35>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bury"^^xsd:string ;
+        dbo:voteAgainst  46354 ;
+        dbo:voteFor      54674 .
+
+<http://prasija1.cz/resources/referendum/36>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Manchester"^^xsd:string ;
+        dbo:voteAgainst  121823 ;
+        dbo:voteFor      79991 .
+
+<http://prasija1.cz/resources/referendum/37>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Oldham"^^xsd:string ;
+        dbo:voteAgainst  42034 ;
+        dbo:voteFor      65369 .
+
+<http://prasija1.cz/resources/referendum/38>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rochdale"^^xsd:string ;
+        dbo:voteAgainst  41217 ;
+        dbo:voteFor      62014 .
+
+<http://prasija1.cz/resources/referendum/39>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Salford"^^xsd:string ;
+        dbo:voteAgainst  47430 ;
+        dbo:voteFor      62385 .
+
+<http://prasija1.cz/resources/referendum/40>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Stockport"^^xsd:string ;
+        dbo:voteAgainst  85559 ;
+        dbo:voteFor      77930 .
+
+<http://prasija1.cz/resources/referendum/41>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Tameside"^^xsd:string ;
+        dbo:voteAgainst  43118 ;
+        dbo:voteFor      67829 .
+
+<http://prasija1.cz/resources/referendum/42>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Trafford"^^xsd:string ;
+        dbo:voteAgainst  72293 ;
+        dbo:voteFor      53018 .
+
+<http://prasija1.cz/resources/referendum/43>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wigan"^^xsd:string ;
+        dbo:voteAgainst  58942 ;
+        dbo:voteFor      104331 .
+
+<http://prasija1.cz/resources/referendum/44>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Knowsley"^^xsd:string ;
+        dbo:voteAgainst  34345 ;
+        dbo:voteFor      36558 .
+
+<http://prasija1.cz/resources/referendum/45>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Liverpool"^^xsd:string ;
+        dbo:voteAgainst  118453 ;
+        dbo:voteFor      85101 .
+
+<http://prasija1.cz/resources/referendum/46>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "St. Helens"^^xsd:string ;
+        dbo:voteAgainst  39322 ;
+        dbo:voteFor      54357 .
+
+<http://prasija1.cz/resources/referendum/47>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Sefton"^^xsd:string ;
+        dbo:voteAgainst  76702 ;
+        dbo:voteFor      71176 .
+
+<http://prasija1.cz/resources/referendum/48>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wirral"^^xsd:string ;
+        dbo:voteAgainst  88931 ;
+        dbo:voteFor      83069 .
+
+<http://prasija1.cz/resources/referendum/381>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Northern Ireland"^^xsd:string ;
+        dbo:voteAgainst  440707 ;
+        dbo:voteFor      349442 .
+
+<http://prasija1.cz/resources/referendum/153>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Clackmannanshire"^^xsd:string ;
+        dbo:voteAgainst  14691 ;
+        dbo:voteFor      10736 .
+
+<http://prasija1.cz/resources/referendum/155>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Dumfries and Galloway"^^xsd:string ;
+        dbo:voteAgainst  43864 ;
+        dbo:voteFor      38803 .
+
+<http://prasija1.cz/resources/referendum/157>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Ayrshire"^^xsd:string ;
+        dbo:voteAgainst  33891 ;
+        dbo:voteFor      23942 .
+
+<http://prasija1.cz/resources/referendum/159>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Lothian"^^xsd:string ;
+        dbo:voteAgainst  36026 ;
+        dbo:voteFor      19738 .
+
+<http://prasija1.cz/resources/referendum/160>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Renfrewshire"^^xsd:string ;
+        dbo:voteAgainst  39345 ;
+        dbo:voteFor      13596 .
+
+<http://prasija1.cz/resources/referendum/179>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Eilean Siar"^^xsd:string ;
+        dbo:voteAgainst  8232 ;
+        dbo:voteFor      6671 .
+
+<http://prasija1.cz/resources/referendum/162>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Falkirk"^^xsd:string ;
+        dbo:voteAgainst  44987 ;
+        dbo:voteFor      34271 .
+
+<http://prasija1.cz/resources/referendum/163>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Fife"^^xsd:string ;
+        dbo:voteAgainst  106754 ;
+        dbo:voteFor      75466 .
+
+<http://prasija1.cz/resources/referendum/165>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Highland"^^xsd:string ;
+        dbo:voteAgainst  70308 ;
+        dbo:voteFor      55349 .
+
+<http://prasija1.cz/resources/referendum/166>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Inverclyde"^^xsd:string ;
+        dbo:voteAgainst  24688 ;
+        dbo:voteFor      14010 .
+
+<http://prasija1.cz/resources/referendum/167>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Midlothian"^^xsd:string ;
+        dbo:voteAgainst  28217 ;
+        dbo:voteFor      17251 .
+
+<http://prasija1.cz/resources/referendum/168>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Moray"^^xsd:string ;
+        dbo:voteAgainst  24114 ;
+        dbo:voteFor      23992 .
+
+<http://prasija1.cz/resources/referendum/169>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Ayrshire"^^xsd:string ;
+        dbo:voteAgainst  38394 ;
+        dbo:voteFor      29110 .
+
+<http://prasija1.cz/resources/referendum/171>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Orkney Islands"^^xsd:string ;
+        dbo:voteAgainst  7189 ;
+        dbo:voteFor      4193 .
+
+<http://prasija1.cz/resources/referendum/172>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Perth and Kinross"^^xsd:string ;
+        dbo:voteAgainst  49641 ;
+        dbo:voteFor      31614 .
+
+<http://prasija1.cz/resources/referendum/152>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Scottish Borders"^^xsd:string ;
+        dbo:voteAgainst  37952 ;
+        dbo:voteFor      26962 .
+
+<http://prasija1.cz/resources/referendum/174>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Shetland Islands"^^xsd:string ;
+        dbo:voteAgainst  6907 ;
+        dbo:voteFor      5315 .
+
+<http://prasija1.cz/resources/referendum/175>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Ayrshire"^^xsd:string ;
+        dbo:voteAgainst  36265 ;
+        dbo:voteFor      25241 .
+
+<http://prasija1.cz/resources/referendum/176>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Lanarkshire"^^xsd:string ;
+        dbo:voteAgainst  102568 ;
+        dbo:voteFor      60024 .
+
+<http://prasija1.cz/resources/referendum/177>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Stirling"^^xsd:string ;
+        dbo:voteAgainst  33112 ;
+        dbo:voteFor      15787 .
+
+<http://prasija1.cz/resources/referendum/148>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Aberdeen City"^^xsd:string ;
+        dbo:voteAgainst  63985 ;
+        dbo:voteFor      40729 .
+
+<http://prasija1.cz/resources/referendum/149>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Aberdeenshire"^^xsd:string ;
+        dbo:voteAgainst  76445 ;
+        dbo:voteFor      62516 .
+
+<http://prasija1.cz/resources/referendum/151>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Argyll and Bute"^^xsd:string ;
+        dbo:voteAgainst  29494 ;
+        dbo:voteFor      19202 .
+
+<http://prasija1.cz/resources/referendum/161>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "City of Edinburgh"^^xsd:string ;
+        dbo:voteAgainst  187796 ;
+        dbo:voteFor      64498 .
+
+<http://prasija1.cz/resources/referendum/173>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Renfrewshire"^^xsd:string ;
+        dbo:voteAgainst  57119 ;
+        dbo:voteFor      31010 .
+
+<http://prasija1.cz/resources/referendum/154>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Dunbartonshire"^^xsd:string ;
+        dbo:voteAgainst  26794 ;
+        dbo:voteFor      16426 .
+
+<http://prasija1.cz/resources/referendum/178>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Lothian"^^xsd:string ;
+        dbo:voteAgainst  51560 ;
+        dbo:voteFor      36948 .
+
+<http://prasija1.cz/resources/referendum/150>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Angus"^^xsd:string ;
+        dbo:voteAgainst  32747 ;
+        dbo:voteFor      26511 .
+
+<http://prasija1.cz/resources/referendum/156>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Dundee City"^^xsd:string ;
+        dbo:voteAgainst  39688 ;
+        dbo:voteFor      26697 .
+
+<http://prasija1.cz/resources/referendum/170>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Lanarkshire"^^xsd:string ;
+        dbo:voteAgainst  95549 ;
+        dbo:voteFor      59400 .
+
+<http://prasija1.cz/resources/referendum/158>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Dunbartonshire"^^xsd:string ;
+        dbo:voteAgainst  44534 ;
+        dbo:voteFor      17840 .
+
+<http://prasija1.cz/resources/referendum/164>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Glasgow City"^^xsd:string ;
+        dbo:voteAgainst  168335 ;
+        dbo:voteFor      84474 .
+
+<http://prasija1.cz/resources/referendum/114>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Medway"^^xsd:string ;
+        dbo:voteAgainst  49889 ;
+        dbo:voteFor      88997 .
+
+<http://prasija1.cz/resources/referendum/115>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bracknell Forest"^^xsd:string ;
+        dbo:voteAgainst  29888 ;
+        dbo:voteFor      35002 .
+
+<http://prasija1.cz/resources/referendum/116>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Berkshire"^^xsd:string ;
+        dbo:voteAgainst  48300 ;
+        dbo:voteFor      44977 .
+
+<http://prasija1.cz/resources/referendum/117>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Reading"^^xsd:string ;
+        dbo:voteAgainst  43385 ;
+        dbo:voteFor      31382 .
+
+<http://prasija1.cz/resources/referendum/118>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Slough"^^xsd:string ;
+        dbo:voteAgainst  24911 ;
+        dbo:voteFor      29631 .
+
+<http://prasija1.cz/resources/referendum/119>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Windsor and Maidenhead"^^xsd:string ;
+        dbo:voteAgainst  44086 ;
+        dbo:voteFor      37706 .
+
+<http://prasija1.cz/resources/referendum/120>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wokingham"^^xsd:string ;
+        dbo:voteAgainst  55272 ;
+        dbo:voteFor      42229 .
+
+<http://prasija1.cz/resources/referendum/121>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Milton Keynes"^^xsd:string ;
+        dbo:voteAgainst  63393 ;
+        dbo:voteFor      67063 .
+
+<http://prasija1.cz/resources/referendum/122>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Brighton and Hove"^^xsd:string ;
+        dbo:voteAgainst  100648 ;
+        dbo:voteFor      46027 .
+
+<http://prasija1.cz/resources/referendum/123>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Portsmouth"^^xsd:string ;
+        dbo:voteAgainst  41384 ;
+        dbo:voteFor      57336 .
+
+<http://prasija1.cz/resources/referendum/124>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Southampton"^^xsd:string ;
+        dbo:voteAgainst  49738 ;
+        dbo:voteFor      57927 .
+
+<http://prasija1.cz/resources/referendum/125>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Isle of Wight"^^xsd:string ;
+        dbo:voteAgainst  30207 ;
+        dbo:voteFor      49173 .
+
+<http://prasija1.cz/resources/referendum/180>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Aylesbury Vale"^^xsd:string ;
+        dbo:voteAgainst  52877 ;
+        dbo:voteFor      53956 .
+
+<http://prasija1.cz/resources/referendum/181>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Chiltern"^^xsd:string ;
+        dbo:voteAgainst  32241 ;
+        dbo:voteFor      26363 .
+
+<http://prasija1.cz/resources/referendum/182>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Bucks"^^xsd:string ;
+        dbo:voteAgainst  20077 ;
+        dbo:voteFor      20647 .
+
+<http://prasija1.cz/resources/referendum/183>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wycombe"^^xsd:string ;
+        dbo:voteAgainst  49261 ;
+        dbo:voteFor      45529 .
+
+<http://prasija1.cz/resources/referendum/217>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Eastbourne"^^xsd:string ;
+        dbo:voteAgainst  22845 ;
+        dbo:voteFor      30700 .
+
+<http://prasija1.cz/resources/referendum/218>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hastings"^^xsd:string ;
+        dbo:voteAgainst  20011 ;
+        dbo:voteFor      24339 .
+
+<http://prasija1.cz/resources/referendum/219>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Lewes"^^xsd:string ;
+        dbo:voteAgainst  30974 ;
+        dbo:voteFor      28508 .
+
+<http://prasija1.cz/resources/referendum/220>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rother"^^xsd:string ;
+        dbo:voteAgainst  23916 ;
+        dbo:voteFor      33753 .
+
+<http://prasija1.cz/resources/referendum/221>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wealden"^^xsd:string ;
+        dbo:voteAgainst  44084 ;
+        dbo:voteFor      52808 .
+
+<http://prasija1.cz/resources/referendum/240>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Basingstoke and Deane"^^xsd:string ;
+        dbo:voteAgainst  48257 ;
+        dbo:voteFor      52071 .
+
+<http://prasija1.cz/resources/referendum/241>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Hampshire"^^xsd:string ;
+        dbo:voteAgainst  37346 ;
+        dbo:voteFor      36576 .
+
+<http://prasija1.cz/resources/referendum/242>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Eastleigh"^^xsd:string ;
+        dbo:voteAgainst  36172 ;
+        dbo:voteFor      39902 .
+
+<http://prasija1.cz/resources/referendum/243>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Fareham"^^xsd:string ;
+        dbo:voteAgainst  32210 ;
+        dbo:voteFor      39525 .
+
+<http://prasija1.cz/resources/referendum/244>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Gosport"^^xsd:string ;
+        dbo:voteAgainst  16671 ;
+        dbo:voteFor      29456 .
+
+<http://prasija1.cz/resources/referendum/245>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hart"^^xsd:string ;
+        dbo:voteAgainst  30282 ;
+        dbo:voteFor      27513 .
+
+<http://prasija1.cz/resources/referendum/246>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Havant"^^xsd:string ;
+        dbo:voteAgainst  26582 ;
+        dbo:voteFor      44047 .
+
+<http://prasija1.cz/resources/referendum/247>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "New Forest"^^xsd:string ;
+        dbo:voteAgainst  47199 ;
+        dbo:voteFor      64541 .
+
+<http://prasija1.cz/resources/referendum/248>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rushmoor"^^xsd:string ;
+        dbo:voteAgainst  20384 ;
+        dbo:voteFor      28396 .
+
+<http://prasija1.cz/resources/referendum/249>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Test Valley"^^xsd:string ;
+        dbo:voteAgainst  36170 ;
+        dbo:voteFor      39091 .
+
+<http://prasija1.cz/resources/referendum/250>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Winchester"^^xsd:string ;
+        dbo:voteAgainst  42878 ;
+        dbo:voteFor      29886 .
+
+<http://prasija1.cz/resources/referendum/261>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Ashford"^^xsd:string ;
+        dbo:voteAgainst  28314 ;
+        dbo:voteFor      41472 .
+
+<http://prasija1.cz/resources/referendum/262>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Canterbury"^^xsd:string ;
+        dbo:voteAgainst  40169 ;
+        dbo:voteFor      41879 .
+
+<http://prasija1.cz/resources/referendum/263>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Dartford"^^xsd:string ;
+        dbo:voteAgainst  19985 ;
+        dbo:voteFor      35870 .
+
+<http://prasija1.cz/resources/referendum/264>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Dover"^^xsd:string ;
+        dbo:voteAgainst  24606 ;
+        dbo:voteFor      40410 .
+
+<http://prasija1.cz/resources/referendum/265>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Gravesham"^^xsd:string ;
+        dbo:voteAgainst  18876 ;
+        dbo:voteFor      35643 .
+
+<http://prasija1.cz/resources/referendum/266>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Maidstone"^^xsd:string ;
+        dbo:voteAgainst  36762 ;
+        dbo:voteFor      52365 .
+
+<http://prasija1.cz/resources/referendum/267>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Sevenoaks"^^xsd:string ;
+        dbo:voteAgainst  32091 ;
+        dbo:voteFor      38258 .
+
+<http://prasija1.cz/resources/referendum/268>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Shepway"^^xsd:string ;
+        dbo:voteAgainst  22884 ;
+        dbo:voteFor      37729 .
+
+<http://prasija1.cz/resources/referendum/269>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Swale"^^xsd:string ;
+        dbo:voteAgainst  28481 ;
+        dbo:voteFor      47388 .
+
+<http://prasija1.cz/resources/referendum/270>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Thanet"^^xsd:string ;
+        dbo:voteAgainst  26065 ;
+        dbo:voteFor      46037 .
+
+<http://prasija1.cz/resources/referendum/271>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Tonbridge and Malling"^^xsd:string ;
+        dbo:voteAgainst  32792 ;
+        dbo:voteFor      41229 .
+
+<http://prasija1.cz/resources/referendum/272>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Tunbridge Wells"^^xsd:string ;
+        dbo:voteAgainst  35676 ;
+        dbo:voteFor      29320 .
+
+<http://prasija1.cz/resources/referendum/327>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cherwell"^^xsd:string ;
+        dbo:voteAgainst  40668 ;
+        dbo:voteFor      41168 .
+
+<http://prasija1.cz/resources/referendum/328>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Oxford"^^xsd:string ;
+        dbo:voteAgainst  49424 ;
+        dbo:voteFor      20913 .
+
+<http://prasija1.cz/resources/referendum/329>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Oxfordshire"^^xsd:string ;
+        dbo:voteAgainst  46245 ;
+        dbo:voteFor      37865 .
+
+<http://prasija1.cz/resources/referendum/330>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Vale of White Horse"^^xsd:string ;
+        dbo:voteAgainst  43462 ;
+        dbo:voteFor      33192 .
+
+<http://prasija1.cz/resources/referendum/331>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Oxfordshire"^^xsd:string ;
+        dbo:voteAgainst  35236 ;
+        dbo:voteFor      30435 .
+
+<http://prasija1.cz/resources/referendum/352>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Elmbridge"^^xsd:string ;
+        dbo:voteAgainst  45841 ;
+        dbo:voteFor      31162 .
+
+<http://prasija1.cz/resources/referendum/353>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Epsom and Ewell"^^xsd:string ;
+        dbo:voteAgainst  23596 ;
+        dbo:voteFor      21707 .
+
+<http://prasija1.cz/resources/referendum/354>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Guildford"^^xsd:string ;
+        dbo:voteAgainst  44155 ;
+        dbo:voteFor      34458 .
+
+<http://prasija1.cz/resources/referendum/355>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Mole Valley"^^xsd:string ;
+        dbo:voteAgainst  29088 ;
+        dbo:voteFor      25708 .
+
+<http://prasija1.cz/resources/referendum/356>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Reigate and Banstead"^^xsd:string ;
+        dbo:voteAgainst  40181 ;
+        dbo:voteFor      40980 .
+
+<http://prasija1.cz/resources/referendum/357>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Runnymede"^^xsd:string ;
+        dbo:voteAgainst  20259 ;
+        dbo:voteFor      24035 .
+
+<http://prasija1.cz/resources/referendum/358>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Spelthorne"^^xsd:string ;
+        dbo:voteAgainst  22474 ;
+        dbo:voteFor      34135 .
+
+<http://prasija1.cz/resources/referendum/359>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Surrey Heath"^^xsd:string ;
+        dbo:voteAgainst  25638 ;
+        dbo:voteFor      26667 .
+
+<http://prasija1.cz/resources/referendum/360>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Tandridge"^^xsd:string ;
+        dbo:voteAgainst  24251 ;
+        dbo:voteFor      27169 .
+
+<http://prasija1.cz/resources/referendum/361>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Waverley"^^xsd:string ;
+        dbo:voteAgainst  44341 ;
+        dbo:voteFor      31601 .
+
+<http://prasija1.cz/resources/referendum/362>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Woking"^^xsd:string ;
+        dbo:voteAgainst  31007 ;
+        dbo:voteFor      24214 .
+
+<http://prasija1.cz/resources/referendum/368>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Adur"^^xsd:string ;
+        dbo:voteAgainst  16914 ;
+        dbo:voteFor      20315 .
+
+<http://prasija1.cz/resources/referendum/369>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Arun"^^xsd:string ;
+        dbo:voteAgainst  34193 ;
+        dbo:voteFor      56936 .
+
+<http://prasija1.cz/resources/referendum/370>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Chichester"^^xsd:string ;
+        dbo:voteAgainst  35011 ;
+        dbo:voteFor      36326 .
+
+<http://prasija1.cz/resources/referendum/371>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Crawley"^^xsd:string ;
+        dbo:voteAgainst  22388 ;
+        dbo:voteFor      31447 .
+
+<http://prasija1.cz/resources/referendum/372>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Horsham"^^xsd:string ;
+        dbo:voteAgainst  43785 ;
+        dbo:voteFor      41303 .
+
+<http://prasija1.cz/resources/referendum/373>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Mid Sussex"^^xsd:string ;
+        dbo:voteAgainst  46471 ;
+        dbo:voteFor      41057 .
+
+<http://prasija1.cz/resources/referendum/374>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Worthing"^^xsd:string ;
+        dbo:voteAgainst  28851 ;
+        dbo:voteFor      32515 .
+
+<http://prasija1.cz/resources/referendum/96>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bath and North East Somerset"^^xsd:string ;
+        dbo:voteAgainst  60878 ;
+        dbo:voteFor      44352 .
+
+<http://prasija1.cz/resources/referendum/97>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bristol, City of"^^xsd:string ;
+        dbo:voteAgainst  141027 ;
+        dbo:voteFor      87418 .
+
+<http://prasija1.cz/resources/referendum/98>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Somerset"^^xsd:string ;
+        dbo:voteAgainst  59572 ;
+        dbo:voteFor      64976 .
+
+<http://prasija1.cz/resources/referendum/99>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Gloucestershire"^^xsd:string ;
+        dbo:voteAgainst  74928 ;
+        dbo:voteFor      83405 .
+
+<http://prasija1.cz/resources/referendum/102>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Plymouth"^^xsd:string ;
+        dbo:voteAgainst  53458 ;
+        dbo:voteFor      79997 .
+
+<http://prasija1.cz/resources/referendum/103>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Torbay"^^xsd:string ;
+        dbo:voteAgainst  27935 ;
+        dbo:voteFor      47889 .
+
+<http://prasija1.cz/resources/referendum/104>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bournemouth"^^xsd:string ;
+        dbo:voteAgainst  41473 ;
+        dbo:voteFor      50453 .
+
+<http://prasija1.cz/resources/referendum/105>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Poole"^^xsd:string ;
+        dbo:voteAgainst  35741 ;
+        dbo:voteFor      49707 .
+
+<http://prasija1.cz/resources/referendum/106>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Swindon"^^xsd:string ;
+        dbo:voteAgainst  51220 ;
+        dbo:voteFor      61745 .
+
+<http://prasija1.cz/resources/referendum/100>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cornwall"^^xsd:string ;
+        dbo:voteAgainst  140540 ;
+        dbo:voteFor      182665 .
+
+<http://prasija1.cz/resources/referendum/101>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Isles of Scilly"^^xsd:string ;
+        dbo:voteAgainst  803 ;
+        dbo:voteFor      621 .
+
+<http://prasija1.cz/resources/referendum/107>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wiltshire"^^xsd:string ;
+        dbo:voteAgainst  137258 ;
+        dbo:voteFor      151637 .
+
+<http://prasija1.cz/resources/referendum/203>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Devon"^^xsd:string ;
+        dbo:voteAgainst  40743 ;
+        dbo:voteFor      48040 .
+
+<http://prasija1.cz/resources/referendum/204>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Exeter"^^xsd:string ;
+        dbo:voteAgainst  35270 ;
+        dbo:voteFor      28533 .
+
+<http://prasija1.cz/resources/referendum/205>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Mid Devon"^^xsd:string ;
+        dbo:voteAgainst  22400 ;
+        dbo:voteFor      25606 .
+
+<http://prasija1.cz/resources/referendum/206>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Devon"^^xsd:string ;
+        dbo:voteAgainst  24931 ;
+        dbo:voteFor      33100 .
+
+<http://prasija1.cz/resources/referendum/207>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Hams"^^xsd:string ;
+        dbo:voteAgainst  29308 ;
+        dbo:voteFor      26142 .
+
+<http://prasija1.cz/resources/referendum/208>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Teignbridge"^^xsd:string ;
+        dbo:voteAgainst  37949 ;
+        dbo:voteFor      44363 .
+
+<http://prasija1.cz/resources/referendum/209>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Torridge"^^xsd:string ;
+        dbo:voteAgainst  16229 ;
+        dbo:voteFor      25200 .
+
+<http://prasija1.cz/resources/referendum/210>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Devon"^^xsd:string ;
+        dbo:voteAgainst  16658 ;
+        dbo:voteFor      18937 .
+
+<http://prasija1.cz/resources/referendum/211>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Christchurch"^^xsd:string ;
+        dbo:voteAgainst  12782 ;
+        dbo:voteFor      18268 .
+
+<http://prasija1.cz/resources/referendum/212>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Dorset"^^xsd:string ;
+        dbo:voteAgainst  24786 ;
+        dbo:voteFor      33702 .
+
+<http://prasija1.cz/resources/referendum/213>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Dorset"^^xsd:string ;
+        dbo:voteAgainst  18399 ;
+        dbo:voteFor      23802 .
+
+<http://prasija1.cz/resources/referendum/214>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Purbeck"^^xsd:string ;
+        dbo:voteAgainst  11754 ;
+        dbo:voteFor      16966 .
+
+<http://prasija1.cz/resources/referendum/215>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Dorset"^^xsd:string ;
+        dbo:voteAgainst  31924 ;
+        dbo:voteFor      33267 .
+
+<http://prasija1.cz/resources/referendum/216>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Weymouth and Portland"^^xsd:string ;
+        dbo:voteAgainst  14903 ;
+        dbo:voteFor      23352 .
+
+<http://prasija1.cz/resources/referendum/234>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cheltenham"^^xsd:string ;
+        dbo:voteAgainst  37081 ;
+        dbo:voteFor      28932 .
+
+<http://prasija1.cz/resources/referendum/235>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cotswold"^^xsd:string ;
+        dbo:voteAgainst  28015 ;
+        dbo:voteFor      26806 .
+
+<http://prasija1.cz/resources/referendum/236>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Forest of Dean"^^xsd:string ;
+        dbo:voteAgainst  21392 ;
+        dbo:voteFor      30251 .
+
+<http://prasija1.cz/resources/referendum/237>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Gloucester"^^xsd:string ;
+        dbo:voteAgainst  26801 ;
+        dbo:voteFor      37776 .
+
+<http://prasija1.cz/resources/referendum/238>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Stroud"^^xsd:string ;
+        dbo:voteAgainst  40446 ;
+        dbo:voteFor      33618 .
+
+<http://prasija1.cz/resources/referendum/239>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Tewkesbury"^^xsd:string ;
+        dbo:voteAgainst  25084 ;
+        dbo:voteFor      28568 .
+
+<http://prasija1.cz/resources/referendum/332>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Mendip"^^xsd:string ;
+        dbo:voteAgainst  33427 ;
+        dbo:voteFor      32028 .
+
+<http://prasija1.cz/resources/referendum/333>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Sedgemoor"^^xsd:string ;
+        dbo:voteAgainst  26545 ;
+        dbo:voteFor      41869 .
+
+<http://prasija1.cz/resources/referendum/334>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Somerset"^^xsd:string ;
+        dbo:voteAgainst  42527 ;
+        dbo:voteFor      56940 .
+
+<http://prasija1.cz/resources/referendum/335>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Taunton Deane"^^xsd:string ;
+        dbo:voteAgainst  30944 ;
+        dbo:voteFor      34789 .
+
+<http://prasija1.cz/resources/referendum/336>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "West Somerset"^^xsd:string ;
+        dbo:voteAgainst  8566 ;
+        dbo:voteFor      13168 .
+
+<http://prasija1.cz/resources/referendum/382>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Gibraltar"^^xsd:string ;
+        dbo:voteAgainst  19322 ;
+        dbo:voteFor      823 .
+
+<http://prasija1.cz/resources/referendum/126>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Isle of Anglesey"^^xsd:string ;
+        dbo:voteAgainst  18618 ;
+        dbo:voteFor      19333 .
+
+<http://prasija1.cz/resources/referendum/127>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Gwynedd"^^xsd:string ;
+        dbo:voteAgainst  35517 ;
+        dbo:voteFor      25665 .
+
+<http://prasija1.cz/resources/referendum/128>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Conwy"^^xsd:string ;
+        dbo:voteAgainst  30147 ;
+        dbo:voteFor      35357 .
+
+<http://prasija1.cz/resources/referendum/129>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Denbighshire"^^xsd:string ;
+        dbo:voteAgainst  23955 ;
+        dbo:voteFor      28117 .
+
+<http://prasija1.cz/resources/referendum/130>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Flintshire"^^xsd:string ;
+        dbo:voteAgainst  37867 ;
+        dbo:voteFor      48930 .
+
+<http://prasija1.cz/resources/referendum/131>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wrexham"^^xsd:string ;
+        dbo:voteAgainst  28822 ;
+        dbo:voteFor      41544 .
+
+<http://prasija1.cz/resources/referendum/133>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Ceredigion"^^xsd:string ;
+        dbo:voteAgainst  21711 ;
+        dbo:voteFor      18031 .
+
+<http://prasija1.cz/resources/referendum/134>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Pembrokeshire"^^xsd:string ;
+        dbo:voteAgainst  29367 ;
+        dbo:voteFor      39155 .
+
+<http://prasija1.cz/resources/referendum/135>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Carmarthenshire"^^xsd:string ;
+        dbo:voteAgainst  47654 ;
+        dbo:voteFor      55381 .
+
+<http://prasija1.cz/resources/referendum/136>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Swansea"^^xsd:string ;
+        dbo:voteAgainst  58307 ;
+        dbo:voteFor      61936 .
+
+<http://prasija1.cz/resources/referendum/137>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Neath Port Talbot"^^xsd:string ;
+        dbo:voteAgainst  32651 ;
+        dbo:voteFor      43001 .
+
+<http://prasija1.cz/resources/referendum/138>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bridgend"^^xsd:string ;
+        dbo:voteAgainst  33723 ;
+        dbo:voteFor      40622 .
+
+<http://prasija1.cz/resources/referendum/139>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Vale of Glamorgan"^^xsd:string ;
+        dbo:voteAgainst  36681 ;
+        dbo:voteFor      35628 .
+
+<http://prasija1.cz/resources/referendum/147>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cardiff"^^xsd:string ;
+        dbo:voteAgainst  101788 ;
+        dbo:voteFor      67816 .
+
+<http://prasija1.cz/resources/referendum/140>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rhondda Cynon Taf"^^xsd:string ;
+        dbo:voteAgainst  53973 ;
+        dbo:voteFor      62590 .
+
+<http://prasija1.cz/resources/referendum/142>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Caerphilly"^^xsd:string ;
+        dbo:voteAgainst  39178 ;
+        dbo:voteFor      53295 .
+
+<http://prasija1.cz/resources/referendum/143>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Blaenau Gwent"^^xsd:string ;
+        dbo:voteAgainst  13215 ;
+        dbo:voteFor      21587 .
+
+<http://prasija1.cz/resources/referendum/144>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Torfaen"^^xsd:string ;
+        dbo:voteAgainst  19363 ;
+        dbo:voteFor      28781 .
+
+<http://prasija1.cz/resources/referendum/145>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Monmouthshire"^^xsd:string ;
+        dbo:voteAgainst  28061 ;
+        dbo:voteFor      27569 .
+
+<http://prasija1.cz/resources/referendum/146>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Newport"^^xsd:string ;
+        dbo:voteAgainst  32413 ;
+        dbo:voteFor      41236 .
+
+<http://prasija1.cz/resources/referendum/132>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Powys"^^xsd:string ;
+        dbo:voteAgainst  36762 ;
+        dbo:voteFor      42707 .
+
+<http://prasija1.cz/resources/referendum/141>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Merthyr Tydfil"^^xsd:string ;
+        dbo:voteAgainst  12574 ;
+        dbo:voteFor      16291 .
+
+<http://prasija1.cz/resources/referendum/92>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Herefordshire, County of"^^xsd:string ;
+        dbo:voteAgainst  44148 ;
+        dbo:voteFor      64122 .
+
+<http://prasija1.cz/resources/referendum/93>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Telford and Wrekin"^^xsd:string ;
+        dbo:voteAgainst  32954 ;
+        dbo:voteFor      56649 .
+
+<http://prasija1.cz/resources/referendum/95>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Stoke-on-Trent"^^xsd:string ;
+        dbo:voteAgainst  36027 ;
+        dbo:voteFor      81563 .
+
+<http://prasija1.cz/resources/referendum/94>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Shropshire"^^xsd:string ;
+        dbo:voteAgainst  78987 ;
+        dbo:voteFor      104166 .
+
+<http://prasija1.cz/resources/referendum/337>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Cannock Chase"^^xsd:string ;
+        dbo:voteAgainst  16684 ;
+        dbo:voteFor      36894 .
+
+<http://prasija1.cz/resources/referendum/338>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Staffordshire"^^xsd:string ;
+        dbo:voteAgainst  22850 ;
+        dbo:voteFor      39266 .
+
+<http://prasija1.cz/resources/referendum/339>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Lichfield"^^xsd:string ;
+        dbo:voteAgainst  26064 ;
+        dbo:voteFor      37214 .
+
+<http://prasija1.cz/resources/referendum/340>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Newcastle-under-Lyme"^^xsd:string ;
+        dbo:voteAgainst  25477 ;
+        dbo:voteFor      43457 .
+
+<http://prasija1.cz/resources/referendum/341>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "South Staffordshire"^^xsd:string ;
+        dbo:voteAgainst  23444 ;
+        dbo:voteFor      43248 .
+
+<http://prasija1.cz/resources/referendum/342>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Stafford"^^xsd:string ;
+        dbo:voteAgainst  34098 ;
+        dbo:voteFor      43386 .
+
+<http://prasija1.cz/resources/referendum/343>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Staffordshire Moorlands"^^xsd:string ;
+        dbo:voteAgainst  21076 ;
+        dbo:voteFor      38684 .
+
+<http://prasija1.cz/resources/referendum/344>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Tamworth"^^xsd:string ;
+        dbo:voteAgainst  13705 ;
+        dbo:voteFor      28424 .
+
+<http://prasija1.cz/resources/referendum/363>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Warwickshire"^^xsd:string ;
+        dbo:voteAgainst  12569 ;
+        dbo:voteFor      25385 .
+
+<http://prasija1.cz/resources/referendum/364>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Nuneaton and Bedworth"^^xsd:string ;
+        dbo:voteAgainst  23736 ;
+        dbo:voteFor      46095 .
+
+<http://prasija1.cz/resources/referendum/365>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rugby"^^xsd:string ;
+        dbo:voteAgainst  25350 ;
+        dbo:voteFor      33199 .
+
+<http://prasija1.cz/resources/referendum/366>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Stratford-on-Avon"^^xsd:string ;
+        dbo:voteAgainst  38341 ;
+        dbo:voteFor      40817 .
+
+<http://prasija1.cz/resources/referendum/367>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Warwick"^^xsd:string ;
+        dbo:voteAgainst  47976 ;
+        dbo:voteFor      33642 .
+
+<http://prasija1.cz/resources/referendum/375>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bromsgrove"^^xsd:string ;
+        dbo:voteAgainst  26252 ;
+        dbo:voteFor      32563 .
+
+<http://prasija1.cz/resources/referendum/376>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Malvern Hills"^^xsd:string ;
+        dbo:voteAgainst  23203 ;
+        dbo:voteFor      25294 .
+
+<http://prasija1.cz/resources/referendum/377>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Redditch"^^xsd:string ;
+        dbo:voteAgainst  17303 ;
+        dbo:voteFor      28579 .
+
+<http://prasija1.cz/resources/referendum/378>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Worcester"^^xsd:string ;
+        dbo:voteAgainst  25125 ;
+        dbo:voteFor      29114 .
+
+<http://prasija1.cz/resources/referendum/379>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wychavon"^^xsd:string ;
+        dbo:voteAgainst  32188 ;
+        dbo:voteFor      44201 .
+
+<http://prasija1.cz/resources/referendum/380>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wyre Forest"^^xsd:string ;
+        dbo:voteAgainst  21240 ;
+        dbo:voteFor      36392 .
+
+<http://prasija1.cz/resources/referendum/58>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Birmingham"^^xsd:string ;
+        dbo:voteAgainst  223451 ;
+        dbo:voteFor      227251 .
+
+<http://prasija1.cz/resources/referendum/59>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Coventry"^^xsd:string ;
+        dbo:voteAgainst  67967 ;
+        dbo:voteFor      85097 .
+
+<http://prasija1.cz/resources/referendum/60>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Dudley"^^xsd:string ;
+        dbo:voteAgainst  56780 ;
+        dbo:voteFor      118446 .
+
+<http://prasija1.cz/resources/referendum/61>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Sandwell"^^xsd:string ;
+        dbo:voteAgainst  49004 ;
+        dbo:voteFor      98250 .
+
+<http://prasija1.cz/resources/referendum/62>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Solihull"^^xsd:string ;
+        dbo:voteAgainst  53466 ;
+        dbo:voteFor      68484 .
+
+<http://prasija1.cz/resources/referendum/63>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Walsall"^^xsd:string ;
+        dbo:voteAgainst  43572 ;
+        dbo:voteFor      92007 .
+
+<http://prasija1.cz/resources/referendum/64>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wolverhampton"^^xsd:string ;
+        dbo:voteAgainst  44138 ;
+        dbo:voteFor      73798 .
+
+<http://prasija1.cz/resources/referendum/83>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Kingston upon Hull, City of"^^xsd:string ;
+        dbo:voteAgainst  36709 ;
+        dbo:voteFor      76646 .
+
+<http://prasija1.cz/resources/referendum/84>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "East Riding of Yorkshire"^^xsd:string ;
+        dbo:voteAgainst  78779 ;
+        dbo:voteFor      120136 .
+
+<http://prasija1.cz/resources/referendum/85>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North East Lincolnshire"^^xsd:string ;
+        dbo:voteAgainst  23797 ;
+        dbo:voteFor      55185 .
+
+<http://prasija1.cz/resources/referendum/86>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "North Lincolnshire"^^xsd:string ;
+        dbo:voteAgainst  29947 ;
+        dbo:voteFor      58915 .
+
+<http://prasija1.cz/resources/referendum/87>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "York"^^xsd:string ;
+        dbo:voteAgainst  63617 ;
+        dbo:voteFor      45983 .
+
+<http://prasija1.cz/resources/referendum/313>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Craven"^^xsd:string ;
+        dbo:voteAgainst  16930 ;
+        dbo:voteFor      18961 .
+
+<http://prasija1.cz/resources/referendum/314>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Hambleton"^^xsd:string ;
+        dbo:voteAgainst  25480 ;
+        dbo:voteFor      29502 .
+
+<http://prasija1.cz/resources/referendum/315>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Harrogate"^^xsd:string ;
+        dbo:voteAgainst  48211 ;
+        dbo:voteFor      46374 .
+
+<http://prasija1.cz/resources/referendum/316>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Richmondshire"^^xsd:string ;
+        dbo:voteAgainst  11945 ;
+        dbo:voteFor      15691 .
+
+<http://prasija1.cz/resources/referendum/317>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Ryedale"^^xsd:string ;
+        dbo:voteAgainst  14340 ;
+        dbo:voteFor      17710 .
+
+<http://prasija1.cz/resources/referendum/318>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Scarborough"^^xsd:string ;
+        dbo:voteAgainst  22999 ;
+        dbo:voteFor      37512 .
+
+<http://prasija1.cz/resources/referendum/319>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Selby"^^xsd:string ;
+        dbo:voteAgainst  21071 ;
+        dbo:voteFor      30532 .
+
+<http://prasija1.cz/resources/referendum/49>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Barnsley"^^xsd:string ;
+        dbo:voteAgainst  38951 ;
+        dbo:voteFor      83958 .
+
+<http://prasija1.cz/resources/referendum/50>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Doncaster"^^xsd:string ;
+        dbo:voteAgainst  46922 ;
+        dbo:voteFor      104260 .
+
+<http://prasija1.cz/resources/referendum/51>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Rotherham"^^xsd:string ;
+        dbo:voteAgainst  44115 ;
+        dbo:voteFor      93272 .
+
+<http://prasija1.cz/resources/referendum/52>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Sheffield"^^xsd:string ;
+        dbo:voteAgainst  130735 ;
+        dbo:voteFor      136018 .
+
+<http://prasija1.cz/resources/referendum/65>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Bradford"^^xsd:string ;
+        dbo:voteAgainst  104575 ;
+        dbo:voteFor      123913 .
+
+<http://prasija1.cz/resources/referendum/66>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Calderdale"^^xsd:string ;
+        dbo:voteAgainst  46950 ;
+        dbo:voteFor      58975 .
+
+<http://prasija1.cz/resources/referendum/67>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Kirklees"^^xsd:string ;
+        dbo:voteAgainst  98485 ;
+        dbo:voteFor      118755 .
+
+<http://prasija1.cz/resources/referendum/68>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Leeds"^^xsd:string ;
+        dbo:voteAgainst  194863 ;
+        dbo:voteFor      192474 .
+
+<http://prasija1.cz/resources/referendum/69>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  referendum:Referendum ;
+        town:name        "Wakefield"^^xsd:string ;
+        dbo:voteAgainst  58877 ;
+        dbo:voteFor      116165 .

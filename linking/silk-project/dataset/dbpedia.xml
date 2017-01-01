@@ -1,0 +1,14 @@
+<Dataset id="dbpedia" type="sparqlEndpoint">
+  <Param name="pageSize" value="1000"/>
+  <Param name="pauseTime" value="0"/>
+  <Param name="retryCount" value="100"/>
+  <Param name="endpointURI" value="http://dbpedia.org/sparql"/>
+  <Param name="retryPause" value="40"/>
+  <Param name="graph" value=""/>
+  <Param name="queryParameters" value=""/>
+  <Param name="login" value=""/>
+  <Param name="useOrderBy" value="true"/>
+  <Param name="entityList" value=""/>
+  <Param name="parallel" value="true"/>
+  <Param name="password" value=""/>
+</Dataset>

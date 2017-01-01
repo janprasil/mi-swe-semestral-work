@@ -1,0 +1,1867 @@
+<Entities>
+  <Pair>
+    <Source>
+      <EntityDescription>
+        <Type>http://dbpedia.org/ontology/PopulatedPlace</Type>
+        <Restriction>?a a &lt;http://dbpedia.org/ontology/PopulatedPlace&gt; .</Restriction>
+        <Paths>
+          <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
+          <Path>/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/ontology/birthPlace&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/property/subdivisionName&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/ontology/isPartOf&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/ontology/country&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/ontology/wikiPageRedirects&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/property/birthPlace&gt;</Path>
+          <Path>\&lt;http://xmlns.com/foaf/0.1/primaryTopic&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/property/placeOfBirth&gt;</Path>
+          <Path>/&lt;http://www.w3.org/2002/07/owl#sameAs&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/ontology/location&gt;</Path>
+          <Path>\&lt;http://dbpedia.org/ontology/deathPlace&gt;</Path>
+          <Path>/&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;</Path>
+          <Path>/&lt;http://www.w3.org/2000/01/rdf-schema#comment&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/abstract&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/subdivisionName&gt;</Path>
+          <Path>/&lt;http://purl.org/dc/terms/subject&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/isPartOf&gt;</Path>
+          <Path>/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
+          <Path>/&lt;http://www.w3.org/2003/01/geo/wgs84_pos#geometry&gt;</Path>
+          <Path>/&lt;http://xmlns.com/foaf/0.1/isPrimaryTopicOf&gt;</Path>
+          <Path>/&lt;http://www.w3.org/ns/prov#wasDerivedFrom&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/wikiPageID&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/wikiPageRevisionID&gt;</Path>
+          <Path>/&lt;http://purl.org/voc/vrank#hasRank&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/country&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/wikiPageExternalLink&gt;</Path>
+          <Path>/&lt;http://www.georss.org/georss/point&gt;</Path>
+          <Path>/&lt;http://www.w3.org/2003/01/geo/wgs84_pos#lat&gt;</Path>
+          <Path>/&lt;http://www.w3.org/2003/01/geo/wgs84_pos#long&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/utcOffset&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/populationTotal&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/timeZone&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/name&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/utcOffset&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/timezone&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/populationTotal&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/officialName&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/thumbnail&gt;</Path>
+          <Path>/&lt;http://xmlns.com/foaf/0.1/depiction&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/elevation&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/type&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/settlementType&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/utcOffsetDst&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/postalCode&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/areaTotal&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/PopulatedPlace/areaTotal&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/postalCode&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/timezoneDst&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/areaCode&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/elevationM&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/nativeName&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/areaTotalKm&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/areaCode&gt;</Path>
+          <Path>/&lt;http://xmlns.com/foaf/0.1/homepage&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/PopulatedPlace/populationDensity&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/populationDensity&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/areaLand&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/property/population&gt;</Path>
+          <Path>/&lt;http://dbpedia.org/ontology/leaderTitle&gt;</Path>
+        </Paths>
+      </EntityDescription>
+    </Source>
+    <Target>
+      <EntityDescription>
+        <Type>http://prasija1/resources/referendum/#Referendum</Type>
+        <Restriction></Restriction>
+        <Paths>
+          <Path>/&lt;http://prasija1.cz/resources/town/#name&gt;</Path>
+        </Paths>
+      </EntityDescription>
+    </Target>
+  </Pair>
+  <SourceEntities>
+    <Entity uri="http://dbpedia.org/resource/Adur,_Iran">
+      <Val>
+        <e>Adur</e>
+        <e>عدور</e>
+      </Val>
+      <Val>
+        <e>http://www.w3.org/2002/07/owl#Thing</e>
+        <e>http://www.wikidata.org/entity/Q486972</e>
+        <e>http://www.wikidata.org/entity/Q532</e>
+        <e>http://dbpedia.org/ontology/PopulatedPlace</e>
+        <e>http://dbpedia.org/ontology/Settlement</e>
+        <e>http://dbpedia.org/ontology/Village</e>
+        <e>http://schema.org/Place</e>
+        <e>http://dbpedia.org/ontology/Place</e>
+        <e>http://dbpedia.org/ontology/Location</e>
+        <e>http://dbpedia.org/class/yago/AdministrativeDistrict108491826</e>
+        <e>http://dbpedia.org/class/yago/District108552138</e>
+        <e>http://dbpedia.org/class/yago/GeographicalArea108574314</e>
+        <e>http://dbpedia.org/class/yago/Location100027167</e>
+        <e>http://dbpedia.org/class/yago/Object100002684</e>
+        <e>http://dbpedia.org/class/yago/PhysicalEntity100001930</e>
+        <e>http://dbpedia.org/class/yago/Region108630985</e>
+        <e>http://dbpedia.org/class/yago/Site108651247</e>
+        <e>http://dbpedia.org/class/yago/Tract108673395</e>
+        <e>http://dbpedia.org/class/yago/YagoGeoEntity</e>
+        <e>http://dbpedia.org/class/yago/YagoLegalActorGeo</e>
+        <e>http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity</e>
+        <e>http://dbpedia.org/class/yago/WikicatPopulatedPlacesInBoyer-AhmadCounty</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Iran</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://rdf.freebase.com/ns/m.0w7pqqz</e>
+        <e>http://www.wikidata.org/entity/Q5811382</e>
+        <e>http://wikidata.dbpedia.org/resource/Q5811382</e>
+        <e>http://yago-knowledge.org/resource/Adur,_Iran</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>عدور (زیلایی)</e>
+        <e>Adur, Iran</e>
+      </Val>
+      <Val>
+        <e>عدور (زیلایی) (بالإنجليزية: Adur, Iran) هي قرية تقع في إيران في Zilayi Rural District. يقدر عدد سكانها بـ 109 نسمة .</e>
+        <e>Adur (Persian: عدور‎‎, also Romanized as ʿAdūr) is a village in Zilayi Rural District, Margown District, Boyer-Ahmad County, Kohgiluyeh and Boyer-Ahmad Province, Iran. At the 2006 census, its population was 109, in 18 families.</e>
+      </Val>
+      <Val>
+        <e>عدور (زیلایی) (بالإنجليزية: Adur, Iran) هي قرية تقع في إيران في Zilayi Rural District. يقدر عدد سكانها بـ 109 نسمة .</e>
+        <e>Adur (Persian: عدور, also Romanized as ʿAdūr) is a village in Zilayi Rural District, Margown District, Boyer-Ahmad County, Kohgiluyeh and Boyer-Ahmad Province, Iran. At the 2006 census, its population was 109, in 18 families.</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Kohgiluyeh_and_Boyer-Ahmad_Province</e>
+        <e>http://dbpedia.org/resource/Zilayi_Rural_District</e>
+        <e>http://dbpedia.org/resource/Boyer-Ahmad_County</e>
+        <e>http://dbpedia.org/resource/Margown_District</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Category:Populated_places_in_Boyer-Ahmad_County</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Kohgiluyeh_and_Boyer-Ahmad_Province</e>
+        <e>http://dbpedia.org/resource/Zilayi_Rural_District</e>
+        <e>http://dbpedia.org/resource/Boyer-Ahmad_County</e>
+        <e>http://dbpedia.org/resource/Margown_District</e>
+      </Val>
+      <Val>
+        <e>Adur</e>
+        <e>عدور</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Iran</e>
+      </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Iran?oldid=565227753</e>
+      </Val>
+      <Val>
+        <e>39926566</e>
+      </Val>
+      <Val>
+        <e>565227753</e>
+      </Val>
+      <Val>
+        <e>bnode1</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Iran</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>+3:30</e>
+        <e>+4:30</e>
+      </Val>
+      <Val>
+        <e>109</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Iran_Standard_Time</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>210.0</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Iran_Standard_Time</e>
+      </Val>
+      <Val>
+        <e>109</e>
+      </Val>
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>270.0</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Iran_Standard_Time</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>عدور</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+    </Entity>
+    <Entity uri="http://dbpedia.org/resource/Aberdeen">
+      <Val>
+        <e>Aberdeen City</e>
+      </Val>
+      <Val>
+        <e>http://www.w3.org/2002/07/owl#Thing</e>
+        <e>http://www.wikidata.org/entity/Q486972</e>
+        <e>http://www.wikidata.org/entity/Q515</e>
+        <e>http://dbpedia.org/ontology/City</e>
+        <e>http://dbpedia.org/ontology/PopulatedPlace</e>
+        <e>http://dbpedia.org/ontology/Settlement</e>
+        <e>http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</e>
+        <e>http://schema.org/City</e>
+        <e>http://schema.org/Place</e>
+        <e>http://dbpedia.org/ontology/Place</e>
+        <e>http://dbpedia.org/ontology/Location</e>
+        <e>http://umbel.org/umbel/rc/PopulatedPlace</e>
+        <e>http://umbel.org/umbel/rc/Village</e>
+        <e>http://umbel.org/umbel/rc/Location_Underspecified</e>
+        <e>http://dbpedia.org/class/yago/Abstraction100002137</e>
+        <e>http://dbpedia.org/class/yago/AdministrativeDistrict108491826</e>
+        <e>http://dbpedia.org/class/yago/Area108497294</e>
+        <e>http://dbpedia.org/class/yago/City108524735</e>
+        <e>http://dbpedia.org/class/yago/District108552138</e>
+        <e>http://dbpedia.org/class/yago/EducationalInstitution108276342</e>
+        <e>http://dbpedia.org/class/yago/GeographicalArea108574314</e>
+        <e>http://dbpedia.org/class/yago/GradeSchool108412749</e>
+        <e>http://dbpedia.org/class/yago/Group100031264</e>
+        <e>http://dbpedia.org/class/yago/Institution108053576</e>
+        <e>http://dbpedia.org/class/yago/Location100027167</e>
+        <e>http://dbpedia.org/class/yago/Municipality108626283</e>
+        <e>http://dbpedia.org/class/yago/Object100002684</e>
+        <e>http://dbpedia.org/class/yago/Organization108008335</e>
+        <e>http://dbpedia.org/class/yago/PhysicalEntity100001930</e>
+        <e>http://dbpedia.org/class/yago/Region108630985</e>
+        <e>http://dbpedia.org/class/yago/School108276720</e>
+        <e>http://dbpedia.org/class/yago/Site108651247</e>
+        <e>http://dbpedia.org/class/yago/SocialGroup107950920</e>
+        <e>http://dbpedia.org/class/yago/Town108665504</e>
+        <e>http://dbpedia.org/class/yago/Tract108673395</e>
+        <e>http://dbpedia.org/class/yago/UrbanArea108675967</e>
+        <e>http://dbpedia.org/class/yago/YagoGeoEntity</e>
+        <e>http://dbpedia.org/class/yago/YagoLegalActor</e>
+        <e>http://dbpedia.org/class/yago/YagoLegalActorGeo</e>
+        <e>http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity</e>
+        <e>http://dbpedia.org/class/yago/WikicatCitiesInScotland</e>
+        <e>http://dbpedia.org/class/yago/WikicatCouncilAreasOfScotland</e>
+        <e>http://dbpedia.org/class/yago/WikicatLieutenancyAreasOfScotland</e>
+        <e>http://dbpedia.org/class/yago/WikicatPopulatedCoastalPlaces</e>
+        <e>http://dbpedia.org/class/yago/WikicatPortCitiesAndTownsInScotland</e>
+        <e>http://dbpedia.org/class/yago/WikicatPortCitiesAndTownsOfTheNorthSea</e>
+        <e>http://dbpedia.org/class/yago/WikicatPostTownsInTheABPostcodeArea</e>
+        <e>http://dbpedia.org/class/yago/WikicatPrimarySchoolsInAberdeen</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/John_Abercrombie_(physician)</e>
+        <e>http://dbpedia.org/resource/Alexander_Bain</e>
+        <e>http://dbpedia.org/resource/Ewen_Cameron_(banker)</e>
+        <e>http://dbpedia.org/resource/John_Stevenson_(British_politician)</e>
+        <e>http://dbpedia.org/resource/Alexander_Ross_(writer)</e>
+        <e>http://dbpedia.org/resource/Alexander_Thomson_(pioneer)</e>
+        <e>http://dbpedia.org/resource/Andrew_Linklater</e>
+        <e>http://dbpedia.org/resource/Chris_Anderson_(footballer,_born_1925)</e>
+        <e>http://dbpedia.org/resource/Eddie_Legge</e>
+        <e>http://dbpedia.org/resource/John_Black_(New_Brunswick_merchant)</e>
+        <e>http://dbpedia.org/resource/John_Black_(music_manager)</e>
+        <e>http://dbpedia.org/resource/John_Fitzpatrick_(footballer)</e>
+        <e>http://dbpedia.org/resource/Joseph_Robertson_(historian)</e>
+        <e>http://dbpedia.org/resource/Robert_Clark_(zoologist)</e>
+        <e>http://dbpedia.org/resource/Wilf_Low</e>
+        <e>http://dbpedia.org/resource/Alison_Saunders</e>
+        <e>http://dbpedia.org/resource/James_Harper_McDonald</e>
+        <e>http://dbpedia.org/resource/Rory_McAllister_(footballer)</e>
+        <e>http://dbpedia.org/resource/Alexander_Ogston</e>
+        <e>http://dbpedia.org/resource/David_Gill_(astronomer)</e>
+        <e>http://dbpedia.org/resource/David_Robertson_(footballer,_born_1968)</e>
+        <e>http://dbpedia.org/resource/James_Perry_(journalist)</e>
+        <e>http://dbpedia.org/resource/Kezia_Dugdale</e>
+        <e>http://dbpedia.org/resource/Andrew_Considine</e>
+        <e>http://dbpedia.org/resource/Bruce_Watson_(politician)</e>
+        <e>http://dbpedia.org/resource/Natalie_Ross</e>
+        <e>http://dbpedia.org/resource/Connor_Rennie</e>
+        <e>http://dbpedia.org/resource/Stuart_Beedie</e>
+        <e>http://dbpedia.org/resource/Eliza_Rennie</e>
+        <e>http://dbpedia.org/resource/Gordon_Goudie</e>
+        <e>http://dbpedia.org/resource/Ian_Black_(footballer,_born_1924)</e>
+        <e>http://dbpedia.org/resource/Ian_Taylor_(footballer,_born_1948)</e>
+        <e>http://dbpedia.org/resource/John_Hewitt_(footballer)</e>
+        <e>http://dbpedia.org/resource/Mary_Slessor</e>
+        <e>http://dbpedia.org/resource/Robert_Henderson_(Royal_Navy_officer)</e>
+        <e>http://dbpedia.org/resource/Thomas_Grant_(footballer)</e>
+        <e>http://dbpedia.org/resource/Dick_Donald</e>
+        <e>http://dbpedia.org/resource/Billy_Bremner_(musician)</e>
+        <e>http://dbpedia.org/resource/John_D._Burgess</e>
+        <e>http://dbpedia.org/resource/Paul_Coutts</e>
+        <e>http://dbpedia.org/resource/David_Caldwell_(footballer)</e>
+        <e>http://dbpedia.org/resource/Neil_Cooper_(footballer)</e>
+        <e>http://dbpedia.org/resource/Ninian_Comper</e>
+        <e>http://dbpedia.org/resource/Andrew_Cruickshank</e>
+        <e>http://dbpedia.org/resource/Paul_McKenzie_(footballer)</e>
+        <e>http://dbpedia.org/resource/Denis_Law</e>
+        <e>http://dbpedia.org/resource/James_Donald</e>
+        <e>http://dbpedia.org/resource/John_Hill_Burton</e>
+        <e>http://dbpedia.org/resource/Ron_Yeats</e>
+        <e>http://dbpedia.org/resource/Elizabeth_Thornton</e>
+        <e>http://dbpedia.org/resource/Paul_Jarvie</e>
+        <e>http://dbpedia.org/resource/George_Buchan</e>
+        <e>http://dbpedia.org/resource/Graham_Leggat</e>
+        <e>http://dbpedia.org/resource/Esther_Blaikie_MacKinnon</e>
+        <e>http://dbpedia.org/resource/Ryan_Esson</e>
+        <e>http://dbpedia.org/resource/Scott_Booth</e>
+        <e>http://dbpedia.org/resource/Jimmy_Philip</e>
+        <e>http://dbpedia.org/resource/Vincent_Winter</e>
+        <e>http://dbpedia.org/resource/Keith_Wyness</e>
+        <e>http://dbpedia.org/resource/Peter_Bruce</e>
+        <e>http://dbpedia.org/resource/Stewart_McKimmie</e>
+        <e>http://dbpedia.org/resource/Barrie_Mitchell</e>
+        <e>http://dbpedia.org/resource/Clark_Robertson</e>
+        <e>http://dbpedia.org/resource/Alfred_M._Robertson</e>
+        <e>http://dbpedia.org/resource/Garry_Wood</e>
+        <e>http://dbpedia.org/resource/Alex_Wright_(footballer,_born_1890s)</e>
+        <e>http://dbpedia.org/resource/James_Matthews_Duncan</e>
+        <e>http://dbpedia.org/resource/Alan_C._McLaughlin</e>
+        <e>http://dbpedia.org/resource/Jimmy_Robertson_(American_football)</e>
+        <e>http://dbpedia.org/resource/Ken_Malcolm</e>
+        <e>http://dbpedia.org/resource/Kirsty_Hayes</e>
+        <e>http://dbpedia.org/resource/Charles_Fraser_(minister)</e>
+        <e>http://dbpedia.org/resource/J._Murdoch_Ritchie</e>
+        <e>http://dbpedia.org/resource/Nicol_Stephen</e>
+        <e>http://dbpedia.org/resource/William_Bain_Scarth</e>
+        <e>http://dbpedia.org/resource/William_M'Intosh_(fur_trader)</e>
+        <e>http://dbpedia.org/resource/Alexander_Chalmers</e>
+        <e>http://dbpedia.org/resource/James_Gibb_(Presbyterian_minister)</e>
+        <e>http://dbpedia.org/resource/Lee_Mair</e>
+        <e>http://dbpedia.org/resource/Wallace_Nelson</e>
+        <e>http://dbpedia.org/resource/Matthew_Cross_(cricketer)</e>
+        <e>http://dbpedia.org/resource/Kirsty_Blackman</e>
+        <e>http://dbpedia.org/resource/Annie_Wallace</e>
+        <e>http://dbpedia.org/resource/Hamish_French</e>
+        <e>http://dbpedia.org/resource/Alice_Comyn,_Countess_of_Buchan</e>
+        <e>http://dbpedia.org/resource/Catherine_Gavin</e>
+        <e>http://dbpedia.org/resource/Andy_Greig</e>
+        <e>http://dbpedia.org/resource/Mary_Brooksbank</e>
+        <e>http://dbpedia.org/resource/Alexander_Hall_(soccer)</e>
+        <e>http://dbpedia.org/resource/Barry_Robson</e>
+        <e>http://dbpedia.org/resource/Bobby_McDonald</e>
+        <e>http://dbpedia.org/resource/Ross_Tokely</e>
+        <e>http://dbpedia.org/resource/Andy_Dornan</e>
+        <e>http://dbpedia.org/resource/Duncan_Farquharson_Gregory</e>
+        <e>http://dbpedia.org/resource/Neil_Stirton</e>
+        <e>http://dbpedia.org/resource/Scott_Rennie</e>
+        <e>http://dbpedia.org/resource/Suzy_Enoch</e>
+        <e>http://dbpedia.org/resource/Christian_Davidson</e>
+        <e>http://dbpedia.org/resource/Les_Massie</e>
+        <e>http://dbpedia.org/resource/Dave_Bennett_(footballer,_born_1938)</e>
+        <e>http://dbpedia.org/resource/David_Cumming</e>
+        <e>http://dbpedia.org/resource/Theodore_Grant_Gray</e>
+        <e>http://dbpedia.org/resource/Tunji_Kasim</e>
+        <e>http://dbpedia.org/resource/Sara_Annie_Burstall</e>
+        <e>http://dbpedia.org/resource/Roy_McBain</e>
+        <e>http://dbpedia.org/resource/Adrian_Elrick</e>
+        <e>http://dbpedia.org/resource/Alexander_Milne_Calder</e>
+        <e>http://dbpedia.org/resource/Robert_Sedgewick_(judge)</e>
+        <e>http://dbpedia.org/resource/Alex_Stuart_(footballer)</e>
+        <e>http://dbpedia.org/resource/William_Gillespie_(actor)</e>
+        <e>http://dbpedia.org/resource/Ian_Burns</e>
+        <e>http://dbpedia.org/resource/Martin_Bavidge</e>
+        <e>http://dbpedia.org/resource/Stewart_Murdoch</e>
+        <e>http://dbpedia.org/resource/Hugh_Robertson_(footballer,_born_1975)</e>
+        <e>http://dbpedia.org/resource/Stanley_Robertson_(folk_singer)</e>
+        <e>http://dbpedia.org/resource/Andy_Reid_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/George_Beattie_(footballer)</e>
+        <e>http://dbpedia.org/resource/Iain_Vigurs</e>
+        <e>http://dbpedia.org/resource/James_Gibbs</e>
+        <e>http://dbpedia.org/resource/John_Gray_McKendrick</e>
+        <e>http://dbpedia.org/resource/Kieran_Murphy_(rugby_union)</e>
+        <e>http://dbpedia.org/resource/Michael_Sheard</e>
+        <e>http://dbpedia.org/resource/Simon_McMenemy</e>
+        <e>http://dbpedia.org/resource/Norman_Low</e>
+        <e>http://dbpedia.org/resource/John_Macdonald_Aiken</e>
+        <e>http://dbpedia.org/resource/William_Henry_Oliphant_Smeaton</e>
+        <e>http://dbpedia.org/resource/Josh_Davey</e>
+        <e>http://dbpedia.org/resource/Graeme_Garden</e>
+        <e>http://dbpedia.org/resource/Kev_F._Sutherland</e>
+        <e>http://dbpedia.org/resource/Aaron_Taylor-Sinclair</e>
+        <e>http://dbpedia.org/resource/George_Gibb</e>
+        <e>http://dbpedia.org/resource/James_Giles_(painter)</e>
+        <e>http://dbpedia.org/resource/Scott_Morrison_(footballer)</e>
+        <e>http://dbpedia.org/resource/Stephanie_Forrester_(triathlete)</e>
+        <e>http://dbpedia.org/resource/Thomas_Blackwell_(scholar)</e>
+        <e>http://dbpedia.org/resource/John_Letford</e>
+        <e>http://dbpedia.org/resource/Jamie_Arthur</e>
+        <e>http://dbpedia.org/resource/Cameron_Burgess</e>
+        <e>http://dbpedia.org/resource/Nicky_Walker</e>
+        <e>http://dbpedia.org/resource/Cammy_Smith</e>
+        <e>http://dbpedia.org/resource/Alex_Dawson</e>
+        <e>http://dbpedia.org/resource/Stewart_Davidson</e>
+        <e>http://dbpedia.org/resource/Rachel_Corsie</e>
+        <e>http://dbpedia.org/resource/Craig_Moir</e>
+        <e>http://dbpedia.org/resource/Andy_Watson_(footballer,_born_1959)</e>
+        <e>http://dbpedia.org/resource/Archibald_Simpson</e>
+        <e>http://dbpedia.org/resource/Mark_Perry_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/Walter_J._Dilling</e>
+        <e>http://dbpedia.org/resource/Colin_Smith_(Scottish_cricketer)</e>
+        <e>http://dbpedia.org/resource/Alex_Rhind</e>
+        <e>http://dbpedia.org/resource/Dave_Flett</e>
+        <e>http://dbpedia.org/resource/Doug_Cowie_(footballer)</e>
+        <e>http://dbpedia.org/resource/Francis_Loraine_Petre</e>
+        <e>http://dbpedia.org/resource/George_Fraser_(New_Zealand_engineer)</e>
+        <e>http://dbpedia.org/resource/Graham_Clark_(footballer)</e>
+        <e>http://dbpedia.org/resource/Ian_Strachan_(Newfoundland_and_Labrador_politician)</e>
+        <e>http://dbpedia.org/resource/James_Hutchison_(Australian_politician)</e>
+        <e>http://dbpedia.org/resource/Jimmy_Gauld</e>
+        <e>http://dbpedia.org/resource/Paul_Black_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/Russell_Anderson</e>
+        <e>http://dbpedia.org/resource/William_Jack_(botanist)</e>
+        <e>http://dbpedia.org/resource/Russell_Duncan</e>
+        <e>http://dbpedia.org/resource/Andrew_Shinnie</e>
+        <e>http://dbpedia.org/resource/Graeme_Shinnie</e>
+        <e>http://dbpedia.org/resource/Malcolm_Kpedekpo</e>
+        <e>http://dbpedia.org/resource/Michael_Sim</e>
+        <e>http://dbpedia.org/resource/Alexander_Auldjo</e>
+        <e>http://dbpedia.org/resource/Sue_Mackay</e>
+        <e>http://dbpedia.org/resource/Paul_Emslie</e>
+        <e>http://dbpedia.org/resource/George_Fiddes_Watt</e>
+        <e>http://dbpedia.org/resource/Jack_Lornie</e>
+        <e>http://dbpedia.org/resource/Ian_Donald_(footballer)</e>
+        <e>http://dbpedia.org/resource/Alexander_Anderson_(botanist)</e>
+        <e>http://dbpedia.org/resource/George_Campbell_(minister)</e>
+        <e>http://dbpedia.org/resource/George_Scott_(footballer,_born_1944)</e>
+        <e>http://dbpedia.org/resource/James_Gregory_(physician)</e>
+        <e>http://dbpedia.org/resource/John_Davidson_(botanist)</e>
+        <e>http://dbpedia.org/resource/George_Croom_Robertson</e>
+        <e>http://dbpedia.org/resource/William_Mortimer_Clark</e>
+        <e>http://dbpedia.org/resource/William_Garden_Blaikie</e>
+        <e>http://dbpedia.org/resource/Henry_Cecil</e>
+        <e>http://dbpedia.org/resource/Norman_Baker</e>
+        <e>http://dbpedia.org/resource/Richard_Shepherd</e>
+        <e>http://dbpedia.org/resource/Alexander_Gordon_(antiquary)</e>
+        <e>http://dbpedia.org/resource/David_Gregory_(mathematician)</e>
+        <e>http://dbpedia.org/resource/John_Beattie_(footballer)</e>
+        <e>http://dbpedia.org/resource/John_Cutting_(psychiatrist)</e>
+        <e>http://dbpedia.org/resource/John_McPherson</e>
+        <e>http://dbpedia.org/resource/Paul_Dixon_(footballer,_born_1986)</e>
+        <e>http://dbpedia.org/resource/William_Chalmers_(footballer,_born_1901)</e>
+        <e>http://dbpedia.org/resource/William_Forbes_of_Callendar</e>
+        <e>http://dbpedia.org/resource/Kevin_Stewart_(Scottish_politician)</e>
+        <e>http://dbpedia.org/resource/Alan_Watt_(author)</e>
+        <e>http://dbpedia.org/resource/David_Rintoul</e>
+        <e>http://dbpedia.org/resource/George_Chalmers_(baseball)</e>
+        <e>http://dbpedia.org/resource/Ian_Wood_(businessman)</e>
+        <e>http://dbpedia.org/resource/Jim_Hamilton_(footballer)</e>
+        <e>http://dbpedia.org/resource/Paul_Lawson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Stuart_Anderson_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/The_Scottish_Falsetto_Sock_Puppet_Theatre</e>
+        <e>http://dbpedia.org/resource/Angus_Konstam</e>
+        <e>http://dbpedia.org/resource/Isla_Traquair</e>
+        <e>http://dbpedia.org/resource/John_Dickie_(theologian)</e>
+        <e>http://dbpedia.org/resource/John_Souttar</e>
+        <e>http://dbpedia.org/resource/Richard_Keith_Ellis</e>
+        <e>http://dbpedia.org/resource/Stewart_Fraser</e>
+        <e>http://dbpedia.org/resource/Luke_Patience</e>
+        <e>http://dbpedia.org/resource/Mitchel_Megginson</e>
+        <e>http://dbpedia.org/resource/Sophie_Kennedy_Clark</e>
+        <e>http://dbpedia.org/resource/Tim_Baillie</e>
+        <e>http://dbpedia.org/resource/Leslie_Benzies</e>
+        <e>http://dbpedia.org/resource/Ian_Moir_(footballer)</e>
+        <e>http://dbpedia.org/resource/John_Sjoberg</e>
+        <e>http://dbpedia.org/resource/Kenny_Watson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Murray_Pittock</e>
+        <e>http://dbpedia.org/resource/Ryan_Gauld</e>
+        <e>http://dbpedia.org/resource/Vic_Milne</e>
+        <e>http://dbpedia.org/resource/Eve_Pearce</e>
+        <e>http://dbpedia.org/resource/Neil_Fachie</e>
+        <e>http://dbpedia.org/resource/Gordon_Cramond</e>
+        <e>http://dbpedia.org/resource/Ian_Wilson_(footballer,_born_1958)</e>
+        <e>http://dbpedia.org/resource/Alexander_Crombie</e>
+        <e>http://dbpedia.org/resource/Dave_Smith_(footballer,_born_1943)</e>
+        <e>http://dbpedia.org/resource/Lachlan_Mackinnon</e>
+        <e>http://dbpedia.org/resource/William_Milne_(sport_shooter)</e>
+        <e>http://dbpedia.org/resource/Callum_McCaig</e>
+        <e>http://dbpedia.org/resource/Andy_Smith_(footballer,_born_1968)</e>
+        <e>http://dbpedia.org/resource/Hughie_Hay</e>
+        <e>http://dbpedia.org/resource/Dennis_D'Arcy</e>
+        <e>http://dbpedia.org/resource/Greg_Holden</e>
+        <e>http://dbpedia.org/resource/Peter_Bevan-Baker</e>
+        <e>http://dbpedia.org/resource/Arthur_Butler_Phillips_Mee</e>
+        <e>http://dbpedia.org/resource/Martin_Buchan</e>
+        <e>http://dbpedia.org/resource/Anna_Bentley</e>
+        <e>http://dbpedia.org/resource/Ross_Laidlaw</e>
+        <e>http://dbpedia.org/resource/Steve_Smith_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/James_Stables</e>
+        <e>http://dbpedia.org/resource/Alf_Burnett</e>
+        <e>http://dbpedia.org/resource/Ally_Begg</e>
+        <e>http://dbpedia.org/resource/Jeff_Stewart_(actor)</e>
+        <e>http://dbpedia.org/resource/Steven_Watt_(footballer)</e>
+        <e>http://dbpedia.org/resource/Fraser_Fyvie</e>
+        <e>http://dbpedia.org/resource/Jason_McGinn</e>
+        <e>http://dbpedia.org/resource/Katharine_Gordon</e>
+        <e>http://dbpedia.org/resource/Nanette_Milne</e>
+        <e>http://dbpedia.org/resource/Adam_Blacklaw</e>
+        <e>http://dbpedia.org/resource/Ryan_Jack</e>
+        <e>http://dbpedia.org/resource/Christopher_Malcolm</e>
+        <e>http://dbpedia.org/resource/Kyle_Coetzer</e>
+        <e>http://dbpedia.org/resource/Nikki_Walker</e>
+        <e>http://dbpedia.org/resource/Graeme_Hogg</e>
+        <e>http://dbpedia.org/resource/William_McMillan_(sculptor)</e>
+        <e>http://dbpedia.org/resource/Michael_Watt</e>
+        <e>http://dbpedia.org/resource/Stuart_Donaldson_(Scottish_politician)</e>
+        <e>http://dbpedia.org/resource/Warren_Cummings</e>
+        <e>http://dbpedia.org/resource/Rose_Leslie</e>
+        <e>http://dbpedia.org/resource/Willie_Falconer</e>
+        <e>http://dbpedia.org/resource/Fred_Smith_(footballer,_born_February_1926)</e>
+        <e>http://dbpedia.org/resource/George_Kelly_(footballer)</e>
+        <e>http://dbpedia.org/resource/John_Rennie_(GC)</e>
+        <e>http://dbpedia.org/resource/Rona_Munro</e>
+        <e>http://dbpedia.org/resource/Isobel_Barnett</e>
+        <e>http://dbpedia.org/resource/Jack_Grimmer</e>
+        <e>http://dbpedia.org/resource/Ray_Stephen</e>
+        <e>http://dbpedia.org/resource/Ron_Still</e>
+        <e>http://dbpedia.org/resource/Scott_Paterson</e>
+        <e>http://dbpedia.org/resource/Jocky_Scott</e>
+        <e>http://dbpedia.org/resource/Ian_Peebles</e>
+        <e>http://dbpedia.org/resource/Billy_Craig</e>
+        <e>http://dbpedia.org/resource/Dickie_Ewen</e>
+        <e>http://dbpedia.org/resource/Kay_Duncan</e>
+        <e>http://dbpedia.org/resource/Laura_Main</e>
+        <e>http://dbpedia.org/resource/Robert_B._Watson</e>
+        <e>http://dbpedia.org/resource/Alberto_Morrocco</e>
+        <e>http://dbpedia.org/resource/James_Abernethy</e>
+        <e>http://dbpedia.org/resource/Ryan_Fraser</e>
+        <e>http://dbpedia.org/resource/Kim_Little</e>
+        <e>http://dbpedia.org/resource/Gordon_Begg</e>
+        <e>http://dbpedia.org/resource/Robert_Daniel_Lawrence</e>
+        <e>http://dbpedia.org/resource/Scott_Michie</e>
+        <e>http://dbpedia.org/resource/Ernie_Winchester</e>
+        <e>http://dbpedia.org/resource/Iain_Torrance</e>
+        <e>http://dbpedia.org/resource/James_Stirling_(judge)</e>
+        <e>http://dbpedia.org/resource/James_Watson_(printer)</e>
+        <e>http://dbpedia.org/resource/John_Hope_(Australian_politician)</e>
+        <e>http://dbpedia.org/resource/Alexander_Bruce_(politician)</e>
+        <e>http://dbpedia.org/resource/Cath_Rae</e>
+        <e>http://dbpedia.org/resource/David_Henry_Souter</e>
+        <e>http://dbpedia.org/resource/Gavin_Rae</e>
+        <e>http://dbpedia.org/resource/George_Fordyce</e>
+        <e>http://dbpedia.org/resource/John_Mathew</e>
+        <e>http://dbpedia.org/resource/SHY_&amp;_DRS</e>
+        <e>http://dbpedia.org/resource/Sheena_Blackhall</e>
+        <e>http://dbpedia.org/resource/Alexander_Shepherd_(public_servant)</e>
+        <e>http://dbpedia.org/resource/Ben_Anderson_(footballer)</e>
+        <e>http://dbpedia.org/resource/David_Donald_(footballer)</e>
+        <e>http://dbpedia.org/resource/Paul_Mathers</e>
+        <e>http://dbpedia.org/resource/Paul_Taylor_(DJ)</e>
+        <e>http://dbpedia.org/resource/Sir_John_Arbuthnot,_1st_Baronet</e>
+        <e>http://dbpedia.org/resource/Stuart_Monro</e>
+        <e>http://dbpedia.org/resource/William_Reid_(civil_servant)</e>
+        <e>http://dbpedia.org/resource/Douglas_Strachan</e>
+        <e>http://dbpedia.org/resource/Gavin_Strachan</e>
+        <e>http://dbpedia.org/resource/John_Strachan</e>
+        <e>http://dbpedia.org/resource/David_Carry</e>
+        <e>http://dbpedia.org/resource/Ellie_Haddington</e>
+        <e>http://dbpedia.org/resource/Francis_Sheed_Anderson</e>
+        <e>http://dbpedia.org/resource/George_Mutch</e>
+        <e>http://dbpedia.org/resource/Graeme_Dey</e>
+        <e>http://dbpedia.org/resource/John_Ogston</e>
+        <e>http://dbpedia.org/resource/Liam_Keogh</e>
+        <e>http://dbpedia.org/resource/Scott_M._Thomson</e>
+        <e>http://dbpedia.org/resource/Scott_Murray_(footballer,_born_1974)</e>
+        <e>http://dbpedia.org/resource/Keith_Raffan</e>
+        <e>http://dbpedia.org/resource/Oswald_Chambers</e>
+        <e>http://dbpedia.org/resource/Richie_Ramsay</e>
+        <e>http://dbpedia.org/resource/Margaret_Mann</e>
+        <e>http://dbpedia.org/resource/Nora_Radcliffe</e>
+        <e>http://dbpedia.org/resource/Stewart_Milne</e>
+        <e>http://dbpedia.org/resource/Doug_Smith_(footballer,_born_1937)</e>
+        <e>http://dbpedia.org/resource/Alan_Main_(minister)</e>
+        <e>http://dbpedia.org/resource/Francis_Ormond</e>
+        <e>http://dbpedia.org/resource/Johnny_Pattillo</e>
+        <e>http://dbpedia.org/resource/David_Florence</e>
+        <e>http://dbpedia.org/resource/Dave_Davidson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Martin_Boyle</e>
+        <e>http://dbpedia.org/resource/Sara_Parkin</e>
+        <e>http://dbpedia.org/resource/Douglas_Westland</e>
+        <e>http://dbpedia.org/resource/Bill_Smith_(footballer,_born_1938)</e>
+        <e>http://dbpedia.org/resource/Craig_McKeown</e>
+        <e>http://dbpedia.org/resource/Robert_Morison</e>
+        <e>http://dbpedia.org/resource/Seaton_Baxter</e>
+        <e>http://dbpedia.org/resource/Craig_Strachan_(footballer)</e>
+        <e>http://dbpedia.org/resource/David_Rowson</e>
+        <e>http://dbpedia.org/resource/Doug_Fraser_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/Syd_Gerrie</e>
+        <e>http://dbpedia.org/resource/Gordon_Low</e>
+        <e>http://dbpedia.org/resource/Stuart_Duff</e>
+        <e>http://dbpedia.org/resource/Bob_Taylor_(darts_player)</e>
+        <e>http://dbpedia.org/resource/Bisset_Berry</e>
+        <e>http://dbpedia.org/resource/Forbes_Johnston</e>
+        <e>http://dbpedia.org/resource/Helen_Black</e>
+        <e>http://dbpedia.org/resource/Nicky_Grant</e>
+        <e>http://dbpedia.org/resource/Katherine_Downie</e>
+        <e>http://dbpedia.org/resource/Bryan_Buchan</e>
+        <e>http://dbpedia.org/resource/Glynn_Geddie</e>
+        <e>http://dbpedia.org/resource/Isabel_Hilton</e>
+        <e>http://dbpedia.org/resource/Sheila_Gilmore</e>
+        <e>http://dbpedia.org/resource/William_Keith_Leask</e>
+        <e>http://dbpedia.org/resource/Chris_Lake</e>
+        <e>http://dbpedia.org/resource/Andrew_Murray_Scott</e>
+        <e>http://dbpedia.org/resource/Robin_Galloway</e>
+        <e>http://dbpedia.org/resource/Eilidh_Whiteford</e>
+        <e>http://dbpedia.org/resource/Jock_Kirton</e>
+        <e>http://dbpedia.org/resource/Deborah_Herold</e>
+        <e>http://dbpedia.org/resource/John_Maconnachie</e>
+        <e>http://dbpedia.org/resource/Jason_Hogg</e>
+        <e>http://dbpedia.org/resource/Lee_McAllister</e>
+        <e>http://dbpedia.org/resource/Steve_Lennox</e>
+        <e>http://dbpedia.org/resource/Fiona_Campbell</e>
+        <e>http://dbpedia.org/resource/Harry_Low</e>
+        <e>http://dbpedia.org/resource/Ken_Thomson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Rachael_Small</e>
+        <e>http://dbpedia.org/resource/Jamie_Clark_(footballer)</e>
+        <e>http://dbpedia.org/resource/Davie_Johnston_(footballer,_born_1948)</e>
+        <e>http://dbpedia.org/resource/Jackie_Robertson</e>
+        <e>http://dbpedia.org/resource/Kevin_Christie</e>
+        <e>http://dbpedia.org/resource/James_Staats_Forbes</e>
+        <e>http://dbpedia.org/resource/Willie_Moir</e>
+        <e>http://dbpedia.org/resource/Michael_Leask</e>
+        <e>http://dbpedia.org/resource/Duncan_Rice</e>
+        <e>http://dbpedia.org/resource/James_Westland</e>
+        <e>http://dbpedia.org/resource/Robert_Absalom_Thom</e>
+        <e>http://dbpedia.org/resource/Fiona_Urquhart</e>
+        <e>http://dbpedia.org/resource/Ronnie_Watt</e>
+        <e>http://dbpedia.org/resource/Dyce_Davidson</e>
+        <e>http://dbpedia.org/resource/Jon_S._Baird</e>
+        <e>http://dbpedia.org/resource/Walter_Grant</e>
+        <e>http://dbpedia.org/resource/Euan_Holden</e>
+        <e>http://dbpedia.org/resource/Cosmo_Alexander</e>
+        <e>http://dbpedia.org/resource/Andrew_Skene</e>
+        <e>http://dbpedia.org/resource/SHY_&amp;_DRS__SHY_&amp;_DRS__1</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Buttery_(bread)</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Skene_Square_Primary_School</e>
+        <e>http://dbpedia.org/resource/Aberdeen_City_(council_area)</e>
+        <e>http://dbpedia.org/resource/City_of_Aberdeen_(council_area)</e>
+        <e>http://dbpedia.org/resource/City_of_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Burgh_of_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Aberdeen_(district)</e>
+        <e>http://dbpedia.org/resource/Scotland_Aberdeen</e>
+        <e>http://dbpedia.org/resource/UN/LOCODE:GBABD</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Scotland</e>
+        <e>http://dbpedia.org/resource/Aberdonian</e>
+        <e>http://dbpedia.org/resource/Retail_in_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Aberdeen,_Scotland</e>
+        <e>http://dbpedia.org/resource/Aiberdeen</e>
+        <e>http://dbpedia.org/resource/Aberdeen_City</e>
+        <e>http://dbpedia.org/resource/Mile-End_School</e>
+        <e>http://dbpedia.org/resource/Aberdeen_city</e>
+        <e>http://dbpedia.org/resource/City_of_Aberdeen_(local_government_district,_Grampian_region)</e>
+        <e>http://dbpedia.org/resource/Kingsford_Primary_School</e>
+        <e>http://dbpedia.org/resource/Aberdeen_(Scotland)</e>
+        <e>http://dbpedia.org/resource/City_of_Aberdeen,_Scotland</e>
+        <e>http://dbpedia.org/resource/Aberdeen_City_Police</e>
+        <e>http://dbpedia.org/resource/Aberdeen_(Scottish_city)</e>
+        <e>http://dbpedia.org/resource/Aberdeen_City_council_area</e>
+        <e>http://dbpedia.org/resource/City_of_Aberdeen_council_area</e>
+        <e>http://dbpedia.org/resource/ABERDEEN</e>
+        <e>http://dbpedia.org/resource/Obar_Dheathain</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/John_Abercrombie_(physician)</e>
+        <e>http://dbpedia.org/resource/John_Stevenson_(British_politician)</e>
+        <e>http://dbpedia.org/resource/Andrew_Linklater</e>
+        <e>http://dbpedia.org/resource/Eddie_Legge</e>
+        <e>http://dbpedia.org/resource/John_Black_(New_Brunswick_merchant)</e>
+        <e>http://dbpedia.org/resource/John_Black_(music_manager)</e>
+        <e>http://dbpedia.org/resource/David_Robertson_(footballer,_born_1968)</e>
+        <e>http://dbpedia.org/resource/James_Perry_(journalist)</e>
+        <e>http://dbpedia.org/resource/Andrew_Considine</e>
+        <e>http://dbpedia.org/resource/Natalie_Ross</e>
+        <e>http://dbpedia.org/resource/Connor_Rennie</e>
+        <e>http://dbpedia.org/resource/Stuart_Beedie</e>
+        <e>http://dbpedia.org/resource/Gordon_Goudie</e>
+        <e>http://dbpedia.org/resource/Ian_Black_(footballer,_born_1924)</e>
+        <e>http://dbpedia.org/resource/Mary_Slessor</e>
+        <e>http://dbpedia.org/resource/Dick_Donald</e>
+        <e>http://dbpedia.org/resource/Billy_Bremner_(musician)</e>
+        <e>http://dbpedia.org/resource/John_D._Burgess</e>
+        <e>http://dbpedia.org/resource/David_Caldwell_(footballer)</e>
+        <e>http://dbpedia.org/resource/Neil_Cooper_(footballer)</e>
+        <e>http://dbpedia.org/resource/Ninian_Comper</e>
+        <e>http://dbpedia.org/resource/Andrew_Cruickshank</e>
+        <e>http://dbpedia.org/resource/Paul_McKenzie_(footballer)</e>
+        <e>http://dbpedia.org/resource/Denis_Law</e>
+        <e>http://dbpedia.org/resource/James_Donald</e>
+        <e>http://dbpedia.org/resource/Ron_Yeats</e>
+        <e>http://dbpedia.org/resource/Elizabeth_Thornton</e>
+        <e>http://dbpedia.org/resource/George_Buchan</e>
+        <e>http://dbpedia.org/resource/Ryan_Esson</e>
+        <e>http://dbpedia.org/resource/Vincent_Winter</e>
+        <e>http://dbpedia.org/resource/Stewart_McKimmie</e>
+        <e>http://dbpedia.org/resource/Alfred_M._Robertson</e>
+        <e>http://dbpedia.org/resource/Garry_Wood</e>
+        <e>http://dbpedia.org/resource/Alex_Wright_(footballer,_born_1890s)</e>
+        <e>http://dbpedia.org/resource/James_Matthews_Duncan</e>
+        <e>http://dbpedia.org/resource/Alan_C._McLaughlin</e>
+        <e>http://dbpedia.org/resource/Jimmy_Robertson_(American_football)</e>
+        <e>http://dbpedia.org/resource/J._Murdoch_Ritchie</e>
+        <e>http://dbpedia.org/resource/Alexander_Chalmers</e>
+        <e>http://dbpedia.org/resource/Wallace_Nelson</e>
+        <e>http://dbpedia.org/resource/Matthew_Cross_(cricketer)</e>
+        <e>http://dbpedia.org/resource/Kirsty_Blackman</e>
+        <e>http://dbpedia.org/resource/Annie_Wallace</e>
+        <e>http://dbpedia.org/resource/Hamish_French</e>
+        <e>http://dbpedia.org/resource/Alice_Comyn,_Countess_of_Buchan</e>
+        <e>http://dbpedia.org/resource/Mary_Brooksbank</e>
+        <e>http://dbpedia.org/resource/Neil_Stirton</e>
+        <e>http://dbpedia.org/resource/Scott_Rennie</e>
+        <e>http://dbpedia.org/resource/David_Cumming</e>
+        <e>http://dbpedia.org/resource/Tunji_Kasim</e>
+        <e>http://dbpedia.org/resource/Sara_Annie_Burstall</e>
+        <e>http://dbpedia.org/resource/Roy_McBain</e>
+        <e>http://dbpedia.org/resource/Adrian_Elrick</e>
+        <e>http://dbpedia.org/resource/Alexander_Milne_Calder</e>
+        <e>http://dbpedia.org/resource/Robert_Sedgewick_(judge)</e>
+        <e>http://dbpedia.org/resource/Ian_Burns</e>
+        <e>http://dbpedia.org/resource/Martin_Bavidge</e>
+        <e>http://dbpedia.org/resource/Stewart_Murdoch</e>
+        <e>http://dbpedia.org/resource/Stanley_Robertson_(folk_singer)</e>
+        <e>http://dbpedia.org/resource/Andy_Reid_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/George_Beattie_(footballer)</e>
+        <e>http://dbpedia.org/resource/Iain_Vigurs</e>
+        <e>http://dbpedia.org/resource/James_Gibbs</e>
+        <e>http://dbpedia.org/resource/John_Gray_McKendrick</e>
+        <e>http://dbpedia.org/resource/Kieran_Murphy_(rugby_union)</e>
+        <e>http://dbpedia.org/resource/Michael_Sheard</e>
+        <e>http://dbpedia.org/resource/Simon_McMenemy</e>
+        <e>http://dbpedia.org/resource/John_Macdonald_Aiken</e>
+        <e>http://dbpedia.org/resource/Aaron_Taylor-Sinclair</e>
+        <e>http://dbpedia.org/resource/James_Giles_(painter)</e>
+        <e>http://dbpedia.org/resource/Thomas_Blackwell_(scholar)</e>
+        <e>http://dbpedia.org/resource/John_Letford</e>
+        <e>http://dbpedia.org/resource/Jamie_Arthur</e>
+        <e>http://dbpedia.org/resource/Nicky_Walker</e>
+        <e>http://dbpedia.org/resource/Cammy_Smith</e>
+        <e>http://dbpedia.org/resource/Alex_Dawson</e>
+        <e>http://dbpedia.org/resource/Andy_Watson_(footballer,_born_1959)</e>
+        <e>http://dbpedia.org/resource/Mark_Perry_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/Walter_J._Dilling</e>
+        <e>http://dbpedia.org/resource/Colin_Smith_(Scottish_cricketer)</e>
+        <e>http://dbpedia.org/resource/Alex_Rhind</e>
+        <e>http://dbpedia.org/resource/Dave_Flett</e>
+        <e>http://dbpedia.org/resource/Doug_Cowie_(footballer)</e>
+        <e>http://dbpedia.org/resource/Ian_Strachan_(Newfoundland_and_Labrador_politician)</e>
+        <e>http://dbpedia.org/resource/James_Hutchison_(Australian_politician)</e>
+        <e>http://dbpedia.org/resource/Paul_Black_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/William_Jack_(botanist)</e>
+        <e>http://dbpedia.org/resource/Malcolm_Kpedekpo</e>
+        <e>http://dbpedia.org/resource/Alexander_Auldjo</e>
+        <e>http://dbpedia.org/resource/Sue_Mackay</e>
+        <e>http://dbpedia.org/resource/Paul_Emslie</e>
+        <e>http://dbpedia.org/resource/George_Fiddes_Watt</e>
+        <e>http://dbpedia.org/resource/Ian_Donald_(footballer)</e>
+        <e>http://dbpedia.org/resource/John_Davidson_(botanist)</e>
+        <e>http://dbpedia.org/resource/William_Mortimer_Clark</e>
+        <e>http://dbpedia.org/resource/William_Garden_Blaikie</e>
+        <e>http://dbpedia.org/resource/Henry_Cecil</e>
+        <e>http://dbpedia.org/resource/Norman_Baker</e>
+        <e>http://dbpedia.org/resource/Richard_Shepherd</e>
+        <e>http://dbpedia.org/resource/William_Forbes_of_Callendar</e>
+        <e>http://dbpedia.org/resource/Kevin_Stewart_(Scottish_politician)</e>
+        <e>http://dbpedia.org/resource/Alan_Watt_(author)</e>
+        <e>http://dbpedia.org/resource/David_Rintoul</e>
+        <e>http://dbpedia.org/resource/George_Chalmers_(baseball)</e>
+        <e>http://dbpedia.org/resource/Paul_Lawson_(footballer)</e>
+        <e>http://dbpedia.org/resource/The_Scottish_Falsetto_Sock_Puppet_Theatre</e>
+        <e>http://dbpedia.org/resource/Isla_Traquair</e>
+        <e>http://dbpedia.org/resource/Richard_Keith_Ellis</e>
+        <e>http://dbpedia.org/resource/Stewart_Fraser</e>
+        <e>http://dbpedia.org/resource/Luke_Patience</e>
+        <e>http://dbpedia.org/resource/Leslie_Benzies</e>
+        <e>http://dbpedia.org/resource/John_Sjoberg</e>
+        <e>http://dbpedia.org/resource/Kenny_Watson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Vic_Milne</e>
+        <e>http://dbpedia.org/resource/Neil_Fachie</e>
+        <e>http://dbpedia.org/resource/Ian_Wilson_(footballer,_born_1958)</e>
+        <e>http://dbpedia.org/resource/Alexander_Crombie</e>
+        <e>http://dbpedia.org/resource/Lachlan_Mackinnon</e>
+        <e>http://dbpedia.org/resource/Callum_McCaig</e>
+        <e>http://dbpedia.org/resource/Andy_Smith_(footballer,_born_1968)</e>
+        <e>http://dbpedia.org/resource/Dennis_D'Arcy</e>
+        <e>http://dbpedia.org/resource/Peter_Bevan-Baker</e>
+        <e>http://dbpedia.org/resource/Arthur_Butler_Phillips_Mee</e>
+        <e>http://dbpedia.org/resource/Steve_Smith_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/James_Stables</e>
+        <e>http://dbpedia.org/resource/Alf_Burnett</e>
+        <e>http://dbpedia.org/resource/Jeff_Stewart_(actor)</e>
+        <e>http://dbpedia.org/resource/Jason_McGinn</e>
+        <e>http://dbpedia.org/resource/Nanette_Milne</e>
+        <e>http://dbpedia.org/resource/Ryan_Jack</e>
+        <e>http://dbpedia.org/resource/Kyle_Coetzer</e>
+        <e>http://dbpedia.org/resource/Graeme_Hogg</e>
+        <e>http://dbpedia.org/resource/Michael_Watt</e>
+        <e>http://dbpedia.org/resource/Stuart_Donaldson_(Scottish_politician)</e>
+        <e>http://dbpedia.org/resource/Rose_Leslie</e>
+        <e>http://dbpedia.org/resource/Willie_Falconer</e>
+        <e>http://dbpedia.org/resource/George_Kelly_(footballer)</e>
+        <e>http://dbpedia.org/resource/Rona_Munro</e>
+        <e>http://dbpedia.org/resource/Ron_Still</e>
+        <e>http://dbpedia.org/resource/Scott_Paterson</e>
+        <e>http://dbpedia.org/resource/Kay_Duncan</e>
+        <e>http://dbpedia.org/resource/Laura_Main</e>
+        <e>http://dbpedia.org/resource/Robert_B._Watson</e>
+        <e>http://dbpedia.org/resource/Alberto_Morrocco</e>
+        <e>http://dbpedia.org/resource/Ryan_Fraser</e>
+        <e>http://dbpedia.org/resource/Gordon_Begg</e>
+        <e>http://dbpedia.org/resource/Scott_Michie</e>
+        <e>http://dbpedia.org/resource/Ernie_Winchester</e>
+        <e>http://dbpedia.org/resource/Iain_Torrance</e>
+        <e>http://dbpedia.org/resource/David_Henry_Souter</e>
+        <e>http://dbpedia.org/resource/Alexander_Shepherd_(public_servant)</e>
+        <e>http://dbpedia.org/resource/Ben_Anderson_(footballer)</e>
+        <e>http://dbpedia.org/resource/David_Donald_(footballer)</e>
+        <e>http://dbpedia.org/resource/Paul_Mathers</e>
+        <e>http://dbpedia.org/resource/Paul_Taylor_(DJ)</e>
+        <e>http://dbpedia.org/resource/Sir_John_Arbuthnot,_1st_Baronet</e>
+        <e>http://dbpedia.org/resource/Stuart_Monro</e>
+        <e>http://dbpedia.org/resource/William_Reid_(civil_servant)</e>
+        <e>http://dbpedia.org/resource/David_Carry</e>
+        <e>http://dbpedia.org/resource/Ellie_Haddington</e>
+        <e>http://dbpedia.org/resource/George_Mutch</e>
+        <e>http://dbpedia.org/resource/Graeme_Dey</e>
+        <e>http://dbpedia.org/resource/John_Ogston</e>
+        <e>http://dbpedia.org/resource/Liam_Keogh</e>
+        <e>http://dbpedia.org/resource/Scott_M._Thomson</e>
+        <e>http://dbpedia.org/resource/Keith_Raffan</e>
+        <e>http://dbpedia.org/resource/Oswald_Chambers</e>
+        <e>http://dbpedia.org/resource/Nora_Radcliffe</e>
+        <e>http://dbpedia.org/resource/Stewart_Milne</e>
+        <e>http://dbpedia.org/resource/Doug_Smith_(footballer,_born_1937)</e>
+        <e>http://dbpedia.org/resource/Francis_Ormond</e>
+        <e>http://dbpedia.org/resource/Dave_Davidson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Douglas_Westland</e>
+        <e>http://dbpedia.org/resource/Craig_McKeown</e>
+        <e>http://dbpedia.org/resource/Craig_Strachan_(footballer)</e>
+        <e>http://dbpedia.org/resource/Syd_Gerrie</e>
+        <e>http://dbpedia.org/resource/Gordon_Low</e>
+        <e>http://dbpedia.org/resource/Bob_Taylor_(darts_player)</e>
+        <e>http://dbpedia.org/resource/Nicky_Grant</e>
+        <e>http://dbpedia.org/resource/Bryan_Buchan</e>
+        <e>http://dbpedia.org/resource/Isabel_Hilton</e>
+        <e>http://dbpedia.org/resource/Chris_Lake</e>
+        <e>http://dbpedia.org/resource/Robin_Galloway</e>
+        <e>http://dbpedia.org/resource/Eilidh_Whiteford</e>
+        <e>http://dbpedia.org/resource/Jock_Kirton</e>
+        <e>http://dbpedia.org/resource/Deborah_Herold</e>
+        <e>http://dbpedia.org/resource/John_Maconnachie</e>
+        <e>http://dbpedia.org/resource/Jason_Hogg</e>
+        <e>http://dbpedia.org/resource/Lee_McAllister</e>
+        <e>http://dbpedia.org/resource/Steve_Lennox</e>
+        <e>http://dbpedia.org/resource/Fiona_Campbell</e>
+        <e>http://dbpedia.org/resource/Harry_Low</e>
+        <e>http://dbpedia.org/resource/Ken_Thomson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Rachael_Small</e>
+        <e>http://dbpedia.org/resource/Duncan_Rice</e>
+        <e>http://dbpedia.org/resource/James_Westland</e>
+        <e>http://dbpedia.org/resource/Robert_Absalom_Thom</e>
+        <e>http://dbpedia.org/resource/Fiona_Urquhart</e>
+        <e>http://dbpedia.org/resource/Ronnie_Watt</e>
+        <e>http://dbpedia.org/resource/Jon_S._Baird</e>
+        <e>http://dbpedia.org/resource/Walter_Grant</e>
+      </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Aberdeen</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/John_Stevenson_(British_politician)</e>
+        <e>http://dbpedia.org/resource/Andrew_Linklater</e>
+        <e>http://dbpedia.org/resource/Eddie_Legge</e>
+        <e>http://dbpedia.org/resource/John_Black_(music_manager)</e>
+        <e>http://dbpedia.org/resource/Joseph_Robertson_(historian)</e>
+        <e>http://dbpedia.org/resource/Robert_Clark_(zoologist)</e>
+        <e>http://dbpedia.org/resource/James_Harper_McDonald</e>
+        <e>http://dbpedia.org/resource/David_Robertson_(footballer,_born_1968)</e>
+        <e>http://dbpedia.org/resource/James_Perry_(journalist)</e>
+        <e>http://dbpedia.org/resource/Connor_Rennie</e>
+        <e>http://dbpedia.org/resource/Stuart_Beedie</e>
+        <e>http://dbpedia.org/resource/Gordon_Goudie</e>
+        <e>http://dbpedia.org/resource/Ian_Black_(footballer,_born_1924)</e>
+        <e>http://dbpedia.org/resource/Robert_Henderson_(Royal_Navy_officer)</e>
+        <e>http://dbpedia.org/resource/Dick_Donald</e>
+        <e>http://dbpedia.org/resource/Billy_Bremner_(musician)</e>
+        <e>http://dbpedia.org/resource/Neil_Cooper_(footballer)</e>
+        <e>http://dbpedia.org/resource/Ninian_Comper</e>
+        <e>http://dbpedia.org/resource/Paul_McKenzie_(footballer)</e>
+        <e>http://dbpedia.org/resource/George_Buchan</e>
+        <e>http://dbpedia.org/resource/Jimmy_Philip</e>
+        <e>http://dbpedia.org/resource/Peter_Bruce</e>
+        <e>http://dbpedia.org/resource/Stewart_McKimmie</e>
+        <e>http://dbpedia.org/resource/Alfred_M._Robertson</e>
+        <e>http://dbpedia.org/resource/Alex_Wright_(footballer,_born_1890s)</e>
+        <e>http://dbpedia.org/resource/Jimmy_Robertson_(American_football)</e>
+        <e>http://dbpedia.org/resource/Ken_Malcolm</e>
+        <e>http://dbpedia.org/resource/J._Murdoch_Ritchie</e>
+        <e>http://dbpedia.org/resource/James_Gibb_(Presbyterian_minister)</e>
+        <e>http://dbpedia.org/resource/Alice_Comyn,_Countess_of_Buchan</e>
+        <e>http://dbpedia.org/resource/Mary_Brooksbank</e>
+        <e>http://dbpedia.org/resource/Andy_Dornan</e>
+        <e>http://dbpedia.org/resource/Scott_Rennie</e>
+        <e>http://dbpedia.org/resource/Christian_Davidson</e>
+        <e>http://dbpedia.org/resource/David_Cumming</e>
+        <e>http://dbpedia.org/resource/Roy_McBain</e>
+        <e>http://dbpedia.org/resource/Ian_Burns</e>
+        <e>http://dbpedia.org/resource/Martin_Bavidge</e>
+        <e>http://dbpedia.org/resource/Stewart_Murdoch</e>
+        <e>http://dbpedia.org/resource/Stanley_Robertson_(folk_singer)</e>
+        <e>http://dbpedia.org/resource/Andy_Reid_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/John_Gray_McKendrick</e>
+        <e>http://dbpedia.org/resource/John_Macdonald_Aiken</e>
+        <e>http://dbpedia.org/resource/Jamie_Arthur</e>
+        <e>http://dbpedia.org/resource/Nicky_Walker</e>
+        <e>http://dbpedia.org/resource/Cammy_Smith</e>
+        <e>http://dbpedia.org/resource/Alex_Dawson</e>
+        <e>http://dbpedia.org/resource/Craig_Moir</e>
+        <e>http://dbpedia.org/resource/Mark_Perry_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/Walter_J._Dilling</e>
+        <e>http://dbpedia.org/resource/Colin_Smith_(Scottish_cricketer)</e>
+        <e>http://dbpedia.org/resource/Doug_Cowie_(footballer)</e>
+        <e>http://dbpedia.org/resource/James_Hutchison_(Australian_politician)</e>
+        <e>http://dbpedia.org/resource/Paul_Black_(Scottish_footballer)</e>
+        <e>http://dbpedia.org/resource/Russell_Duncan</e>
+        <e>http://dbpedia.org/resource/Malcolm_Kpedekpo</e>
+        <e>http://dbpedia.org/resource/Alexander_Auldjo</e>
+        <e>http://dbpedia.org/resource/Ian_Donald_(footballer)</e>
+        <e>http://dbpedia.org/resource/John_Davidson_(botanist)</e>
+        <e>http://dbpedia.org/resource/William_Chalmers_(footballer,_born_1901)</e>
+        <e>http://dbpedia.org/resource/William_Forbes_of_Callendar</e>
+        <e>http://dbpedia.org/resource/Kevin_Stewart_(Scottish_politician)</e>
+        <e>http://dbpedia.org/resource/David_Rintoul</e>
+        <e>http://dbpedia.org/resource/George_Chalmers_(baseball)</e>
+        <e>http://dbpedia.org/resource/Stewart_Fraser</e>
+        <e>http://dbpedia.org/resource/John_Sjoberg</e>
+        <e>http://dbpedia.org/resource/Kenny_Watson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Ryan_Gauld</e>
+        <e>http://dbpedia.org/resource/Vic_Milne</e>
+        <e>http://dbpedia.org/resource/Alexander_Crombie</e>
+        <e>http://dbpedia.org/resource/Dave_Smith_(footballer,_born_1943)</e>
+        <e>http://dbpedia.org/resource/Lachlan_Mackinnon</e>
+        <e>http://dbpedia.org/resource/Andy_Smith_(footballer,_born_1968)</e>
+        <e>http://dbpedia.org/resource/Dennis_D'Arcy</e>
+        <e>http://dbpedia.org/resource/Peter_Bevan-Baker</e>
+        <e>http://dbpedia.org/resource/Alf_Burnett</e>
+        <e>http://dbpedia.org/resource/Ally_Begg</e>
+        <e>http://dbpedia.org/resource/Jason_McGinn</e>
+        <e>http://dbpedia.org/resource/Ryan_Jack</e>
+        <e>http://dbpedia.org/resource/Michael_Watt</e>
+        <e>http://dbpedia.org/resource/Willie_Falconer</e>
+        <e>http://dbpedia.org/resource/George_Kelly_(footballer)</e>
+        <e>http://dbpedia.org/resource/Scott_Paterson</e>
+        <e>http://dbpedia.org/resource/Billy_Craig</e>
+        <e>http://dbpedia.org/resource/Kay_Duncan</e>
+        <e>http://dbpedia.org/resource/Laura_Main</e>
+        <e>http://dbpedia.org/resource/Scott_Michie</e>
+        <e>http://dbpedia.org/resource/James_Stirling_(judge)</e>
+        <e>http://dbpedia.org/resource/SHY_&amp;_DRS</e>
+        <e>http://dbpedia.org/resource/Ben_Anderson_(footballer)</e>
+        <e>http://dbpedia.org/resource/David_Donald_(footballer)</e>
+        <e>http://dbpedia.org/resource/Paul_Mathers</e>
+        <e>http://dbpedia.org/resource/Stuart_Monro</e>
+        <e>http://dbpedia.org/resource/William_Reid_(civil_servant)</e>
+        <e>http://dbpedia.org/resource/Douglas_Strachan</e>
+        <e>http://dbpedia.org/resource/Graeme_Dey</e>
+        <e>http://dbpedia.org/resource/John_Ogston</e>
+        <e>http://dbpedia.org/resource/Scott_M._Thomson</e>
+        <e>http://dbpedia.org/resource/Doug_Smith_(footballer,_born_1937)</e>
+        <e>http://dbpedia.org/resource/Alan_Main_(minister)</e>
+        <e>http://dbpedia.org/resource/Dave_Davidson_(footballer)</e>
+        <e>http://dbpedia.org/resource/Douglas_Westland</e>
+        <e>http://dbpedia.org/resource/Craig_Strachan_(footballer)</e>
+        <e>http://dbpedia.org/resource/Syd_Gerrie</e>
+        <e>http://dbpedia.org/resource/Gordon_Low</e>
+        <e>http://dbpedia.org/resource/Bob_Taylor_(darts_player)</e>
+        <e>http://dbpedia.org/resource/Forbes_Johnston</e>
+        <e>http://dbpedia.org/resource/Nicky_Grant</e>
+        <e>http://dbpedia.org/resource/Robin_Galloway</e>
+        <e>http://dbpedia.org/resource/Jock_Kirton</e>
+        <e>http://dbpedia.org/resource/John_Maconnachie</e>
+        <e>http://dbpedia.org/resource/Lee_McAllister</e>
+        <e>http://dbpedia.org/resource/Steve_Lennox</e>
+        <e>http://dbpedia.org/resource/Harry_Low</e>
+        <e>http://dbpedia.org/resource/Rachael_Small</e>
+        <e>http://dbpedia.org/resource/Duncan_Rice</e>
+        <e>http://dbpedia.org/resource/James_Westland</e>
+        <e>http://dbpedia.org/resource/Robert_Absalom_Thom</e>
+        <e>http://dbpedia.org/resource/Ronnie_Watt</e>
+        <e>http://dbpedia.org/resource/Walter_Grant</e>
+      </Val>
+      <Val>
+        <e>http://sws.geonames.org/2657832/</e>
+        <e>http://fr.dbpedia.org/resource/Aberdeen</e>
+        <e>http://cs.dbpedia.org/resource/Aberdeen_(Skotsko)</e>
+        <e>http://de.dbpedia.org/resource/Aberdeen</e>
+        <e>http://el.dbpedia.org/resource/Αμπερντήν</e>
+        <e>http://es.dbpedia.org/resource/Aberdeen</e>
+        <e>http://eu.dbpedia.org/resource/Aberdeen</e>
+        <e>http://id.dbpedia.org/resource/Aberdeen</e>
+        <e>http://it.dbpedia.org/resource/Aberdeen</e>
+        <e>http://ja.dbpedia.org/resource/アバディーン</e>
+        <e>http://ko.dbpedia.org/resource/애버딘</e>
+        <e>http://nl.dbpedia.org/resource/Aberdeen</e>
+        <e>http://pl.dbpedia.org/resource/Aberdeen</e>
+        <e>http://pt.dbpedia.org/resource/Aberdeen</e>
+        <e>http://wikidata.dbpedia.org/resource/Q36405</e>
+        <e>http://www.wikidata.org/entity/Q36405</e>
+        <e>http://linkedgeodata.org/triplify/node21063362</e>
+        <e>http://gadm.geovocab.org/id/2_14074</e>
+        <e>http://sws.geonames.org/3333224/</e>
+        <e>http://rdf.freebase.com/ns/m.0rng</e>
+        <e>http://sw.cyc.com/concept/Mx4rvViIWJwpEbGdrcN5Y29ycA</e>
+        <e>http://yago-knowledge.org/resource/Aberdeen</e>
+        <e>http://yago-knowledge.org/resource/Skene_Square_Primary_School</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Allan_Park,_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Simmons_&amp;_Company_International</e>
+        <e>http://dbpedia.org/resource/The_Academy_Shopping_Centre</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Beach_and_Queens_Links</e>
+        <e>http://dbpedia.org/resource/Hazlehead_Park</e>
+        <e>http://dbpedia.org/resource/Johnston_Gardens</e>
+        <e>http://dbpedia.org/resource/Rubislaw_and_Queens_Terrace_Gardens</e>
+        <e>http://dbpedia.org/resource/St_Mary's_Cathedral,_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Stewart_Park,_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Westburn_Park</e>
+        <e>http://dbpedia.org/resource/4i2i_Communications</e>
+        <e>http://dbpedia.org/resource/Rushmore_Reviews</e>
+        <e>http://dbpedia.org/resource/French_Film_Festival_UK</e>
+        <e>http://dbpedia.org/resource/Scotland_Tonight</e>
+        <e>http://dbpedia.org/resource/University_of_Aberdeen_Conservative_and_Unionist_Association</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Community_Health_and_Care_Village</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Roughnecks</e>
+        <e>http://dbpedia.org/resource/P&amp;O_Scottish_Ferries</e>
+        <e>http://dbpedia.org/resource/Shammy_Dab</e>
+        <e>http://dbpedia.org/resource/Granite_City_Grizzlies</e>
+        <e>http://dbpedia.org/resource/Food_Standards_Scotland</e>
+        <e>http://dbpedia.org/resource/Saltire_Energy_Paul_Lawrie_Matchplay</e>
+        <e>http://dbpedia.org/resource/Friendville_(manor_house)</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Lifeboat_Station</e>
+        <e>http://dbpedia.org/resource/FareShare</e>
+        <e>http://dbpedia.org/resource/Aberdeen_University_RFC</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Airport</e>
+        <e>http://dbpedia.org/resource/Aberdeen_GSFP_RFC</e>
+        <e>http://dbpedia.org/resource/NorthLink_Ferries</e>
+        <e>http://dbpedia.org/resource/Culter_railway_station</e>
+        <e>http://dbpedia.org/resource/St_John's,_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Pitmedden_railway_station</e>
+        <e>http://dbpedia.org/resource/Aberdeen_City_Youth_Council</e>
+        <e>http://dbpedia.org/resource/STV_News</e>
+        <e>http://dbpedia.org/resource/North_of_Scotland,_Orkney_&amp;_Shetland_Steam_Navigation_Company</e>
+        <e>http://dbpedia.org/resource/Northern_Exposure_(video_blog)</e>
+        <e>http://dbpedia.org/resource/Burnett_and_Reid</e>
+        <e>http://dbpedia.org/resource/Kittybrewster_railway_station</e>
+        <e>http://dbpedia.org/resource/Wood_Group</e>
+        <e>http://dbpedia.org/resource/The_Flying_Pigs</e>
+        <e>http://dbpedia.org/resource/Calder_Park,_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Union_Square_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Crossrail</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Castle</e>
+        <e>http://dbpedia.org/resource/New_Aberdeen_Stadium</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Kittybrewster_railway_station</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Waterloo_railway_station</e>
+        <e>http://dbpedia.org/resource/Divex</e>
+        <e>http://dbpedia.org/resource/Bon_Accord_&amp;_St_Nicholas</e>
+        <e>http://dbpedia.org/resource/Bon_Accord_Free_Church</e>
+        <e>http://dbpedia.org/resource/HM_Prison_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Woolmanhill_Hospital</e>
+        <e>http://dbpedia.org/resource/Duthie_Park</e>
+        <e>http://dbpedia.org/resource/Hall,_Russell_&amp;_Company</e>
+        <e>http://dbpedia.org/resource/Society_of_Advocates_in_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Aquatics_Centre</e>
+        <e>http://dbpedia.org/resource/Aberdeen_railway_station</e>
+        <e>http://dbpedia.org/resource/Spain_Park</e>
+        <e>http://dbpedia.org/resource/Castlehill_Barracks</e>
+        <e>http://dbpedia.org/resource/Firefly_Studios</e>
+        <e>http://dbpedia.org/resource/Marischal_College</e>
+        <e>http://dbpedia.org/resource/Trinity_Centre,_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Victoria_Park,_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Seaton_Park</e>
+        <e>http://dbpedia.org/resource/Scottish_Council_for_Development_and_Industry</e>
+        <e>http://dbpedia.org/resource/ACT_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Journals</e>
+        <e>http://dbpedia.org/resource/Union_Terrace_Gardens</e>
+        <e>http://dbpedia.org/resource/Pittodrie_Stadium</e>
+        <e>http://dbpedia.org/resource/Cruickshank_Botanic_Garden</e>
+        <e>http://dbpedia.org/resource/South_Island_School</e>
+        <e>http://dbpedia.org/resource/St_Machar's_Cathedral</e>
+        <e>http://dbpedia.org/resource/Central_Library,_Aberdeen</e>
+        <e>http://dbpedia.org/resource/Maclay_Murray_&amp;_Spens</e>
+        <e>http://dbpedia.org/resource/Patio_Hotels</e>
+        <e>http://dbpedia.org/resource/Marischal_Square</e>
+        <e>http://dbpedia.org/resource/Caledonia_Reds</e>
+        <e>http://dbpedia.org/resource/Venture_Production</e>
+        <e>http://dbpedia.org/resource/Aberdeen_Asset_Management</e>
+        <e>http://dbpedia.org/resource/OPITO</e>
+        <e>http://dbpedia.org/resource/Shepherd_and_Wedderburn</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/John_James_Rickard_Macleod</e>
+        <e>http://dbpedia.org/resource/John_Barbour_(poet)</e>
+        <e>http://dbpedia.org/resource/Alexander_Bain</e>
+        <e>http://dbpedia.org/resource/Chris_Anderson_(footballer,_born_1925)</e>
+        <e>http://dbpedia.org/resource/Eddie_Legge</e>
+        <e>http://dbpedia.org/resource/John_Black_(New_Brunswick_merchant)</e>
+        <e>http://dbpedia.org/resource/Alexander_Ogston</e>
+        <e>http://dbpedia.org/resource/William_Gordon_(Bishop_of_Aberdeen)</e>
+        <e>http://dbpedia.org/resource/Robert_Henderson_(Royal_Navy_officer)</e>
+        <e>http://dbpedia.org/resource/Dick_Donald</e>
+        <e>http://dbpedia.org/resource/Florrie_Forde</e>
+        <e>http://dbpedia.org/resource/Allan_Macartney</e>
+        <e>http://dbpedia.org/resource/Wallace_McIntosh</e>
+        <e>http://dbpedia.org/resource/Arthur_German</e>
+        <e>http://dbpedia.org/resource/John_Geddes_(bishop)</e>
+        <e>http://dbpedia.org/resource/Thomas_Weihs</e>
+        <e>http://dbpedia.org/resource/Brian_Adam</e>
+        <e>http://dbpedia.org/resource/David_Cunningham_(bishop)</e>
+        <e>http://dbpedia.org/resource/Matthew_Hay</e>
+        <e>http://dbpedia.org/resource/Hugh_Baird</e>
+        <e>http://dbpedia.org/resource/Robert_Forbes_Combe</e>
+        <e>http://dbpedia.org/resource/Francis_Hay,_9th_Earl_of_Erroll</e>
+        <e>http://dbpedia.org/resource/Stanley_Robertson_(folk_singer)</e>
+        <e>http://dbpedia.org/resource/John_Macdonald_Aiken</e>
+        <e>http://dbpedia.org/resource/James_Giles_(painter)</e>
+        <e>http://dbpedia.org/resource/Christian_Watt</e>
+        <e>http://dbpedia.org/resource/Leslie_Court</e>
+        <e>http://dbpedia.org/resource/Patrick_Milne</e>
+        <e>http://dbpedia.org/resource/Archibald_Simpson</e>
+        <e>http://dbpedia.org/resource/Tom_Milne</e>
+        <e>http://dbpedia.org/resource/Charles_Maitland_(physician)</e>
+        <e>http://dbpedia.org/resource/Henry_Alleyne_Nicholson</e>
+        <e>http://dbpedia.org/resource/Alexander_Macklin</e>
+        <e>http://dbpedia.org/resource/George_Fiddes_Watt</e>
+        <e>http://dbpedia.org/resource/George_Campbell_(minister)</e>
+        <e>http://dbpedia.org/resource/Patrick_Forbes</e>
+        <e>http://dbpedia.org/resource/Patrick_Scougal</e>
+        <e>http://dbpedia.org/resource/James_Souttar</e>
+        <e>http://dbpedia.org/resource/Jimmy_MacBeath</e>
+        <e>http://dbpedia.org/resource/Henry_de_Lichton</e>
+        <e>http://dbpedia.org/resource/Francis_Peacock</e>
+        <e>http://dbpedia.org/resource/William_Stewart_(bishop_of_Aberdeen)</e>
+        <e>http://dbpedia.org/resource/Gerard_Crole</e>
+        <e>http://dbpedia.org/resource/Anne_Davidson</e>
+        <e>http://dbpedia.org/resource/Robert_Hichens_(sailor)</e>
+        <e>http://dbpedia.org/resource/Fred_Smith_(footballer,_born_February_1926)</e>
+        <e>http://dbpedia.org/resource/Alan_Lavers</e>
+        <e>http://dbpedia.org/resource/Billy_Craig</e>
+        <e>http://dbpedia.org/resource/Dickie_Ewen</e>
+        <e>http://dbpedia.org/resource/Jessie_Seymour_Irvine</e>
+        <e>http://dbpedia.org/resource/David_Brown_(cricketer_born_1941)</e>
+        <e>http://dbpedia.org/resource/George_Hamilton_(footballer)</e>
+        <e>http://dbpedia.org/resource/James_Beattie_(poet)</e>
+        <e>http://dbpedia.org/resource/Hamish_Forbes</e>
+        <e>http://dbpedia.org/resource/Alfred_Adler</e>
+        <e>http://dbpedia.org/resource/Donald_Colman</e>
+        <e>http://dbpedia.org/resource/Richard_Gordon_Wakeford</e>
+        <e>http://dbpedia.org/resource/Matt_Armstrong</e>
+        <e>http://dbpedia.org/resource/William_Keith_Leask</e>
+        <e>http://dbpedia.org/resource/Ingram_Lindsay</e>
+        <e>http://dbpedia.org/resource/Stan_Gullan</e>
+        <e>http://dbpedia.org/resource/Patrick_Copland</e>
+        <e>http://dbpedia.org/resource/Martin_Melvin_Cruickshank</e>
+        <e>http://dbpedia.org/resource/Dyce_Davidson</e>
+        <e>http://dbpedia.org/resource/Archie_Baird</e>
+      </Val>
+      <Val>
+        <e>Aberdeen</e>
+        <e>أبردين</e>
+        <e>Aberdeen</e>
+        <e>Aberdeen</e>
+        <e>Aberdeen</e>
+        <e>Aberdeen</e>
+        <e>アバディーン</e>
+        <e>Aberdeen</e>
+        <e>Aberdeen</e>
+        <e>Aberdeen</e>
+        <e>Абердин</e>
+        <e>阿伯丁</e>
+      </Val>
+      <Val>
+        <e>Aberdeen [/æbəˈdiːn/] (escocés: Aiberdeen gaélico: Obar Dheathain /ˈopər ˈʝɛhɪn/) es una ciudad y un concejo de Escocia (Reino Unido). Se la conoce como La Ciudad de Granito y es la tercera ciudad en tamaño de Escocia, con una población de aproximadamente 210 000 habitantes. Constituye un importante centro comercial y es además el principal puerto marítimo del nordeste de Escocia y a las afueras de la ciudad se encuentra ubicado el aeropuerto.</e>
+        <e>アバディーン（英語: Aberdeen、 スコットランド・ゲール語: Obar Dheathain）は、イギリス、スコットランド北東部にある都市。エディンバラ、グラスゴーに次ぐスコットランド第3の都市。港湾都市として発達、北海油田の発見後、石油採掘の拠点となり、ヨーロッパの石油の首都と呼ばれる。</e>
+        <e>阿伯丁（英语：Aberdeen 英语发音：/æbərˈdiːn/；低地蘇格蘭語：Aiberdeen 关于这个音频文件 listen；蘇格蘭蓋爾語：Obar Dheathain [ˈopər ˈʝɛhɪn]），英國苏格兰地区的主要城市之一，是蘇格蘭6個指定市中，人口排行第三的城市（2013年時統計為227,130人）。面积186km²。该市位於苏格兰东北部，北面的顿河（River Don）與南面迪伊河（River Dee）的河口之間，是北海海濱的主要海港。在18世紀中葉到20世紀中葉的200年間，阿伯丁建築統一採用灰色花崗岩，因而有“花崗岩城”（Granite City）之稱，又因為花崗岩中雲母的銀色光澤而被稱為“銀城”（Silver City）。 1970年代發現了北海油田之後又獲得了“歐洲石油之都”（Oil Capital of Europe）和“歐洲能源之都”（Energy Capital of Europe）等稱呼。阿伯丁地區至少在8,000年前就有人類居住了，大衛一世統治時期獲得皇家自治鎮的地位。而到了現代，傳統的漁業、造紙業、造船業和紡織業都被石油工業和海運取代。愛丁堡直升機場是世界最繁忙的直升機場之一， 其海港也是蘇格蘭東北部最大港口。文化上，1495年阿伯丁大學成立，這是英國最古老的古典大學之一。加上1992年獲得大學資格的羅伯特戈登大學，阿伯丁成為了區域內的教育中心。該市每年也負責舉辦阿伯丁國際青年節。</e>
+        <e>Aberdeen (/æbərˈdiːn/; Scots: Aiberdeen About this sound listen ; Scottish Gaelic: Obar Dheathain [ˈopər ˈʝɛhɪn]; Latin: Aberdonia) is Scotland's third most populous city, one of Scotland's 32 local government council areas and the United Kingdom's 37th most populous built-up area, with an official population estimate of 196,670 for the city of Aberdeen itself and 228,990 for the local authority area.</e>
+        <e>ابردين، هي ثالث أكبر مدينة اسكتلندية من حيث عدد السكان وواحدة من 32 منطقة لمجالس الحكومة المحلية. ولديها رسميا تعداد سكان يقدر بـ 202.370.و تشمل الأسماء المستعارة مدينة الجرانيت، المدينة الرمادية ومدينة الفضة ذات الرمال الذهبية.خلال منتصف القرن الـ 18 إلي منتصف القرن الـ 20 كانت مباني أبردين موحدة محلياً بقطع الجرانيت الرمادية، حيث يتألق معدن المايكا الموضوع بها مثل الفضة. للمدينة شريط ساحلي رملي طويل.</e>
+        <e>Aberdeen [æbəˈdiːn] (sco.: Aiberdeen [ebərˈdin]; schottisch-gälisch: Obar Dheathain [ˈopər ˈʝɛhɪn], „Mündung des Dee“, amtlich City of Aberdeen) ist eine Stadt im Nordosten von Schottland im Vereinigten Königreich.Die Stadt ist eine der 32 Council Areas in Schottland und hat zwei Universitäten, von denen die Universität Aberdeen schon im Jahr 1495 als dritte Universität in Schottland gegründet wurde. Studenten machen rund zehn Prozent der Bevölkerung aus.</e>
+        <e>Aberdeen (Obar Dheathain en gaélique écossais et Aiberdeen en scots) est la troisième ville d'Écosse, située dans le nord-est de la Grande-Bretagne, sur les bords de la mer du Nord, grâce à laquelle elle est la capitale européenne du pétrole offshore. Depuis 1891, Aberdeen possède officiellement le statut de cité, de council area et région de lieutenance. Elle était la capitale administrative de la région de Grampian de 1975 à 1996 (ainsi que du district d'Aberdeen au sein de cette région). Elle est aussi la capitale du council area de l'Aberdeenshire, bien qu'elle n'en fasse pas partie.</e>
+        <e>Aberdeen (in scots: Aiberdeen, in gaelico scozzese: Obar Dheathain) è la terza città più popolosa della Scozia e una delle sue 32 divisioni amministrative. Ha una popolazione stimata ufficialmente in 220 420 abitanti.L'area geografica su cui sorge Aberdeen è stata colonizzata da almeno 8 000 anni, ovvero quando vennero edificati dei villaggi preistorici alla foce dei due fiumi Dee e Don.</e>
+        <e>Aberdeen (Schots-Gaelisch: Obar Dheathain), (Nederlands, verouderd: Abberdaan) is een stad (city) met 212.125 inwoners in het noordoosten van Schotland. Het ligt in het graafschap Aberdeenshire en vormt een zelfstandig raadsgebied. Aberdeen ligt aan de Noordzee en is na Glasgow en Edinburgh de derde stad van Schotland.De twee universiteiten, de University of Aberdeen, opgericht in 1495, en de Robert Gordon University (RGU), die in 1992 universiteitsstatus kreeg, maken van Aberdeen de studentenstad van het noorden.</e>
+        <e>Aberdeen (wym. [æbərˈdiːn]; scots Aiberdeen; gael. Obar Dheathain, wym. [ˈopər ˈʝɛhɪn]) – miasto wWielkiej Brytanii, położone w północno-wschodniej Szkocji.Aberdeen położone jest nad ujściem rzek Don i Dee do Morza Północnego. Miasto stanowi jedną z 32 jednostek administracyjnych (council area) Szkocji, w przeszłości było ośrodkiem administracyjnym regionu Grampian. Duży port rybacki (śledzie, łososie), ośrodek usługowy dla platform wiertniczych i gazociągów na Morzu Północnym; przemysł stoczniowy, maszynowy, chemiczny; kamieniołomy granitu. Rozwój miasta związany jest z eksploatacją ropy naftowej spod dna Morza Północnego.</e>
+        <e>Aberdeen /æbərˈdiːn/ (listen; em gaélico escocês: Obar Dheathain) é uma cidade da Escócia e importante porto do Mar do Norte, com cerca 216.000 hab. É conhecida como a &quot;cidade do granito&quot; por haver muitos edifícios edificados à base dessa matéria-prima. É banhada pelo Mar do Norte e fica situada na foz dos rios Dee e Don.Aberdeen tornou-se em 1996, sob uma lei do parlamento escocês de 1994, uma Área de Conselho, subvisão administrativa similar aos estados brasileiros.</e>
+        <e>Аберди́н (англ. Aberdeen [æbərˈdiːn], скотс Aiberdeen, гэльск. Obar Dheathain [ˈopər ˈʝɛhɪn]) — главный морской и рыболовецкий порт, третий по величине город в северо-восточной части Шотландии, административный и культурный центр области Абердин. Также в городе располагается муниципальный совет области Абердиншир.В XII—XIV веках Абердин был резиденцией шотландских королей. Его иначе называют Гранитный город, Серый город и Серебряный город с золотыми песками. С середины XVIII до середины XX вв.</e>
+      </Val>
+      <Val>
+        <e>Aberdeen [æbəˈdiːn] (sco.: Aiberdeen [ebərˈdin]; schottisch-gälisch: Obar Dheathain [ˈopər ˈʝɛhɪn], „Mündung des Dee“, amtlich City of Aberdeen) ist eine Stadt im Nordosten von Schottland im Vereinigten Königreich. Die Stadt ist eine der 32 Council Areas in Schottland und hat zwei Universitäten, von denen die Universität Aberdeen schon im Jahr 1495 als dritte Universität in Schottland gegründet wurde. Studenten machen rund zehn Prozent der Bevölkerung aus. Bedeutend ist die Stadt seit dem 12. Jahrhundert. Typisch für das Stadtbild ist der silbergraue Granit aus den ehemals umliegenden Steinbrüchen. Wenn die Sonne scheint, beginnt der Glimmeranteil im Granit zu glitzern, weshalb Aberdeen auch gerne Silver City genannt wird. Oder Flower City, denn dank ihrer Blumenanlagen hat die Stadt wiederholt den Wettbewerb Britain in Bloom gewonnen. Seit Anfang der 1970er Jahre die ersten Ölfelder in der Nordsee erschlossen wurden, entwickelte sich die Hafenmetropole schnell zum Hauptversorgungszentrum für die Offshore-Plattformen. Bei guter Sicht konnte man die Erdölbohr-Plattformen vor der Küste mit bloßem Auge sehen.</e>
+        <e>ابردين، هي ثالث أكبر مدينة اسكتلندية من حيث عدد السكان وواحدة من 32 منطقة لمجالس الحكومة المحلية. ولديها رسميا تعداد سكان يقدر بـ 202.370.و تشمل الأسماء المستعارة مدينة الجرانيت، المدينة الرمادية ومدينة الفضة ذات الرمال الذهبية.خلال منتصف القرن الـ 18 إلي منتصف القرن الـ 20 كانت مباني أبردين موحدة محلياً بقطع الجرانيت الرمادية، حيث يتألق معدن المايكا الموضوع بها مثل الفضة. للمدينة شريط ساحلي رملي طويل. منذ اكتشاف نفط بحر الشمال في السبعينيات، أصبح لها أسماء مستعارة أخرى عاصمة النفط الأوروبية أو عاصمة الطاقة الأوروبية. المنطقة المحيطة بأبردين موجودة منذ ما لايقل عن 8000 سنة، عندما كانت قري ما قبل التاريخ موجودة عند مصبات أنهار دي ودون.[بحاجة لمصدر]في 1319، تلقت ابردين مركز رويال بيرف من قبل روبرت البروس،[بحاجة لمصدر] محولا المدينة اقتصاديا.جامعتين المدينة هما، جامعة أبردين التي تأسست في عام 1495، وجامعة روبرت جوردون والتي كانت جامعة مانحة في عام 1992، جاعلاً أبردين المركز التعليمي للشمال الشرقي.الصناعات التقليدية من الصيد وصناعة الورق، وبناء السفن والمنسوجات قد حل محلها صناعة النفط والميناء البحري لأبردين. الميناء الجوي الخاص بالطائرات المروحية بأبردين هو من أكثر الموانيء الجوية التجارية الخاصة بالطائرات المروحية إذدحاما في العالم، والميناء البحري هو الأكبر في شمال شرق اسكتلندا.فازت ابردين في مسابقة بلوم البريطانية لتحطم الرقم القياسي عشر مرات، وتستضيف مهرجان أبردين الشبابي الدولي، هو حدث عالمي كبير والذي يجذب ما يصل إلي 1000 شخص من أصحاب المواهب الشابة في الأداء الفني.</e>
+        <e>Aberdeen (/æbərˈdiːn/; Scots: Aiberdeen About this sound listen ; Scottish Gaelic: Obar Dheathain [ˈopər ˈʝɛhɪn]; Latin: Aberdonia) is Scotland's third most populous city, one of Scotland's 32 local government council areas and the United Kingdom's 37th most populous built-up area, with an official population estimate of 196,670 for the city of Aberdeen itself and 228,990 for the local authority area. Nicknames include the Granite City, the Grey City and the Silver City with the Golden Sands. During the mid-18th to mid-20th centuries, Aberdeen's buildings incorporated locally quarried grey granite, which can sparkle like silver because of its high mica content. Since the discovery of North Sea oil in the 1970s, other nicknames have been the Oil Capital of Europe or the Energy Capital of Europe.The area around Aberdeen has been settled since at least 8,000 years ago, when prehistoric villages lay around the mouths of the rivers Dee and Don. The city has a long, sandy coastline and a marine climate. Aberdeen received Royal Burgh status from David I of Scotland (1124–53), transforming the city economically. The city's two universities, the University of Aberdeen, founded in 1495, and Robert Gordon University, which was awarded university status in 1992, make Aberdeen the educational centre of the north-east of Scotland. The traditional industries of fishing, paper-making, shipbuilding, and textiles have been overtaken by the oil industry and Aberdeen's seaport. Aberdeen Heliport is one of the busiest commercial heliports in the world and the seaport is the largest in the north-east of Scotland. Aberdeen has won the Britain in Bloom competition a record-breaking ten times, and hosts the Aberdeen International Youth Festival, a major international event which attracts up to 1000 of the most talented young performing arts companies. In 2012, Mercer named Aberdeen the 56th most liveable city in the World, as well as the fourth most liveable city in Britain. In 2012, HSBC named Aberdeen as a leading business hub and one of eight 'super cities' spearheading the UK's economy, marking it as the only city in Scotland to receive this accolade.</e>
+        <e>Aberdeen [/æbəˈdiːn/] (escocés: Aiberdeen gaélico: Obar Dheathain /ˈopər ˈʝɛhɪn/) es una ciudad y un concejo de Escocia (Reino Unido). Se la conoce como La Ciudad de Granito y es la tercera ciudad en tamaño de Escocia, con una población de aproximadamente 210 000 habitantes. Constituye un importante centro comercial y es además el principal puerto marítimo del nordeste de Escocia y a las afueras de la ciudad se encuentra ubicado el aeropuerto.</e>
+        <e>Aberdeen (Obar Dheathain en gaélique écossais et Aiberdeen en scots) est la troisième ville d'Écosse, située dans le nord-est de la Grande-Bretagne, sur les bords de la mer du Nord, grâce à laquelle elle est la capitale européenne du pétrole offshore. Depuis 1891, Aberdeen possède officiellement le statut de cité, de council area et région de lieutenance. Elle était la capitale administrative de la région de Grampian de 1975 à 1996 (ainsi que du district d'Aberdeen au sein de cette région). Elle est aussi la capitale du council area de l'Aberdeenshire, bien qu'elle n'en fasse pas partie. Il s'agit d'une des villes les plus riches du Royaume-Uni. En 2009, les maisons dans les banlieues d'Aberdeen ont été classées les plus chères du pays et Aberdeen possède 60 rues « d'or » où les maisons sont évaluées à plus de 500 000 £. Elle possède plusieurs surnoms : The Granite City (« la ville de granit »), The Grey City (« la ville grise ») et The Silver City with the Golden Sands (« la ville argentée aux sables d'or »). Ces surnoms sont tirés du granit utilisé pour construire les bâtiments de la ville ainsi que du sable de ses côtes. Depuis la découverte de pétrole dans la mer du Nord durant les années 1970, on la surnomme aussi parfois « The Oil Capital of Europe » (« la capitale pétrolière de l'Europe ») ou The Energy Capital of Europe (« la capitale de l'énergie européenne »). Aberdeen a remporté 10 fois le concours des villes et villages fleuris du Royaume-Uni.</e>
+        <e>Aberdeen (in scots: Aiberdeen, in gaelico scozzese: Obar Dheathain) è la terza città più popolosa della Scozia e una delle sue 32 divisioni amministrative. Ha una popolazione stimata ufficialmente in 220 420 abitanti. Viene soprannominata la Città di Granito o la Città d'Argento. Dalla metà del XVIII alla metà del XX secolo gli edifici di Aberdeen sono stati edificati utilizzando il granito grigio estratto da cave locali, le cui inclusioni di mica scintillano al sole. La città si affaccia sul mare per un lungo tratto con coste sabbiose. Dalla scoperta del petrolio del mare del Nord negli anni settanta, si è guadagnata altri soprannomi quali Capitale europea del petrolio e Capitale europea dell'energia. L'area geografica su cui sorge Aberdeen è stata colonizzata da almeno 8 000 anni, ovvero quando vennero edificati dei villaggi preistorici alla foce dei due fiumi Dee e Don. Nel 1319, Aberdeen ricevette dal Partito Nazionale Scozzese lo status di Borgo Reale (in inglese: Royal Burgh), con conseguente trasformazione economica della città. Le due università cittadine, l'Università di Aberdeen, fondata nel 1495, e l'Università Robert Gordon, cui fu riconosciuto lo status di Università solo nel 1992, hanno reso Aberdeen il centro educativo più importante del nordest della Scozia. Le tradizionali industrie conserviera, cartaria, cantieristica e tessile, sono state soppiantate dall'industria petrolifera e dall'attività portuale. L'eliporto di Aberdeen è uno dei più attivi di tutto il mondo; il porto è il più grande di tutto il nordest scozzese. Aberdeen ha conquistato il premio Gran Bretagna in Fiore battendo dieci volte il record, e ospita il Festival Internazionale Giovanile di Aberdeen, un evento di portata internazionale che attrae fino a 1 000 delle più quotate compagnie giovanili mondiali nelle arti performative.</e>
+        <e>アバディーン（英語: Aberdeen、 スコットランド・ゲール語: Obar Dheathain）は、イギリス、スコットランド北東部にある都市。エディンバラ、グラスゴーに次ぐスコットランド第3の都市。港湾都市として発達、北海油田の発見後、石油採掘の拠点となり、ヨーロッパの石油の首都と呼ばれる。</e>
+        <e>Aberdeen (wym. [æbərˈdiːn]; scots Aiberdeen; gael. Obar Dheathain, wym. [ˈopər ˈʝɛhɪn]) – miasto wWielkiej Brytanii, położone w północno-wschodniej Szkocji. Aberdeen położone jest nad ujściem rzek Don i Dee do Morza Północnego. Miasto stanowi jedną z 32 jednostek administracyjnych (council area) Szkocji, w przeszłości było ośrodkiem administracyjnym regionu Grampian. Duży port rybacki (śledzie, łososie), ośrodek usługowy dla platform wiertniczych i gazociągów na Morzu Północnym; przemysł stoczniowy, maszynowy, chemiczny; kamieniołomy granitu. Rozwój miasta związany jest z eksploatacją ropy naftowej spod dna Morza Północnego.</e>
+        <e>Aberdeen (Schots-Gaelisch: Obar Dheathain), (Nederlands, verouderd: Abberdaan) is een stad (city) met 212.125 inwoners in het noordoosten van Schotland. Het ligt in het graafschap Aberdeenshire en vormt een zelfstandig raadsgebied. Aberdeen ligt aan de Noordzee en is na Glasgow en Edinburgh de derde stad van Schotland. De twee universiteiten, de University of Aberdeen, opgericht in 1495, en de Robert Gordon University (RGU), die in 1992 universiteitsstatus kreeg, maken van Aberdeen de studentenstad van het noorden.</e>
+        <e>Aberdeen /æbərˈdiːn/ (listen; em gaélico escocês: Obar Dheathain) é uma cidade da Escócia e importante porto do Mar do Norte, com cerca 216.000 hab. É conhecida como a &quot;cidade do granito&quot; por haver muitos edifícios edificados à base dessa matéria-prima. É banhada pelo Mar do Norte e fica situada na foz dos rios Dee e Don. Aberdeen tornou-se em 1996, sob uma lei do parlamento escocês de 1994, uma Área de Conselho, subvisão administrativa similar aos estados brasileiros.</e>
+        <e>Аберди́н (англ. Aberdeen [æbərˈdiːn], скотс Aiberdeen, гэльск. Obar Dheathain [ˈopər ˈʝɛhɪn]) — главный морской и рыболовецкий порт, третий по величине город в северо-восточной части Шотландии, административный и культурный центр области Абердин. Также в городе располагается муниципальный совет области Абердиншир.В XII—XIV веках Абердин был резиденцией шотландских королей. Его иначе называют Гранитный город, Серый город и Серебряный город с золотыми песками. С середины XVIII до середины XX вв. городские здания строились из местного серого гранита, в котором вкрапления слюды блестят как серебро. В Абердине длинная песчаная береговая линия. После обнаружения нефти в Северном море в 70-х годах XX века городу дали прозвища Нефтяная столица Европы и Энергетическая столица Европы.</e>
+        <e>阿伯丁（英语：Aberdeen 英语发音：/æbərˈdiːn/；低地蘇格蘭語：Aiberdeen 关于这个音频文件 listen；蘇格蘭蓋爾語：Obar Dheathain [ˈopər ˈʝɛhɪn]），英國苏格兰地区的主要城市之一，是蘇格蘭6個指定市中，人口排行第三的城市（2013年時統計為227,130人）。面积186km²。该市位於苏格兰东北部，北面的顿河（River Don）與南面迪伊河（River Dee）的河口之間，是北海海濱的主要海港。在18世紀中葉到20世紀中葉的200年間，阿伯丁建築統一採用灰色花崗岩，因而有“花崗岩城”（Granite City）之稱，又因為花崗岩中雲母的銀色光澤而被稱為“銀城”（Silver City）。 1970年代發現了北海油田之後又獲得了“歐洲石油之都”（Oil Capital of Europe）和“歐洲能源之都”（Energy Capital of Europe）等稱呼。阿伯丁地區至少在8,000年前就有人類居住了，大衛一世統治時期獲得皇家自治鎮的地位。而到了現代，傳統的漁業、造紙業、造船業和紡織業都被石油工業和海運取代。愛丁堡直升機場是世界最繁忙的直升機場之一， 其海港也是蘇格蘭東北部最大港口。文化上，1495年阿伯丁大學成立，這是英國最古老的古典大學之一。加上1992年獲得大學資格的羅伯特戈登大學，阿伯丁成為了區域內的教育中心。該市每年也負責舉辦阿伯丁國際青年節。</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Category:Aberdeen</e>
+        <e>http://dbpedia.org/resource/Category:Council_areas_of_Scotland</e>
+        <e>http://dbpedia.org/resource/Category:Fishing_communities_in_Scotland</e>
+        <e>http://dbpedia.org/resource/Category:Grampian</e>
+        <e>http://dbpedia.org/resource/Category:Lieutenancy_areas_of_Scotland</e>
+        <e>http://dbpedia.org/resource/Category:Port_cities_and_towns_in_Scotland</e>
+        <e>http://dbpedia.org/resource/Category:Port_cities_and_towns_of_the_North_Sea</e>
+        <e>http://dbpedia.org/resource/Category:Royal_burghs</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>Aberdeen City</e>
+      </Val>
+      <Val>
+        <e>POINT(-2.1099998950958 57.152599334717)</e>
+      </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Aberdeen</e>
+      </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Aberdeen?oldid=707174432</e>
+      </Val>
+      <Val>
+        <e>1627</e>
+      </Val>
+      <Val>
+        <e>707174432</e>
+      </Val>
+      <Val>
+        <e>bnode1</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://maps.nls.uk/towns/index.html#aberdeen</e>
+        <e>http://web.archive.org/web/20080120085059/http:/business.scotsman.com/topics.cfm?tid=897&amp;id=669152003/</e>
+        <e>http://www.aberdeencity.gov.uk/acci/web/site/CouncilNews/pr/pr_hammer_280706.asp</e>
+        <e>http://www.apostleshipofthesea.org.uk/contact-our-chaplains</e>
+        <e>http://www.lel.ed.ac.uk/dialects/nis.html</e>
+        <e>http://www.thedebater.org/</e>
+        <e>http://digital.nls.uk/slezer/engraving.cfm?sl=20</e>
+        <e>http://ssa.nls.uk/search.cfm?search_sort_order=Film.dateRelease%2CFilm.name&amp;search_sort_direction=ASC&amp;search_term=aberdeen&amp;search_fields=2&amp;search_join_type=AND&amp;search_fuzzy=yes&amp;videos_only=1&amp;search_mode=Advanced&amp;submit=Search+%3E%3E%3E</e>
+        <e>http://www.aberdeencity.gov.uk/home/home.asp</e>
+        <e>http://www.panoramio.com/user/2477447/tags/Aberdeen</e>
+        <e>https://archive.org/details/extractsfromcoun01aberuoft</e>
+        <e>https://archive.org/details/extractsfromcoun02aberuoft</e>
+        <e>http://www.aberdeencity.gov.uk</e>
+        <e>http://www.visitaberdeen.com</e>
+      </Val>
+      <Val>
+        <e>57.1526 -2.11</e>
+      </Val>
+      <Val>
+        <e>57.1526</e>
+      </Val>
+      <Val>
+        <e>-2.11</e>
+      </Val>
+      <Val>
+        <e>+1</e>
+        <e>±0</e>
+      </Val>
+      <Val>
+        <e>196670</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Greenwich_Mean_Time</e>
+        <e>http://dbpedia.org/resource/British_Summer_Time</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>±0</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Greenwich_Mean_Time</e>
+      </Val>
+      <Val>
+        <e>196670</e>
+      </Val>
+      <Val>
+        <e>Aberdeen City</e>
+      </Val>
+      <Val>
+        <e>http://commons.wikimedia.org/wiki/Special:FilePath/Aberdeen-arms.png?width=300</e>
+      </Val>
+      <Val>
+        <e>http://commons.wikimedia.org/wiki/Special:FilePath/Aberdeen-arms.png</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/City_status_in_the_United_Kingdom</e>
+      </Val>
+      <Val>
+        <e>City</e>
+      </Val>
+      <Val>
+        <e>+1</e>
+      </Val>
+      <Val>
+        <e>AB10-AB13 (part), AB15, AB16, AB21-AB25</e>
+      </Val>
+      <Val>
+        <e>1.8446e+08</e>
+      </Val>
+      <Val>
+        <e>184.46</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/AB_postcode_area</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/British_Summer_Time</e>
+      </Val>
+      <Val>
+        <e>01224</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>184.46</e>
+      </Val>
+      <Val>
+        <e>1224</e>
+      </Val>
+      <Val>
+        <e>http://www.aberdeencity.gov.uk</e>
+      </Val>
+      <Val>
+        <e>1169.0</e>
+      </Val>
+      <Val>
+        <e>1169.0</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>Governing body</e>
+        <e>MPs</e>
+        <e>Lord Provost</e>
+        <e>MSPs</e>
+      </Val>
+    </Entity>
+    <Entity uri="http://dbpedia.org/resource/Adur,_Azerbaijan">
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val>
+        <e>http://www.w3.org/2002/07/owl#Thing</e>
+        <e>http://www.wikidata.org/entity/Q486972</e>
+        <e>http://dbpedia.org/ontology/PopulatedPlace</e>
+        <e>http://dbpedia.org/ontology/Settlement</e>
+        <e>http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</e>
+        <e>http://schema.org/Place</e>
+        <e>http://dbpedia.org/ontology/Place</e>
+        <e>http://dbpedia.org/ontology/Location</e>
+        <e>http://dbpedia.org/class/yago/AdministrativeDistrict108491826</e>
+        <e>http://dbpedia.org/class/yago/District108552138</e>
+        <e>http://dbpedia.org/class/yago/GeographicalArea108574314</e>
+        <e>http://dbpedia.org/class/yago/Location100027167</e>
+        <e>http://dbpedia.org/class/yago/Object100002684</e>
+        <e>http://dbpedia.org/class/yago/PhysicalEntity100001930</e>
+        <e>http://dbpedia.org/class/yago/Region108630985</e>
+        <e>http://dbpedia.org/class/yago/Site108651247</e>
+        <e>http://dbpedia.org/class/yago/Tract108673395</e>
+        <e>http://dbpedia.org/class/yago/YagoGeoEntity</e>
+        <e>http://dbpedia.org/class/yago/YagoLegalActorGeo</e>
+        <e>http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity</e>
+        <e>http://dbpedia.org/class/yago/WikicatPopulatedPlacesInQubaDistrict(Azerbaijan)</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Azerbaijan</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://sws.geonames.org/587423/</e>
+        <e>http://www.wikidata.org/entity/Q4685973</e>
+        <e>http://wikidata.dbpedia.org/resource/Q4685973</e>
+        <e>http://rdf.freebase.com/ns/m.04j9pcq</e>
+        <e>http://yago-knowledge.org/resource/Adur,_Azerbaijan</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>Adur, Azerbaijan</e>
+      </Val>
+      <Val>
+        <e>Adur is a village in the Quba Rayon of Azerbaijan. The village forms part of the municipality of Qarxun.</e>
+      </Val>
+      <Val>
+        <e>Adur is a village in the Quba Rayon of Azerbaijan. The village forms part of the municipality of Qarxun.</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Qarxun,_Quba</e>
+        <e>http://dbpedia.org/resource/Quba_District_(Azerbaijan)</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Category:Populated_places_in_Quba_District_(Azerbaijan)</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Qarxun,_Quba</e>
+        <e>http://dbpedia.org/resource/Quba_District_(Azerbaijan)</e>
+      </Val>
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val>
+        <e>POINT(48.291389465332 41.125556945801)</e>
+      </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Azerbaijan</e>
+      </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Azerbaijan?oldid=610021296</e>
+      </Val>
+      <Val>
+        <e>18928148</e>
+      </Val>
+      <Val>
+        <e>610021296</e>
+      </Val>
+      <Val>
+        <e>bnode1</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Azerbaijan</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>41.12555555555556 48.29138888888889</e>
+      </Val>
+      <Val>
+        <e>41.1256</e>
+      </Val>
+      <Val>
+        <e>48.2914</e>
+      </Val>
+      <Val>
+        <e>+4</e>
+        <e>+5</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Time_in_Azerbaijan</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>+4</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Time_in_Azerbaijan</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>+5</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Time_in_Azerbaijan</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+    </Entity>
+    <Entity uri="http://dbpedia.org/resource/Adur,_Shimoga">
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val>
+        <e>http://www.w3.org/2002/07/owl#Thing</e>
+        <e>http://www.wikidata.org/entity/Q486972</e>
+        <e>http://www.wikidata.org/entity/Q532</e>
+        <e>http://dbpedia.org/ontology/PopulatedPlace</e>
+        <e>http://dbpedia.org/ontology/Settlement</e>
+        <e>http://dbpedia.org/ontology/Village</e>
+        <e>http://schema.org/Place</e>
+        <e>http://dbpedia.org/ontology/Place</e>
+        <e>http://dbpedia.org/ontology/Location</e>
+        <e>http://dbpedia.org/class/yago/AdministrativeDistrict108491826</e>
+        <e>http://dbpedia.org/class/yago/District108552138</e>
+        <e>http://dbpedia.org/class/yago/GeographicalArea108574314</e>
+        <e>http://dbpedia.org/class/yago/Location100027167</e>
+        <e>http://dbpedia.org/class/yago/Object100002684</e>
+        <e>http://dbpedia.org/class/yago/PhysicalEntity100001930</e>
+        <e>http://dbpedia.org/class/yago/Region108630985</e>
+        <e>http://dbpedia.org/class/yago/Settlement108672562</e>
+        <e>http://dbpedia.org/class/yago/Village108672738</e>
+        <e>http://dbpedia.org/class/yago/YagoGeoEntity</e>
+        <e>http://dbpedia.org/class/yago/YagoLegalActorGeo</e>
+        <e>http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity</e>
+        <e>http://dbpedia.org/class/yago/WikicatVillagesInShimogaDistrict</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Adur_(Sagar)</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Shimoga</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://www.wikidata.org/entity/Q4685975</e>
+        <e>http://wikidata.dbpedia.org/resource/Q4685975</e>
+        <e>http://rdf.freebase.com/ns/m.05zyc9l</e>
+        <e>http://yago-knowledge.org/resource/Adur,_Shimoga</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>Adur, Shimoga</e>
+      </Val>
+      <Val>
+        <e>Adur is a village in the southern state of Karnataka, India. It is located in the Sagara taluka of Shimoga district in Karnataka.</e>
+      </Val>
+      <Val>
+        <e>Adur is a village in the southern state of Karnataka, India. It is located in the Sagara taluka of Shimoga district in Karnataka.</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Karnataka</e>
+        <e>http://dbpedia.org/resource/Shimoga</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Category:Villages_in_Shimoga_district</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Karnataka</e>
+        <e>http://dbpedia.org/resource/Shimoga</e>
+      </Val>
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Shimoga</e>
+      </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Shimoga?oldid=704480855</e>
+      </Val>
+      <Val>
+        <e>22452485</e>
+      </Val>
+      <Val>
+        <e>704480855</e>
+      </Val>
+      <Val>
+        <e>bnode1</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/India</e>
+      </Val>
+      <Val>
+        <e>http://shimoga.nic.in/</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>+5:30</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Indian_Standard_Time</e>
+      </Val>
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val>
+        <e>330.0</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Indian_Standard_Time</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+    </Entity>
+    <Entity uri="http://dbpedia.org/resource/Adur,_Anekal">
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val>
+        <e>http://www.w3.org/2002/07/owl#Thing</e>
+        <e>http://www.wikidata.org/entity/Q486972</e>
+        <e>http://www.wikidata.org/entity/Q532</e>
+        <e>http://dbpedia.org/ontology/PopulatedPlace</e>
+        <e>http://dbpedia.org/ontology/Settlement</e>
+        <e>http://dbpedia.org/ontology/Village</e>
+        <e>http://schema.org/Place</e>
+        <e>http://dbpedia.org/ontology/Place</e>
+        <e>http://dbpedia.org/ontology/Location</e>
+        <e>http://dbpedia.org/class/yago/AdministrativeDistrict108491826</e>
+        <e>http://dbpedia.org/class/yago/District108552138</e>
+        <e>http://dbpedia.org/class/yago/GeographicalArea108574314</e>
+        <e>http://dbpedia.org/class/yago/Location100027167</e>
+        <e>http://dbpedia.org/class/yago/Object100002684</e>
+        <e>http://dbpedia.org/class/yago/PhysicalEntity100001930</e>
+        <e>http://dbpedia.org/class/yago/Region108630985</e>
+        <e>http://dbpedia.org/class/yago/Settlement108672562</e>
+        <e>http://dbpedia.org/class/yago/Village108672738</e>
+        <e>http://dbpedia.org/class/yago/YagoGeoEntity</e>
+        <e>http://dbpedia.org/class/yago/YagoLegalActorGeo</e>
+        <e>http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity</e>
+        <e>http://dbpedia.org/class/yago/WikicatVillagesInBangaloreUrbanDistrict</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Adur_(Anekal)</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Anekal</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://rdf.freebase.com/ns/m.05zv4tj</e>
+        <e>http://www.wikidata.org/entity/Q4685967</e>
+        <e>http://wikidata.dbpedia.org/resource/Q4685967</e>
+        <e>http://yago-knowledge.org/resource/Adur,_Anekal</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>Adur, Anekal</e>
+      </Val>
+      <Val>
+        <e>Adur (Anekal) is a village in the southern state of Karnataka, India. It is located in the Anekal taluk of Bangalore district in Karnataka.</e>
+      </Val>
+      <Val>
+        <e>Adur (Anekal) is a village in the southern state of Karnataka, India. It is located in the Anekal taluk of Bangalore district in Karnataka.</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Bangalore</e>
+        <e>http://dbpedia.org/resource/Karnataka</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Category:Villages_in_Bangalore_Urban_district</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Bangalore</e>
+        <e>http://dbpedia.org/resource/Karnataka</e>
+      </Val>
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Anekal</e>
+      </Val>
+      <Val>
+        <e>http://en.wikipedia.org/wiki/Adur,_Anekal?oldid=704480825</e>
+      </Val>
+      <Val>
+        <e>22452481</e>
+      </Val>
+      <Val>
+        <e>704480825</e>
+      </Val>
+      <Val>
+        <e>bnode1</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/India</e>
+      </Val>
+      <Val>
+        <e>http://Bangalore.nic.in/</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>+5:30</e>
+      </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Indian_Standard_Time</e>
+      </Val>
+      <Val>
+        <e>Adur</e>
+      </Val>
+      <Val>
+        <e>330.0</e>
+      </Val>
+      <Val>
+        <e>http://dbpedia.org/resource/Indian_Standard_Time</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val>
+        <e>http://commons.wikimedia.org/wiki/Special:FilePath/Karnataka_-_Bangalore_Urban.PNG?width=300</e>
+      </Val>
+      <Val>
+        <e>http://commons.wikimedia.org/wiki/Special:FilePath/Karnataka_-_Bangalore_Urban.PNG</e>
+      </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+      <Val> </Val>
+    </Entity>
+  </SourceEntities>
+  <TargetEntities>
+    <Entity uri="http://prasija1.cz/resources/referendum/368">
+      <Val>
+        <e>Adur</e>
+      </Val>
+    </Entity>
+    <Entity uri="http://prasija1.cz/resources/referendum/148">
+      <Val>
+        <e>Aberdeen City</e>
+      </Val>
+    </Entity>
+  </TargetEntities>
+  <PositiveLinks>
+    <LinkCandidate>
+      <Source>http://dbpedia.org/resource/Aberdeen</Source>
+      <Target>http://prasija1.cz/resources/referendum/148</Target>
+      None
+      None
+    </LinkCandidate>
+  </PositiveLinks>
+  <NegativeLinks>
+    <LinkCandidate>
+      <Source>http://dbpedia.org/resource/Adur,_Anekal</Source>
+      <Target>http://prasija1.cz/resources/referendum/368</Target>
+      None
+      None
+    </LinkCandidate>
+    <LinkCandidate>
+      <Source>http://dbpedia.org/resource/Adur,_Shimoga</Source>
+      <Target>http://prasija1.cz/resources/referendum/368</Target>
+      None
+      None
+    </LinkCandidate>
+    <LinkCandidate>
+      <Source>http://dbpedia.org/resource/Adur,_Azerbaijan</Source>
+      <Target>http://prasija1.cz/resources/referendum/368</Target>
+      None
+      None
+    </LinkCandidate>
+    <LinkCandidate>
+      <Source>http://dbpedia.org/resource/Adur,_Iran</Source>
+      <Target>http://prasija1.cz/resources/referendum/368</Target>
+      None
+      None
+    </LinkCandidate>
+  </NegativeLinks>
+  <UnlabeledLinks> </UnlabeledLinks>
+</Entities>

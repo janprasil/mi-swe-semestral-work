@@ -1,0 +1,5 @@
+<Dataset id="external-output" type="file">
+  <Param name="file" value="externalOutput.ttl"/>
+  <Param name="format" value="ntriple"/>
+  <Param name="graph" value=""/>
+</Dataset>

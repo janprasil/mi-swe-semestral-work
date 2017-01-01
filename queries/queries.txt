@@ -89,7 +89,6 @@ PREFIX dbo:  <http://dbpedia.org/ontology/#>
 PREFIX sm:  <https://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdfsyntax-ns#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
 CONSTRUCT {
    ?town a town:Town ;
       foaf:area ?area ;
